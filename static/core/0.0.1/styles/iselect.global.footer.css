@@ -1,0 +1,253 @@
+footer .footer-nav .footer-subheading {
+    color: #e3710a;
+    font-size: 15px;
+    margin-top: 2em;
+}
+
+nav.footer-nav {
+    display: block;
+    width: 100%;
+    margin-top: 20px
+}
+
+@media (min-width: 768px) {
+
+    nav.footer-nav {
+        margin-top: 60px
+    }
+}
+
+nav.footer-nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+nav.footer-nav > ul > li {
+    margin-right: 100px;
+    margin-bottom: 1.5em
+}
+
+nav.footer-nav > ul > li > a {
+    color: #e3710a;
+    font-size: 15px
+}
+
+nav.footer-nav > ul > li:last-of-type {
+    margin-bottom: 0
+}
+
+nav.footer-nav > ul > li.partner-awards {
+}
+
+nav.footer-nav > ul > li.partner-awards ul {
+    margin-top: 10px
+}
+
+nav.footer-nav > ul > li.partner-awards li {
+    margin-bottom: 1em
+}
+
+nav.footer-nav > ul > li.partner-awards li:last-of-type {
+    margin-bottom: 0
+}
+
+nav.footer-nav > ul > li.partner-awards a {
+    display: block
+}
+
+nav.footer-nav > ul > li.partner-awards span {
+    margin-top: 1em;
+    display: block
+}
+
+nav.footer-nav > ul ul {
+    list-style: none;
+    padding: 0
+}
+
+nav.footer-nav > ul ul li a {
+    color: #d1d2d2;
+    font-size: 13px;
+    line-height: 1
+}
+
+.global-footer {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em 2em;
+    padding-top: 40px;
+    background-color: #393c41
+}
+
+.global-footer .container:first-of-type {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.global-footer .container::before,
+.global-footer .container::after {
+    display: none
+}
+
+.global-footer .disclaimer {
+    color: #717375;
+    font-size: 13px
+}
+
+@media (min-width: 768px) {
+
+    .global-footer .disclaimer {
+        margin-top: 45px
+    }
+}
+
+.global-footer .disclaimer a {
+    color: #717375
+}
+
+.global-footer .tooltip {
+    top: 45px
+}
+
+.global-footer .contact {
+    position: relative;
+    margin: 30px 0 1em;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 230px;
+    -ms-flex: 0 0 230px;
+    flex: 0 0 230px
+}
+
+@media (min-width: 459px) {
+
+    .global-footer .contact {
+        margin: 0
+    }
+}
+
+.global-footer .contact a {
+    color: white;
+    font-size: 22px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.global-footer .contact a:hover {
+    text-decoration: none;
+    color: #97989a
+}
+
+.global-footer .contact span {
+    display: inline-block
+}
+
+.global-footer .contact svg {
+    display: block;
+    fill: #60a5aa;
+    height: 30px;
+    margin-right: .5em;
+    position: relative;
+    width: 30px
+}
+
+.global-footer .contact:hover .tooltip {
+    display: none;
+    -webkit-animation: tooltip-entry .25s;
+    animation: tooltip-entry .25s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+@media (min-width: 480px) {
+
+    .global-footer .contact:hover .tooltip {
+        display: block
+    }
+}
+
+
+
+.social-links {
+    max-width: 294px;
+    width: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 300px;
+    -ms-flex: 1 1 300px;
+    flex: 1 1 300px
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.social-links ul li {
+    display: block;
+    margin-left: 1em
+}
+
+.social-links ul li:first-child {
+    margin-left: 0
+}
+
+.social-links svg {
+    fill: #616367;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: .25s;
+    transition: .25s;
+    display: block
+}
+
+@media (min-width: 459px) {
+
+    .social-links svg {
+        height: 46px;
+        width: 46px
+    }
+}
+
+.social-links a {
+    display: block
+}
+
+.social-links a:hover svg {
+    fill: rgb(129, 130, 133)
+}
+

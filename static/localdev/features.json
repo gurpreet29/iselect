@@ -1,0 +1,552 @@
+{
+  "verticalIcon" : "home",
+  "version" : 1,
+  "sfid" : "a2cN00000018sNiIAI",
+  "published" : "2017-10-02T05:18:37.000Z",
+  "name" : "Home & Contents",
+  "elemid" : "homecontents",
+  "elements" : [ 
+    {
+    "visible" : "true",
+    "value" : null,
+    "validations" : null,
+    "toolip" : null,
+    "text_color" : null,
+    "required" : null,
+    "process" : "initial",
+    "parentelemids" : [ ],
+    "options" : null,
+    "label" : "Features",
+    "issummary" : false,
+    "index" : 9,
+    "externalLink" : null,
+    "elemtype" : "form-page",
+    "elemid" : "a2bN0000000BVTkIAO",
+    "elements" : [
+      {
+      "visible" : "true",
+      "value" : null,
+      "validations" : [ ],
+      "toolip" : null,
+      "text_color" : null,
+      "required" : false,
+      "process" : null,
+      "parentelemids" : [ ],
+      "options" : [ ],
+      "label" : "How important are these features ?",
+      "issummary" : false,
+      "index" : 34,
+      "externalLink" : null,
+      "elemtype" : "label",
+      "elemid" : "important_feature",
+      "elements" : [
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ "owner_type" ],
+        "options" : [ ],
+        "label" : "Malicious Damage",
+        "issummary" : false,
+        "index" : 35,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "malicious_damage",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        }, {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        } ],
+        "attr" : {
+          "leftLabel" : "Not Important",
+          "rightLabel" : "Important!"
+        }
+      },
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ "owner_type" ],
+        "options" : [ ],
+        "label" : "Tenant/Rent Default",
+        "issummary" : false,
+        "index" : 47,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "tennant_default",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        }, {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        } ],
+        "attr" : {
+          "rightLabel" : "Important!",
+          "leftLabel" : "Not Important"
+        }
+      },
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ ],
+        "options" : [ ],
+        "label" : "Motor Burnout Cover",
+        "issummary" : false,
+        "index" : 40,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "motor_burnout",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        }, {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        } ],
+        "attr" : {
+          "leftLabel" : "Not Important",
+          "rightLabel" : "Important!"
+        }
+      },
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ ],
+        "options" : [ ],
+        "label" : "Accidental Damage",
+        "issummary" : false,
+        "index" : 39,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "accidental_damage",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        }, {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        } ],
+        "attr" : {
+          "leftLabel" : "Not Important",
+          "rightLabel" : "Important!"
+        }
+      },
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ ],
+        "options" : [ ],
+        "label" : "Flood Cover",
+        "issummary" : false,
+        "index" : 38,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "flood_cover",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        }, {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        } ],
+        "attr" : {
+          "rightLabel" : "Important!",
+          "leftLabel" : "Not Important"
+        }
+      },
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ ],
+        "options" : [ ],
+        "label" : "Flexible Payment Option",
+        "issummary" : false,
+        "index" : 36,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "flexible_payment",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        }, {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        } ],
+        "attr" : {
+          "leftLabel" : "Not Important",
+          "rightLabel" : "Important!"
+        }
+      },
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ ],
+        "options" : [ ],
+        "label" : "Policy Preferences",
+        "issummary" : false,
+        "index" : 37,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "policy_preferences",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        }, {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        } ],
+        "attr" : {
+          "leftLabel" : "Not Important",
+          "rightLabel" : "Important!"
+        }
+      },
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ ],
+        "options" : [ ],
+        "label" : "Temporary Accomodation",
+        "issummary" : false,
+        "index" : 41,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "temporary_accomodation",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        }, {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        } ],
+        "attr" : {
+          "rightLabel" : "Important!",
+          "leftLabel" : "Not Important"
+        }
+      },
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ ],
+        "options" : [ ],
+        "label" : "Sum Insured/Safeguard",
+        "issummary" : false,
+        "index" : 42,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "sum_insured_safeguard",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        }, {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        } ],
+        "attr" : {
+          "rightLabel" : "Important!",
+          "leftLabel" : "Not Important"
+        }
+      },
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ ],
+        "options" : [ ],
+        "label" : "Removal of Debris",
+        "issummary" : false,
+        "index" : 43,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "removal_of_debris",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        }, {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        } ],
+        "attr" : {
+          "rightLabel" : "Important!",
+          "leftLabel" : "Not Important"
+        }
+      },
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ ],
+        "options" : [ ],
+        "label" : "Worldwide Cover",
+        "issummary" : false,
+        "index" : 44,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "worldwide_cover",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        }, {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        } ],
+        "attr" : {
+          "leftLabel" : "Not Important",
+          "rightLabel" : "Important!"
+        }
+      },
+        {
+        "visible" : "true",
+        "value" : null,
+        "validations" : [ ],
+        "toolip" : null,
+        "text_color" : null,
+        "required" : false,
+        "process" : null,
+        "parentelemids" : [ ],
+        "options" : [ ],
+        "label" : "Legal Liability",
+        "issummary" : false,
+        "index" : 46,
+        "externalLink" : null,
+        "elemtype" : "rating",
+        "elemid" : "legal_liability",
+        "elements" : null,
+        "digitaltype" : "rating",
+        "description" : null,
+        "dependencies" : null,
+        "colSize" : null,
+        "channel" : "BDC;Mobile;Web",
+        "background_color" : null,
+        "attributes" : [ {
+          "value" : "Not Important",
+          "key" : "leftLabel"
+        }, {
+          "value" : "Important!",
+          "key" : "rightLabel"
+        } ],
+        "attr" : {
+          "rightLabel" : "Important!",
+          "leftLabel" : "Not Important"
+        }
+      } ],
+      "digitaltype" : "label",
+      "description" : null,
+      "dependencies" : null,
+      "colSize" : null,
+      "channel" : "BDC;Mobile;Web",
+      "background_color" : null,
+      "attributes" : [ {
+        "value" : "Not Important",
+        "key" : "leftLabel"
+      }, {
+        "value" : "Important!",
+        "key" : "righLabel"
+      } ],
+      "attr" : {
+        "righLabel" : "Important!",
+        "leftLabel" : "Not Important"
+      }
+    },
+      {
+      "visible" : "true",
+      "value" : null,
+      "validations" : [ ],
+      "toolip" : null,
+      "text_color" : null,
+      "required" : false,
+      "process" : null,
+      "parentelemids" : [ ],
+      "options" : [ ],
+      "label" : "New for Old Replacement",
+      "issummary" : false,
+      "index" : 45,
+      "externalLink" : null,
+      "elemtype" : "rating",
+      "elemid" : "new_for_old_replacement",
+      "elements" : null,
+      "digitaltype" : "rating",
+      "description" : null,
+      "dependencies" : null,
+      "colSize" : null,
+      "channel" : "BDC;Mobile;Web",
+      "background_color" : null,
+      "attributes" : [ {
+        "value" : "Important!",
+        "key" : "rightLabel"
+      }, {
+        "value" : "Not Important",
+        "key" : "leftLabel"
+      } ],
+      "attr" : {
+        "leftLabel" : "Not Important",
+        "rightLabel" : "Important!"
+      }
+    } ],
+    "digitaltype" : "form-page",
+    "description" : null,
+    "dependencies" : null,
+    "colSize" : null,
+    "channel" : "BDC;Web",
+    "background_color" : null,
+    "attributes" : null,
+    "attr" : null
+  }, {
+    "visible" : "true",
+    "value" : null,
+    "validations" : null,
+    "toolip" : null,
+    "text_color" : null,
+    "required" : null,
+    "process" : "initial",
+    "parentelemids" : [ ],
+    "options" : null,
+    "label" : null,
+    "issummary" : false,
+    "index" : 11,
+    "externalLink" : null,
+    "elemtype" : "form-page",
+    "elemid" : "a2bN0000000BVd4IAG",
+    "elements" : [ ],
+    "digitaltype" : "form-page",
+    "description" : "<img alt=\"Home &amp; Contents\" src=\"https://www.iselect.com.au/content/uploads/2017/04/Hero-icon-homecontents.png\"></img>",
+    "dependencies" : null,
+    "colSize" : null,
+    "channel" : "BDC",
+    "background_color" : "#5B5964",
+    "attributes" : null,
+    "attr" : null
+  } ],
+  "displayType" : "Progressive",
+  "description" : null
+}

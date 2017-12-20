@@ -1,0 +1,3887 @@
+{
+  "verticalIcon": "home",
+  "version": 1,
+  "sfid": "a2cN00000018sNiIAI",
+  "published": "2017-10-02T05:18:37.000Z",
+  "name": "Home & Contents",
+  "headers": [
+  {
+    "label": "Excess",
+    "elemid": "excess"
+  }],
+  "featureSuperset": [
+  {
+    "label": "Fire & Explosion",
+    "elemid": "fire_explosion",
+    "description": null,
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Theft or attempted theft",
+    "elemid": "theft_or_attempted_theft",
+    "description": null,
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Malicious Damage, Vandalism, Riot or civil Commotion",
+    "elemid": "malicious_damage_vandalism_riot_or_civil_commotion",
+    "description": "Defined events that you&#39;re insured for<br><br><br><br><br><br><br><br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Storm & Rainwater Cover",
+    "elemid": "storm_rainwater_cove_x",
+    "description": "Defined events that you&#39;re insured for<br><br><br><br><br><br><br><br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Flood",
+    "elemid": "flood",
+    "description": "Defined events that you&#39;re insured for<br><br><br><br><br><br><br><br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Earthquake",
+    "elemid": "earthquake_x",
+    "description": "Defined events that you&#39;re insured for<br><br><br><br><br><br><br><br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Lightning",
+    "elemid": "lightning_x",
+    "description": "Defined events that you&#39;re insured for<br><br><br><br><br><br><br><br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Impact",
+    "elemid": "impact",
+    "description": "Defined events that you&#39;re insured for<br><br><br><br><br><br><br><br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Extra Cost of Rebuilding",
+    "elemid": "extracost_rebuilding_x",
+    "description": "Cover extra costs to meet new building codes or requirements when rebuilding<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Credit Card Cover",
+    "elemid": "credit_card_cover_x",
+    "description": "Cover for the misuse of your<br>credit, debit or store value cards after<br>they are stolen or are fraudulently<br>used for electronic transactions.<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Funeral Expenses",
+    "elemid": "funeral_expenses_x",
+    "description": "Compensation in the event of death <br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Security Firm cost following a theft",
+    "elemid": "security_firm_cost_following_a_theft",
+    "description": null,
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Cover for items away from home",
+    "elemid": "cover_for_items_away_from_home",
+    "description": "Not covered <br>Cover for your contents for accidental damage or loss away from home<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Guest & Visitor belongings cover",
+    "elemid": "guest_visitor_belongings_cover_x",
+    "description": "covered for possessions and money belonging to your guests or visitors to your home that they have brought with them<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Transit cover",
+    "elemid": "transit_cover",
+    "description": "Cover for your contents whilst in transit <br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Accidental breakage of glass",
+    "elemid": "accidental_breakage_of_glass",
+    "description": "Cover for accidental breakage of glass to your home and /or contents<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Govt Audit Costs",
+    "elemid": "govt_audit_costs",
+    "description": "Cover for fees which you incur as a result of your taxation affairs being audited by the Australian<br>Taxation Office in relation to the property insured<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Landlords Contents Cover",
+    "elemid": "landlords_contents_cover",
+    "description": "Cover for your Landlord Contents<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "What landlord contents are included?",
+    "elemid": "what_landlord_contents_are_included",
+    "description": null,
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Loss of Rent - Tenant Default Cover",
+    "elemid": "loss_of_rent_tenant_default_cover",
+    "description": "Cover for damage and expenses, even if your tenants leave without paying their rent<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Theft and Malicious Damage by Tenants",
+    "elemid": "theft_and_malicious_damage_by_tenants",
+    "description": "Cover for malicious damage or vandalism by tenants or their guests<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Legal Expenses",
+    "elemid": "legal_expenses",
+    "description": "Cover for any legal expenses inconnection with a claim<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Loss of rent following damage",
+    "elemid": "loss_of_rent_following_damage",
+    "description": "cover for loss of rent <br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Strata Title Owner Improvements",
+    "elemid": "strata_title_owner_improvements",
+    "description": "Cover if the insured property is a strata title we will pay for loss or<br>damage to fixtures and fittings you have installed that are not<br>insured by the body corporate.<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Accidental Damage by Tentants",
+    "elemid": "accidental_damage_by_tentants",
+    "description": "Accidental loss or damage caused by tenants <br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Automatic Sum Insured Adjustment at Renewal",
+    "elemid": "automatic_sum_insured_adjustment_at_renewal",
+    "description": null,
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "24 hour claim service",
+    "elemid": "24_hour_claim_service",
+    "description": null,
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Product Disclosure Statement",
+    "elemid": "product_disclosure_statement",
+    "description": null,
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Fact Sheet",
+    "elemid": "fact_sheet",
+    "description": null,
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Underwriter",
+    "elemid": "underWriter",
+    "description": null,
+    "channel": "Salesforce;Web;Mobile"
+  }],
+  "features": [
+  {
+    "label": "Extra Cost of Rebuilding",
+    "elemid": "extracost_rebuilding",
+    "description": "Extra Cost of Rebuilding ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Flood",
+    "elemid": "flood_cover",
+    "description": "Cover for your home and or contents in the event of a flood <br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Legal Liability Cover",
+    "elemid": "legal_liability",
+    "description": "Legal liability cover insures you<br>against costs you may face if you<br>are sued by another party for loss,<br>damage or injury arising out of your<br>negligence.<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Temporary Accomodation Costs",
+    "elemid": "temporary_accomodation",
+    "description": "Temporary accommodation  for you and any family living at your home at the time of the event, while your home is being repaired or rebuilt.",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "New for Old Replacement",
+    "elemid": "new_for_old_replacement",
+    "description": null,
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Removal of Debris",
+    "elemid": "removal_of_debris",
+    "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 180px;\"><tbody><tr><td colspan=\"1\" rowspan=\"1\">Costs of demolishing and removing any building debris and any architectural or council fees<br>\t\t\twhen loss or damage occurs.</td></tr></tbody></table>",
+    "channel": null
+  },
+  {
+    "label": "Replacement of Keys or Locks",
+    "elemid": "replacement_keys",
+    "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 180px;\"><tbody><tr><td colspan=\"1\" rowspan=\"1\">Cover to replace keys and/or locks if damaged or stolen  </td></tr></tbody></table>",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Accidental Damage",
+    "elemid": "accidental_damage",
+    "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 180px;\"><tbody><tr><td colspan=\"1\" rowspan=\"1\">Cover loss or damage as a result of an accident which occurs at the home</td></tr></tbody></table>",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Motor Burnout Cover",
+    "elemid": "motor_burnout",
+    "description": "Cover for loss or damage to electric motors as a result of burnout caused by electric current or power surge<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Flexible Payment Options",
+    "elemid": "flexible_payment",
+    "description": "Ability to pay by the month or annually<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Pay less by paying annually",
+    "elemid": "reduced_premium",
+    "description": null,
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Variable Excess to reduce premium",
+    "elemid": "excess_premium",
+    "description": "Do you prefer to pay a lower excess with higher premium, or a higher excess with a lower premium?<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Sum Insured Safeguard",
+    "elemid": "sum_insured_safeguard",
+    "description": "Extend your home sum insured if repair or replacement costs exceed your nominated value following a significant event <br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Loss of Rent - Tenant Default Cover",
+    "elemid": "tenant_default",
+    "description": "Cover for damage and expenses, even if your tenants leave without paying their rent<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  },
+  {
+    "label": "Theft and Malicious Damage by Tenants",
+    "elemid": "malicious_damage",
+    "description": "Cover for malicious damage or vandalism by tenants or their guests<br> ",
+    "channel": "Salesforce;Web;Mobile"
+  }],
+  "elemid": "homecontents",
+  "elements": [
+  {
+    "visible": "true",
+    "value": null,
+    "validations": null,
+    "toolip": null,
+    "text_color": null,
+    "required": null,
+    "process": "rec",
+    "parentelemids": [],
+    "options": null,
+    "label": "quick_filter",
+    "issummary": false,
+    "index": 1,
+    "externalLink": null,
+    "elemtype": "form-page",
+    "elemid": "a2bN0000001H8ADIA0",
+    "elements": [
+    {
+      "visible": "('{{cover_type}}' == 'home_and_contents' || '{{cover_type}}' == 'home_only')",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": ["cover_type"],
+      "options": [],
+      "label": "Building Cover",
+      "issummary": false,
+      "index": 1,
+      "externalLink": "<a href=\"https://sumsure.cordell.com.au/#/products/7/profiles/110/\" target=\"_blank\">Open Calculator</a>",
+      "elemtype": "currency",
+      "elemid": "building_sum_insured",
+      "elements": null,
+      "digitaltype": "currency",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "Open Calculator",
+        "key": "externalLinkLabel"
+      },
+      {
+        "value": "https://sumsure.cordell.com.au/#/products/7/profiles/110/",
+        "key": "externalLinkURL"
+      }],
+      "attr":
+      {
+        "externalLinkURL": "https://sumsure.cordell.com.au/#/products/7/profiles/110/",
+        "externalLinkLabel": "Open Calculator"
+      }
+    },
+    {
+      "visible": "('{{cover_type}}' == 'contents_only' || '{{cover_type_renter}}' == 'contents_only' || '{{cover_type}}' == 'home_and_contents' )",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["cover_type", "cover_type_renter"],
+      "options": [],
+      "label": "Contents",
+      "issummary": false,
+      "index": 2,
+      "externalLink": "<a src=\"http://uat.homecontents.com.au/index.php?c=web_intro&profile=suminsured_circa\">Open calculator</a>",
+      "elemtype": "currency",
+      "elemid": "contents_sum_insured",
+      "elements": null,
+      "digitaltype": "currency",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "http://uat.homecontents.com.au/index.php?c=web_intro&profile=suminsured_circa",
+        "key": "externalLinkURL"
+      },
+      {
+        "value": "Open Calculator",
+        "key": "externalLinkLabel"
+      }],
+      "attr":
+      {
+        "externalLinkLabel": "Open Calculator",
+        "externalLinkURL": "http://uat.homecontents.com.au/index.php?c=web_intro&profile=suminsured_circa"
+      }
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "$500",
+        "key": "500",
+        "isdefault": true,
+        "iconName": null
+      },
+      {
+        "value": "$750",
+        "key": "750",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "$1000",
+        "key": "1000",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Excess (Closest match)",
+      "issummary": false,
+      "index": 3,
+      "externalLink": null,
+      "elemtype": "picklist",
+      "elemid": "excess",
+      "elements": null,
+      "digitaltype": "picklist",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "SBQQ__QuoteLine__c.Excess_Value__c",
+        "key": "updateTo"
+      }],
+      "attr":
+      {
+        "updateTo": "SBQQ__QuoteLine__c.Excess_Value__c"
+      }
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "Annually",
+        "key": "annualPremium",
+        "isdefault": true,
+        "iconName": null
+      },
+      {
+        "value": "Monthly",
+        "key": "monthlyPremium",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Payment",
+      "issummary": false,
+      "index": 4,
+      "externalLink": null,
+      "elemtype": "picklist",
+      "elemid": "payment_frequency",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    }],
+    "digitaltype": "form-page",
+    "description": null,
+    "dependencies": null,
+    "colSize": null,
+    "channel": "BDC;Mobile;Web",
+    "background_color": null,
+    "attributes": null,
+    "attr": null
+  },
+  {
+    "visible": "true",
+    "value": null,
+    "validations": null,
+    "toolip": null,
+    "text_color": "#FFFFFF",
+    "required": null,
+    "process": "initial",
+    "parentelemids": [],
+    "options": null,
+    "label": null,
+    "issummary": false,
+    "index": 1,
+    "externalLink": null,
+    "elemtype": "form-page",
+    "elemid": "a2bN0000000BVfKIAW",
+    "elements": [],
+    "digitaltype": "form-page",
+    "description": "<br>The Duty of Disclosure must be read to the customer if you are making a change to the quote.<br>I need to remind you of your duty of disclosure: you must answer all questions honestly and truthfully or you may risk having your policy cancelled or a claim not paid.",
+    "dependencies": null,
+    "colSize": null,
+    "channel": "BDC",
+    "background_color": "#F48900",
+    "attributes": null,
+    "attr": null
+  },
+  {
+    "visible": "true",
+    "value": null,
+    "validations": null,
+    "toolip": null,
+    "text_color": null,
+    "required": null,
+    "process": "initial",
+    "parentelemids": [],
+    "options": null,
+    "label": "You and Your Cover",
+    "issummary": false,
+    "index": 1,
+    "externalLink": null,
+    "elemtype": "form-page",
+    "elemid": "a2bN0000000BVJPIA4",
+    "elements": [
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [],
+      "label": "What's the address of the property?",
+      "issummary": true,
+      "index": 1,
+      "externalLink": null,
+      "elemtype": "address-lookup",
+      "elemid": "insured_address",
+      "elements": null,
+      "digitaltype": "address-lookup",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "SBQQ__Quote__c.SBQQ__ShippingCity__c=suburb;\r\nSBQQ__Quote__c.SBQQ__ShippingPostalCode__c=postcode;\r\nSBQQ__Quote__c.SBQQ__ShippingState__c=state;\r\nSBQQ__Quote__c.SBQQ__ShippingStreet__c=unit+' '+streetnumber+' '+street_type+' 'street;",
+        "key": "updateTo"
+      }],
+      "attr":
+      {
+        "updateTo": "SBQQ__Quote__c.SBQQ__ShippingCity__c=suburb;\r\nSBQQ__Quote__c.SBQQ__ShippingPostalCode__c=postcode;\r\nSBQQ__Quote__c.SBQQ__ShippingState__c=state;\r\nSBQQ__Quote__c.SBQQ__ShippingStreet__c=unit+' '+streetnumber+' '+street_type+' 'street;"
+      }
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "Looking for new cover",
+        "key": "seeking_new_cover",
+        "isdefault": false,
+        "iconName": "looking-for-a-new-cover.svg"
+      },
+      {
+        "value": "Reviewing my existing cover",
+        "key": "reviewing_existing_cover",
+        "isdefault": false,
+        "iconName": "switching-insurers.svg"
+      }],
+      "label": "Are You?",
+      "issummary": true,
+      "index": 2,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "customer_motivation",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": "What brings you here today?",
+      "dependencies": ["existing_cover_status", "current_insurer"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{customer_motivation}}' == 'reviewing_existing_cover' )",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": ["customer_motivation"],
+      "options": [
+      {
+        "value": "My cover is about to expire",
+        "key": "cover_aboutto_expire",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "I am moving house",
+        "key": "moving_house",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "I want to switch providers",
+        "key": "switch_provider",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Looking for something cheaper",
+        "key": "looking_cheaper",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Looking for better cover",
+        "key": "better_cover",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Just want to compare",
+        "key": "just_compare",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Other",
+        "key": "other",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Existing cover status",
+      "issummary": false,
+      "index": 3,
+      "externalLink": null,
+      "elemtype": "picklist",
+      "elemid": "existing_cover_status",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": ["reviewing_existing_cover_other"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{existing_cover_status}}' == 'other' )",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": ["existing_cover_status"],
+      "options": [],
+      "label": "Please specify",
+      "issummary": false,
+      "index": 4,
+      "externalLink": null,
+      "elemtype": "text",
+      "elemid": "reviewing_existing_cover_other",
+      "elements": null,
+      "digitaltype": "text",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{customer_motivation}}' == 'reviewing_existing_cover' )",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": ["customer_motivation"],
+      "options": [
+      {
+        "value": "AAMI",
+        "key": "aami",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Allianz",
+        "key": "allianz",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Budget Direct",
+        "key": "budget_direct",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Coles Insurance",
+        "key": "coles_insurance",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "CommInsure",
+        "key": "comminsure",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "GIO",
+        "key": "gio",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "NRMA",
+        "key": "nrma",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "QBE",
+        "key": "qbe",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "RAA",
+        "key": "raa",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "RACQ",
+        "key": "racq",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "RACT",
+        "key": "ract",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "RACV",
+        "key": "racv",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "SGIC",
+        "key": "sgic",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "SGIO",
+        "key": "sgio",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Suncorp Insurance",
+        "key": "suncorp_insurance",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Real Insurance",
+        "key": "real_insurance",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "CHU",
+        "key": "chu",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "APIA",
+        "key": "apia",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Arcadia",
+        "key": "arcadia",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "CGU",
+        "key": "cgu",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Other",
+        "key": "other",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Who is your current insurer?",
+      "issummary": true,
+      "index": 5,
+      "externalLink": null,
+      "elemtype": "picklist",
+      "elemid": "current_insurer",
+      "elements": null,
+      "digitaltype": "lookup",
+      "description": "So we can better understand your situation",
+      "dependencies": ["current_insurer_other"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "Can't find your insurer? Type and choose 'Other'",
+        "key": "nomatch"
+      }],
+      "attr":
+      {
+        "nomatch": "Can't find your insurer? Type and choose 'Other'"
+      }
+    },
+    {
+      "visible": "('{{current_insurer}}' == 'other' )",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": ["current_insurer"],
+      "options": [],
+      "label": "Please specify",
+      "issummary": true,
+      "index": 6,
+      "externalLink": null,
+      "elemtype": "text",
+      "elemid": "current_insurer_other",
+      "elements": null,
+      "digitaltype": "text",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "Home Owner",
+        "key": "home_owner",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Renter",
+        "key": "renter",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Landlord",
+        "key": "landlord",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "I am",
+      "issummary": false,
+      "index": 7,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "owner_type",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": ["cover_type", "cover_type", "weekly_rent", "holiday_lets", "property_mortgage", "property_mortgage", "malicious_damage", "tennant_default", "insured_address", "insured_address", "insured_postal", "insured_postal", "heritage_listed", "heritage_listed", "over_10_acres", "over_10_acres", "well_maintained_property", "well_maintained_property", "well_maintained_property", "postal_address", "cover_type_renter", "current_renovations", "current_renovations", "a2bN0000001H8OqIAK", "a2bN0000001H8OqIAK", "a2bN0000001H8OvIAK", "a2bN0000001H8OvIAK", "a2bN0000001H8XUIA0", "a2bN0000001H8XUIA0", "a2bN0000001H8XUIA0", "a2bN0000001H8P5IAK", "a2bN0000001H92SIAS", "a2bN0000001H8P0IAK", "a2bN0000001H8P0IAK", "a2bN0000001H8Z6IAK", "a2bN0000001H8Z6IAK"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [
+      {
+        "error_msg": "Renter can only select 'Renting'.",
+        "elemid": "a2kN0000000i5o1IAA",
+        "criteria": "('{{owner_type}}' == 'renter'  && ('{{occupancy_details}}' == 'holiday_home_not_rented' || '{{occupancy_details}}' == 'holiday_home_rented'  || '{{occupancy_details}}' == 'rented_to_tenant' ))"
+      }],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "Owner Occupied",
+        "key": "owner_occupied",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Rented to Tenants - landlord",
+        "key": "rented_landlord",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Renting as Tenant",
+        "key": "renting_tenant",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Holiday home - not rented",
+        "key": "holiday_home_not_rented",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Holiday home - may be rented",
+        "key": "holiday_home_rented",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "How is the property occupied?",
+      "issummary": true,
+      "index": 9,
+      "externalLink": null,
+      "elemtype": "picklist",
+      "elemid": "occupancy_details",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": "Helps match you to the right product",
+      "dependencies": ["nest_safety_rewards", "nest_safety_rewards"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{owner_type}}' == 'home_owner'  || '{{owner_type}}' == 'landlord' )",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["owner_type"],
+      "options": [
+      {
+        "value": "Home and Contents",
+        "key": "home_and_contents",
+        "isdefault": false,
+        "iconName": "home-contents.svg"
+      },
+      {
+        "value": "Contents Only",
+        "key": "contents_only",
+        "isdefault": false,
+        "iconName": "contents.svg"
+      },
+      {
+        "value": "Home Only",
+        "key": "home_only",
+        "isdefault": false,
+        "iconName": "home.svg"
+      }],
+      "label": "What type of home insurance do you need ?",
+      "issummary": true,
+      "index": 11,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "cover_type",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": "Please select the type of cover you require.",
+      "dependencies": ["property_type", "contents_sum_insured", "contents_sum_insured", "property_mortgage", "property_mortgage", "building_sum_insured", "building_sum_insured", "heritage_listed", "heritage_listed", "over_10_acres", "over_10_acres", "well_maintained_property", "well_maintained_property", "contents_sum_insured", "contents_sum_insured", "contents_sum_insured", "contents_sum_insured", "contents_sum_insured", "contents_sum_insured", "current_renovations", "current_renovations", "building_sum_insured", "building_sum_insured", "building_preferences", "building_preferences", "a2bN0000000BVTLIA4", "a2bN0000000BVTLIA4", "a2bN0000000BVTLIA4", "a2bN0000001H8OqIAK", "a2bN0000001H8OvIAK", "a2bN0000001H8XUIA0", "a2bN0000001H8XUIA0", "a2bN0000001H8P0IAK", "a2bN0000001H8Z6IAK"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "SBQQ__QuoteLine__c.Cover_Type__c",
+        "key": "updateTo"
+      }],
+      "attr":
+      {
+        "updateTo": "SBQQ__QuoteLine__c.Cover_Type__c"
+      }
+    },
+    {
+      "visible": "('{{owner_type}}' == 'renter')",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["owner_type"],
+      "options": [
+      {
+        "value": "Contents Only",
+        "key": "contents_only",
+        "isdefault": true,
+        "iconName": "contents.svg"
+      }],
+      "label": "What type of home insurance do you need ?",
+      "issummary": true,
+      "index": 12,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "cover_type_renter",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": "Please select the type of cover you require.",
+      "dependencies": ["property_type", "contents_sum_insured", "contents_sum_insured", "contents_sum_insured", "contents_sum_insured", "a2bN0000000BVTLIA4", "a2bN0000001H8OqIAK", "a2bN0000001H8OvIAK", "a2bN0000001H8P0IAK", "a2bN0000001H8Z6IAK"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "SBQQ__QuoteLine__c.Cover_Type__c",
+        "key": "updateTo"
+      }],
+      "attr":
+      {
+        "updateTo": "SBQQ__QuoteLine__c.Cover_Type__c"
+      }
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [
+      {
+        "error_msg": "Policy Start Date must be equals or greater than today.",
+        "elemid": "a2kN0000000i4ucIAA",
+        "criteria": "today().isAfter('{{policy_start_date}}') || today().add(30,'days').isBefore('{{policy_start_date}}')"
+      }],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "Today",
+        "key": "Today",
+        "isdefault": true,
+        "iconName": null
+      }],
+      "label": "Policy Start date",
+      "issummary": true,
+      "index": 13,
+      "externalLink": null,
+      "elemtype": "date",
+      "elemid": "policy_start_date",
+      "elements": null,
+      "digitaltype": "date",
+      "description": "When would you like your cover to commence",
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "SBQQ__QuoteLine__c.SBQQ__StartDate__c",
+        "key": "updateTo"
+      }],
+      "attr":
+      {
+        "updateTo": "SBQQ__QuoteLine__c.SBQQ__StartDate__c"
+      }
+    }],
+    "digitaltype": "form-page",
+    "description": null,
+    "dependencies": null,
+    "colSize": null,
+    "channel": "BDC;Web",
+    "background_color": null,
+    "attributes": null,
+    "attr": null
+  },
+  {
+    "visible": "true",
+    "value": null,
+    "validations": null,
+    "toolip": null,
+    "text_color": null,
+    "required": null,
+    "process": "rec",
+    "parentelemids": [],
+    "options": null,
+    "label": "customize_pref",
+    "issummary": false,
+    "index": 2,
+    "externalLink": null,
+    "elemtype": "form-page",
+    "elemid": "a2bN0000001H9A5IAK",
+    "elements": [
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": [],
+      "options": [],
+      "label": "Excess Preferences",
+      "issummary": false,
+      "index": 34,
+      "externalLink": null,
+      "elemtype": "label",
+      "elemid": "excess_preferences",
+      "elements": [
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Excess and Premium Options",
+        "issummary": false,
+        "index": 1,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "excess_premium",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Choose an excess to premium payment ratio",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "High Excess / Low Premium",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Low Excess / High Premium",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Low Excess / High Premium",
+          "rightLabel": "High Excess / Low Premium"
+        }
+      }],
+      "digitaltype": "label",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "text-align: center; font-weight: bold; font-size: 18px;",
+        "key": "style"
+      }],
+      "attr":
+      {
+        "style": "text-align: center; font-weight: bold; font-size: 18px;"
+      }
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": [],
+      "options": [],
+      "label": "Payment Preferences",
+      "issummary": false,
+      "index": 35,
+      "externalLink": null,
+      "elemtype": "label",
+      "elemid": "payment_preferences",
+      "elements": [
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Flexible Payment Option",
+        "issummary": false,
+        "index": 1,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "flexible_payment",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Ability to pay by the month or annually",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Reduced premium for paying annually",
+        "issummary": false,
+        "index": 2,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "reduced_premium",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Pay less for paying premiums annually",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important",
+          "leftLabel": "Not Important"
+        }
+      }],
+      "digitaltype": "label",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "text-align: center; font-weight: bold; font-size: 18px;",
+        "key": "style"
+      }],
+      "attr":
+      {
+        "style": "text-align: center; font-weight: bold; font-size: 18px;"
+      }
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": [],
+      "options": [],
+      "label": "Cover Preferences",
+      "issummary": false,
+      "index": 36,
+      "externalLink": null,
+      "elemtype": "label",
+      "elemid": "cover_preferences",
+      "elements": [
+      {
+        "visible": "'{{owner_type}}' == 'landlord'",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": ["owner_type"],
+        "options": [],
+        "label": "Malicious Damage",
+        "issummary": false,
+        "index": 7,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "malicious_damage",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Malicious damage or vandalism",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "'{{owner_type}}' == 'landlord'",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": ["owner_type"],
+        "options": [],
+        "label": "Tenant/Rent Default",
+        "issummary": false,
+        "index": 9,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "tennant_default",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Damage and expenses, even if tenants leave without paying their rent",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Motor Burnout Cover",
+        "issummary": false,
+        "index": 6,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "motor_burnout",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Loss or damage to electrical appliances if a motor burns out caused by electric current or power surge",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Accidental Damage",
+        "issummary": false,
+        "index": 4,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "accidental_damage",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Loss or damage as a result of an accident which occurs at the home",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Flood Cover",
+        "issummary": false,
+        "index": 1,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "flood_cover",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Loss or damage caused by flood",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Policy Preferences",
+        "issummary": false,
+        "index": 49,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "policy_preferences",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": null,
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Temporary Accomodation",
+        "issummary": false,
+        "index": 5,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "temporary_accomodation",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Temporary accommodation while a home is being repaired",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "New for Old Replacement",
+        "issummary": false,
+        "index": 2,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "new_for_old_replacement",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Replacing old with new items when damaged or stolen",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Legal Liability",
+        "issummary": false,
+        "index": 8,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "legal_liability",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Legal and compenstation costs if you cause third party personal or property damage",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Replacement of Keys or Locks",
+        "issummary": false,
+        "index": 3,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "replacement_keys",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Replacing keys and locks if damaged or stolen",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important",
+          "leftLabel": "Not Important"
+        }
+      }],
+      "digitaltype": "label",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "text-align: center; font-weight: bold; font-size: 18px;",
+        "key": "style"
+      }],
+      "attr":
+      {
+        "style": "text-align: center; font-weight: bold; font-size: 18px;"
+      }
+    },
+    {
+      "visible": "'{{cover_type}}' == 'home_and_contents' || '{{cover_type}}' == 'home_only'",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": ["cover_type"],
+      "options": [],
+      "label": "Building Only Preferences",
+      "issummary": false,
+      "index": 37,
+      "externalLink": null,
+      "elemtype": "label",
+      "elemid": "building_preferences",
+      "elements": [
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Sum Insured/Safeguard",
+        "issummary": false,
+        "index": 1,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "sum_insured_safeguard",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Extending the home sum insured if repair or replacement costs exceed the nominated value following a significant event",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Removal of Debris",
+        "issummary": false,
+        "index": 2,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "removal_of_debris",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Removal of debris or waste from a property during repairs or replacement",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Extra Cost of Rebuilding",
+        "issummary": false,
+        "index": 3,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "extracost_rebuilding",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Meeting extra costs for new building codes or requirements when rebuilding",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important"
+        }
+      }],
+      "digitaltype": "label",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "text-align: center; font-weight: bold; font-size: 18px;",
+        "key": "style"
+      }],
+      "attr":
+      {
+        "style": "text-align: center; font-weight: bold; font-size: 18px;"
+      }
+    }],
+    "digitaltype": "form-page",
+    "description": null,
+    "dependencies": null,
+    "colSize": null,
+    "channel": "BDC;Mobile;Web",
+    "background_color": null,
+    "attributes": null,
+    "attr": null
+  },
+  {
+    "visible": "true",
+    "value": null,
+    "validations": null,
+    "toolip": null,
+    "text_color": null,
+    "required": null,
+    "process": "initial",
+    "parentelemids": [],
+    "options": null,
+    "label": "Property Details",
+    "issummary": false,
+    "index": 3,
+    "externalLink": null,
+    "elemtype": "form-page",
+    "elemid": "a2bN0000000BVTGIA4",
+    "elements": [
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [
+      {
+        "error_msg": "Unfortunately, based on the information you have provided regarding your home insurance requirements, we do not have a suitable policy that meets your needs. However we can refer you to CHU who offer buildings insurance for Strata properties, get a quote online at   <a href=\"https://www.chuisaver.com.au/quote?referenceCode=iSelect\" target=\"_blank\">chuisaver.com.au</a>.Alternatively, If you'd like to know more about other insurance options, you can contact the Insurance Council of Australia at <a href=\"findaninsurer.com.au\" target=\"_blank\">findaninsurer.com.au</a>",
+        "elemid": "a2kN0000000i5cBIAQ",
+        "criteria": "'{{strata_body_corporate}}'=='true' && '{{cover_type}}'=='home_only'"
+      },
+      {
+        "error_msg": "Unfortunately, based on the information you have provided regarding your home insurance requirements, we do not have a suitable policy that meets your needs. If you'd like to know more about other insurance options, you can contact the Insurance Council of Australia at <a href=\"findaninsurer.com.au\" target=\"_blank\">findaninsurer.com</a>.au",
+        "elemid": "a2kN0000000i5c6IAA",
+        "criteria": "'{{strata_body_corporate}}'=='true' && '{{cover_type}}'=='home_and_contents'"
+      }],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "Yes",
+        "key": "true",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "No",
+        "key": "false",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Is the property part of a body corporate/strata title complex?",
+      "issummary": false,
+      "index": 14,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "strata_body_corporate",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": ["property_type", "property_type", "floor_construction", "above_ground", "oldest_resident_dob"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{strata_body_corporate}}' == 'false') || (( '{{cover_type_renter}}' == 'contents_only' || '{{cover_type}}' == 'contents_only') && '{{strata_body_corporate}}' == 'true')",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["strata_body_corporate", "cover_type_renter", "cover_type"],
+      "options": [
+      {
+        "value": "Apartment",
+        "key": "apartment",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Freestanding home",
+        "key": "freestanding",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Terrace House",
+        "key": "terrace",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Home Unit",
+        "key": "home_unit",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Duplex",
+        "key": "duplex",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Villa",
+        "key": "villa",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Townhouse",
+        "key": "townhouse",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Other",
+        "key": "other",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "What type of property are you insuring?",
+      "issummary": false,
+      "index": 15,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "property_type",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": "Helps estimate how much cover you need",
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "Brick Veneer",
+        "key": "brick_veneer",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Brick/ Double Brick",
+        "key": "solid_brick",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Timber Weatherboard",
+        "key": "timber_weatherboard",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Concrete/Cement",
+        "key": "concrete_cement",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Fibro",
+        "key": "fibro",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Stone",
+        "key": "stone",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Metal/Iron/Steel/Aluminium/Zinc",
+        "key": "metal",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Cladding - Plastic/Other",
+        "key": "cladding_plastic",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Asbestos",
+        "key": "asbestos",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Main construction material of of the external wall",
+      "issummary": false,
+      "index": 16,
+      "externalLink": null,
+      "elemtype": "picklist",
+      "elemid": "wall_construction",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": "Helps estimate how much cover you need",
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "Cement Tiles",
+        "key": "cement_tiles",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Clay/Terracotta Tiles",
+        "key": "clay_tiles",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Colourbond",
+        "key": "colourbond",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Aluminium / Zinc / Iron",
+        "key": "metal",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Shingle/Slate",
+        "key": "shingle_slate",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Concrete",
+        "key": "concrete",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Fibro",
+        "key": "fibro",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Copper",
+        "key": "copper",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Timber/Wood",
+        "key": "timber_wood",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Thatch",
+        "key": "thatch",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Asbestos",
+        "key": "asbestos",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Main construction material of the roof",
+      "issummary": false,
+      "index": 17,
+      "externalLink": null,
+      "elemtype": "picklist",
+      "elemid": "roof_construction",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": "Helps estimate how much cover you need",
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{strata_body_corporate}}' == 'true')",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["strata_body_corporate"],
+      "options": [
+      {
+        "value": "Concrete",
+        "key": "concrete",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Woodframe",
+        "key": "woodframe",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "What is the construction material of the property's floor?",
+      "issummary": false,
+      "index": 18,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "floor_construction",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{strata_body_corporate}}' == 'true')",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["strata_body_corporate"],
+      "options": [
+      {
+        "value": "Yes",
+        "key": "true",
+        "isdefault": true,
+        "iconName": null
+      },
+      {
+        "value": "No",
+        "key": "false",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Is the property above the ground floor?",
+      "issummary": false,
+      "index": 19,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "above_ground",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "After 2009",
+        "key": "after_2009",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "2000 - 2009",
+        "key": "2000_2009",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "1990 - 1999",
+        "key": "1990_1999",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "1980 - 1989",
+        "key": "1980_1989",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "1970 - 1979",
+        "key": "1970_1979",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "1960 - 1969",
+        "key": "1960_1969",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "1950 - 1959",
+        "key": "1950_1959",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Pre 1950",
+        "key": "pre_1950",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "What year was the home built?",
+      "issummary": false,
+      "index": 20,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "year_of_construction",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": "Helps estimate how much cover you need",
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "24 hour back to base monitored alarm",
+        "key": "24_hour_monitored",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Local Alarm",
+        "key": "local_alarm",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "I have a NEST Security Camera",
+        "key": "nest_security_camera",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Deadlocks on all external doors",
+        "key": "deadlocks_external_doors",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Keylocks on all external windows",
+        "key": "keylocks_external_windows",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Roller Shutters",
+        "key": "roller_shutters",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Security Screens on Bars",
+        "key": "Security_Screens_or_bars",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "None",
+        "key": "none",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "What security features do you have?",
+      "issummary": false,
+      "index": 21,
+      "externalLink": null,
+      "elemtype": "multipicklist",
+      "elemid": "security_features",
+      "elements": null,
+      "digitaltype": "checkbox-group",
+      "description": "Helps determine how much insurance you pay",
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{occupancy_details}}'=='holiday_home_not_rented' || '{{occupancy_details}}'=='owner_occupied')",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["occupancy_details"],
+      "options": [
+      {
+        "value": "Yes Tell Me More",
+        "key": "true",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "No I'm not interested",
+        "key": "false",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Would you be interested in NEST safety rewards?",
+      "issummary": false,
+      "index": 22,
+      "externalLink": "<a href=\"https://www.iselect.com.au/connected-home\" target=\"_blank\">Find out more<a>",
+      "elemtype": "radio",
+      "elemid": "nest_safety_rewards",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": "Insurers may give you a discount if you have a Nest product and sign up to Safety Rewards",
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "Yes",
+        "key": "true",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "No",
+        "key": "false",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Is there any business activity conducted on the property?",
+      "issummary": false,
+      "index": 23,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "business_activity",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": ["business_activity_type"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{business_activity}}' == 'true')",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["business_activity"],
+      "options": [
+      {
+        "value": "Home Office",
+        "key": "home_office",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Surgery/Consulting Rooms",
+        "key": "consulting_rooms",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Accommodation Service",
+        "key": "accommodation_service",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Commercial Farming",
+        "key": "commercial_farming",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Hairdresser/Beauty Therapist",
+        "key": "hair_beauty",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Photography Studio",
+        "key": "photo_studio",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Childcare/Family Day Care",
+        "key": "child_family_care",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Food Preparation/Catering",
+        "key": "food_prep",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Mechanical Workshop",
+        "key": "mechanical",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Other",
+        "key": "other",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "What type of business is it?",
+      "issummary": false,
+      "index": 24,
+      "externalLink": null,
+      "elemtype": "picklist",
+      "elemid": "business_activity_type",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": ["business_activity_type_other"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{business_activity_type}}' == 'other')",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": ["business_activity_type"],
+      "options": [
+      {
+        "value": "Agricultural",
+        "key": "agricultural",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Brothel",
+        "key": "brothel",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Gaming/Gambling",
+        "key": "game_gamble",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Manufacturing",
+        "key": "manufacturing",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "Shop Retail",
+        "key": "shop_retail",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Please specify",
+      "issummary": false,
+      "index": 25,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "business_activity_type_other",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    }],
+    "digitaltype": "form-page",
+    "description": null,
+    "dependencies": null,
+    "colSize": null,
+    "channel": "BDC;Web",
+    "background_color": null,
+    "attributes": null,
+    "attr": null
+  },
+  {
+    "visible": "'{{cover_type}}' == 'home_only' || '{{cover_type_renter}}' == 'contents_only' || '{{cover_type}}' == 'home_and_contents' ||  '{{cover_type}}' == 'contents_only'",
+    "value": null,
+    "validations": null,
+    "toolip": null,
+    "text_color": null,
+    "required": null,
+    "process": "initial",
+    "parentelemids": ["cover_type", "cover_type_renter"],
+    "options": null,
+    "label": "Sum Insured",
+    "issummary": false,
+    "index": 4,
+    "externalLink": null,
+    "elemtype": "form-page",
+    "elemid": "a2bN0000000BVTLIA4",
+    "elements": [
+    {
+      "visible": "('{{cover_type}}' == 'home_and_contents' || '{{cover_type}}' == 'home_only')",
+      "value": null,
+      "validations": [],
+      "toolip": "If you're not sure, use the calculator",
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["cover_type"],
+      "options": [],
+      "label": "What is the total cost to rebuild your home at today's prices?",
+      "issummary": false,
+      "index": 26,
+      "externalLink": "<a href=\"https://sumsure.cordell.com.au/#/products/7/profiles/110/\" target=\"_blank\">Open Calculator</a>",
+      "elemtype": "currency",
+      "elemid": "building_sum_insured",
+      "elements": null,
+      "digitaltype": "currency",
+      "description": "You must insure your home for the full amount that it would cost to rebuild the home at today’s prices. This should include any home improvements on the site, for example a garage or swimming pool, as well as the costs to demolish and remove debris.",
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "SBQQ__QuoteLine__c.Building_Sum_Insured__c",
+        "key": "updateTo"
+      },
+      {
+        "value": "Open Calculator",
+        "key": "externalLinkLabel"
+      },
+      {
+        "value": "https://sumsure.cordell.com.au/#/products/7/profiles/110/",
+        "key": "externalLinkURL"
+      }],
+      "attr":
+      {
+        "externalLinkURL": "https://sumsure.cordell.com.au/#/products/7/profiles/110/",
+        "externalLinkLabel": "Open Calculator",
+        "updateTo": "SBQQ__QuoteLine__c.Building_Sum_Insured__c"
+      }
+    },
+    {
+      "visible": "('{{cover_type}}' == 'contents_only' || '{{cover_type_renter}}' == 'contents_only' || '{{cover_type}}' == 'home_and_contents' )",
+      "value": null,
+      "validations": [],
+      "toolip": "If you're not sure, use the calculator.",
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["cover_type", "cover_type_renter"],
+      "options": [],
+      "label": "What is the total cost to replace your contents at today's prices?",
+      "issummary": false,
+      "index": 27,
+      "externalLink": "<a href=\"http://uat.homecontents.com.au/index.php?c=web_intro&profile=suminsured_circa \" target=\"_blank\">Open Calulator</a>",
+      "elemtype": "currency",
+      "elemid": "contents_sum_insured",
+      "elements": null,
+      "digitaltype": "currency",
+      "description": "General Contents are the things that you or your family keep in and around your home which include furniture, furnishing, rugs, electronic items, clothing and gardening equipment. You should insure your contents for the full amount that it would cost to replace them at today’s prices. When calculating your General Contents, do not include any items that you want to cover as Specified Portable Valuables.",
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "http://uat.homecontents.com.au/index.php?c=web_intro&profile=suminsured_circa",
+        "key": "externalLinkURL"
+      },
+      {
+        "value": "SBQQ__QuoteLine__c.Contents_Sum_Insured__c",
+        "key": "updateTo"
+      },
+      {
+        "value": "Open Calculator",
+        "key": "externalLinkLabel"
+      }],
+      "attr":
+      {
+        "externalLinkLabel": "Open Calculator",
+        "updateTo": "SBQQ__QuoteLine__c.Contents_Sum_Insured__c",
+        "externalLinkURL": "http://uat.homecontents.com.au/index.php?c=web_intro&profile=suminsured_circa"
+      }
+    },
+    {
+      "visible": "('{{owner_type}}' == 'landlord')",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["owner_type"],
+      "options": [],
+      "label": "What is the current weekly rent?",
+      "issummary": false,
+      "index": 28,
+      "externalLink": null,
+      "elemtype": "currency",
+      "elemid": "weekly_rent",
+      "elements": null,
+      "digitaltype": "currency",
+      "description": "Helps estimate how much cover you need",
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{owner_type}}' == 'landlord')",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["owner_type"],
+      "options": [
+      {
+        "value": "Yes",
+        "key": "true",
+        "isdefault": true,
+        "iconName": null
+      },
+      {
+        "value": "No",
+        "key": "false",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "Is the property used for short term or holiday lets?",
+      "issummary": false,
+      "index": 29,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "holiday_lets",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    }],
+    "digitaltype": "form-page",
+    "description": null,
+    "dependencies": null,
+    "colSize": null,
+    "channel": "BDC;Web",
+    "background_color": null,
+    "attributes": null,
+    "attr": null
+  },
+  {
+    "visible": "true",
+    "value": null,
+    "validations": null,
+    "toolip": null,
+    "text_color": null,
+    "required": null,
+    "process": "initial",
+    "parentelemids": [],
+    "options": null,
+    "label": "Policy Holder Details",
+    "issummary": false,
+    "index": 6,
+    "externalLink": null,
+    "elemtype": "form-page",
+    "elemid": "a2bN0000000BVTVIA4",
+    "elements": [
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [
+      {
+        "error_msg": "Date of birth can't be future date",
+        "elemid": "a2kN0000000i67fIAA",
+        "criteria": "today().isBefore('{{policy_holder_dob}}')"
+      }],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [],
+      "label": "What is the policyholder's date of birth?",
+      "issummary": false,
+      "index": 30,
+      "externalLink": null,
+      "elemtype": "date",
+      "elemid": "policy_holder_dob",
+      "elements": null,
+      "digitaltype": "date",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "year",
+        "key": "mode"
+      }],
+      "attr":
+      {
+        "mode": "year"
+      }
+    },
+    {
+      "visible": "('{{strata_body_corporate}}' == 'true')",
+      "value": null,
+      "validations": [
+      {
+        "error_msg": "Date of birth can't be future date",
+        "elemid": "a2kN0000000i67kIAA",
+        "criteria": "today().isBefore('{{oldest_resident_dob}}')"
+      }],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["strata_body_corporate"],
+      "options": [],
+      "label": "What is the date of birth of the oldest resident?",
+      "issummary": false,
+      "index": 31,
+      "externalLink": null,
+      "elemtype": "date",
+      "elemid": "oldest_resident_dob",
+      "elements": null,
+      "digitaltype": "date",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "year",
+        "key": "mode"
+      }],
+      "attr":
+      {
+        "mode": "year"
+      }
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": [],
+      "options": [
+      {
+        "value": "Yes",
+        "key": "true",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "No",
+        "key": "false",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "In the last 5 years, have you or any other household member had any thefts, burglaries or made any insurance claims for home and/or contents?",
+      "issummary": false,
+      "index": 32,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "previous_incidents",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": ["number_of_claims", "value_of_claims", "claims_multiple_properties", "damages_repaired", "current_claims", "declined_cover", "number_of_claims", "number_of_claims"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    },
+    {
+      "visible": "('{{previous_incidents}}' == 'true')",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": true,
+      "process": null,
+      "parentelemids": ["previous_incidents"],
+      "options": [
+      {
+        "value": "1",
+        "key": "1",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "2",
+        "key": "2",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "3",
+        "key": "3",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "4",
+        "key": "4",
+        "isdefault": false,
+        "iconName": null
+      },
+      {
+        "value": "5+",
+        "key": "5",
+        "isdefault": false,
+        "iconName": null
+      }],
+      "label": "How many claims have you had in the last five years?",
+      "issummary": false,
+      "index": 33,
+      "externalLink": null,
+      "elemtype": "radio",
+      "elemid": "number_of_claims",
+      "elements": null,
+      "digitaltype": "radio",
+      "description": null,
+      "dependencies": ["value_of_claims"],
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [],
+      "attr":
+      {}
+    }],
+    "digitaltype": "form-page",
+    "description": null,
+    "dependencies": null,
+    "colSize": null,
+    "channel": "BDC;Web",
+    "background_color": null,
+    "attributes": null,
+    "attr": null
+  },
+  {
+    "visible": "true",
+    "value": null,
+    "validations": null,
+    "toolip": null,
+    "text_color": null,
+    "required": null,
+    "process": "initial",
+    "parentelemids": [],
+    "options": null,
+    "label": "Product Preferences",
+    "issummary": false,
+    "index": 9,
+    "externalLink": null,
+    "elemtype": "form-page",
+    "elemid": "a2bN0000000BVTkIAO",
+    "elements": [
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": [],
+      "options": [],
+      "label": "Excess Preferences",
+      "issummary": false,
+      "index": 34,
+      "externalLink": null,
+      "elemtype": "label",
+      "elemid": "excess_preferences",
+      "elements": [
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Excess and Premium Options",
+        "issummary": false,
+        "index": 1,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "excess_premium",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Choose an excess to premium payment ratio",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "High Excess / Low Premium",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Low Excess / High Premium",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Low Excess / High Premium",
+          "rightLabel": "High Excess / Low Premium"
+        }
+      }],
+      "digitaltype": "label",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "text-align: center; font-weight: bold; font-size: 18px;",
+        "key": "style"
+      }],
+      "attr":
+      {
+        "style": "text-align: center; font-weight: bold; font-size: 18px;"
+      }
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": [],
+      "options": [],
+      "label": "Payment Preferences",
+      "issummary": false,
+      "index": 35,
+      "externalLink": null,
+      "elemtype": "label",
+      "elemid": "payment_preferences",
+      "elements": [
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Flexible Payment Option",
+        "issummary": false,
+        "index": 1,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "flexible_payment",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Ability to pay by the month or annually",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Reduced premium for paying annually",
+        "issummary": false,
+        "index": 2,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "reduced_premium",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Pay less for paying premiums annually",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important",
+          "leftLabel": "Not Important"
+        }
+      }],
+      "digitaltype": "label",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "text-align: center; font-weight: bold; font-size: 18px;",
+        "key": "style"
+      }],
+      "attr":
+      {
+        "style": "text-align: center; font-weight: bold; font-size: 18px;"
+      }
+    },
+    {
+      "visible": "true",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": [],
+      "options": [],
+      "label": "Cover Preferences",
+      "issummary": false,
+      "index": 36,
+      "externalLink": null,
+      "elemtype": "label",
+      "elemid": "cover_preferences",
+      "elements": [
+      {
+        "visible": "'{{owner_type}}' == 'landlord'",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": ["owner_type"],
+        "options": [],
+        "label": "Malicious Damage",
+        "issummary": false,
+        "index": 7,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "malicious_damage",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Malicious damage or vandalism",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "'{{owner_type}}' == 'landlord'",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": ["owner_type"],
+        "options": [],
+        "label": "Tenant/Rent Default",
+        "issummary": false,
+        "index": 9,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "tennant_default",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Damage and expenses, even if tenants leave without paying their rent",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Motor Burnout Cover",
+        "issummary": false,
+        "index": 6,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "motor_burnout",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Loss or damage to electrical appliances if a motor burns out caused by electric current or power surge",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Accidental Damage",
+        "issummary": false,
+        "index": 4,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "accidental_damage",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Loss or damage as a result of an accident which occurs at the home",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Flood Cover",
+        "issummary": false,
+        "index": 1,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "flood_cover",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Loss or damage caused by flood",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Policy Preferences",
+        "issummary": false,
+        "index": 49,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "policy_preferences",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": null,
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Temporary Accomodation",
+        "issummary": false,
+        "index": 5,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "temporary_accomodation",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Temporary accommodation while a home is being repaired",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "New for Old Replacement",
+        "issummary": false,
+        "index": 2,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "new_for_old_replacement",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Replacing old with new items when damaged or stolen",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important!"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Legal Liability",
+        "issummary": false,
+        "index": 8,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "legal_liability",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Legal and compenstation costs if you cause third party personal or property damage",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Replacement of Keys or Locks",
+        "issummary": false,
+        "index": 3,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "replacement_keys",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Replacing keys and locks if damaged or stolen",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important",
+          "leftLabel": "Not Important"
+        }
+      }],
+      "digitaltype": "label",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "text-align: center; font-weight: bold; font-size: 18px;",
+        "key": "style"
+      }],
+      "attr":
+      {
+        "style": "text-align: center; font-weight: bold; font-size: 18px;"
+      }
+    },
+    {
+      "visible": "'{{cover_type}}' == 'home_and_contents' || '{{cover_type}}' == 'home_only'",
+      "value": null,
+      "validations": [],
+      "toolip": null,
+      "text_color": null,
+      "required": false,
+      "process": null,
+      "parentelemids": ["cover_type"],
+      "options": [],
+      "label": "Building Only Preferences",
+      "issummary": false,
+      "index": 37,
+      "externalLink": null,
+      "elemtype": "label",
+      "elemid": "building_preferences",
+      "elements": [
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Sum Insured/Safeguard",
+        "issummary": false,
+        "index": 1,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "sum_insured_safeguard",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Extending the home sum insured if repair or replacement costs exceed the nominated value following a significant event",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Removal of Debris",
+        "issummary": false,
+        "index": 2,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "removal_of_debris",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Removal of debris or waste from a property during repairs or replacement",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        },
+        {
+          "value": "Important!",
+          "key": "rightLabel"
+        }],
+        "attr":
+        {
+          "rightLabel": "Important!",
+          "leftLabel": "Not Important"
+        }
+      },
+      {
+        "visible": "true",
+        "value": null,
+        "validations": [],
+        "toolip": null,
+        "text_color": null,
+        "required": false,
+        "process": null,
+        "parentelemids": [],
+        "options": [],
+        "label": "Extra Cost of Rebuilding",
+        "issummary": false,
+        "index": 3,
+        "externalLink": null,
+        "elemtype": "rating",
+        "elemid": "extracost_rebuilding",
+        "elements": null,
+        "digitaltype": "rating",
+        "description": "Meeting extra costs for new building codes or requirements when rebuilding",
+        "dependencies": null,
+        "colSize": null,
+        "channel": "BDC;Mobile;Web",
+        "background_color": null,
+        "attributes": [
+        {
+          "value": "Important",
+          "key": "rightLabel"
+        },
+        {
+          "value": "Not Important",
+          "key": "leftLabel"
+        }],
+        "attr":
+        {
+          "leftLabel": "Not Important",
+          "rightLabel": "Important"
+        }
+      }],
+      "digitaltype": "label",
+      "description": null,
+      "dependencies": null,
+      "colSize": null,
+      "channel": "BDC;Mobile;Web",
+      "background_color": null,
+      "attributes": [
+      {
+        "value": "text-align: center; font-weight: bold; font-size: 18px;",
+        "key": "style"
+      }],
+      "attr":
+      {
+        "style": "text-align: center; font-weight: bold; font-size: 18px;"
+      }
+    }],
+    "digitaltype": "form-page",
+    "description": null,
+    "dependencies": null,
+    "colSize": null,
+    "channel": "BDC;Web",
+    "background_color": null,
+    "attributes": null,
+    "attr": null
+  },
+  {
+    "visible": "true",
+    "value": null,
+    "validations": null,
+    "toolip": null,
+    "text_color": "#FFFFFF",
+    "required": null,
+    "process": "initial",
+    "parentelemids": [],
+    "options": null,
+    "label": null,
+    "issummary": false,
+    "index": 12,
+    "externalLink": null,
+    "elemtype": "form-page",
+    "elemid": "a2bN0000001HDILIA4",
+    "elements": [],
+    "digitaltype": "form-page",
+    "description": "<p>Please listen carefully to the following General Advice Warning.</p>\n\n<p>Your iSelect Consultant is about give you general advice and is based on the details you’ve just provided to them.  It does not take into account your objectives, current financial situation or needs.  Please consider whether the advice is suitable for you and meets your needs.</p>\n\n<p>We don’t compare all Insurers or car insurance products in the market.  Some of our products can only be purchased online and won’t be included in the comparison.</p>\n\n<p>We have a Financial Services Guide which contains information about us, the products and services we offer, how we’re paid in relation to any policy you purchase through us, and if in the event you need to make a complaint, how to do so.  All fees or commissions received are paid by the insurer and our services are at no cost to you.</p>\n\n<p>Information about policy coverage, exclusions, limitations and excesses, which may apply to a policy, as well as information explaining your duty of disclosure can be found in the Insurer’s Product Disclosure Statement. Please consider this information when making your decision to purchase.</p>\n\n<p>Our quotes are indicative until you’ve completed an application with the relevant Insurer.  </p>\n\n<p>Do you understand and agree?</p>",
+    "dependencies": null,
+    "colSize": null,
+    "channel": "BDC",
+    "background_color": "#F48900",
+    "attributes": null,
+    "attr": null
+  },
+  {
+    "visible": "true",
+    "value": null,
+    "validations": null,
+    "toolip": null,
+    "text_color": "#FFFFFF",
+    "required": null,
+    "process": "initial",
+    "parentelemids": [],
+    "options": null,
+    "label": null,
+    "issummary": false,
+    "index": 13,
+    "externalLink": null,
+    "elemtype": "form-page",
+    "elemid": "a2bN0000001HDIQIA4",
+    "elements": [],
+    "digitaltype": "form-page",
+    "description": "<p>(Read on callbacks only) <br>The advice I’m about to provide is general advice and is based on the details you’ve just provided me with. Please consider whether this product is suitable for you and meets your needs.</p>",
+    "dependencies": null,
+    "colSize": null,
+    "channel": "BDC",
+    "background_color": "#F48900",
+    "attributes": null,
+    "attr": null
+  },
+  {
+    "visible": "true",
+    "value": null,
+    "validations": null,
+    "toolip": null,
+    "text_color": "#FFFFFF",
+    "required": null,
+    "process": "initial",
+    "parentelemids": [],
+    "options": null,
+    "label": null,
+    "issummary": false,
+    "index": 14,
+    "externalLink": null,
+    "elemtype": "form-page",
+    "elemid": "a2bN0000001HDIGIA4",
+    "elements": [],
+    "digitaltype": "form-page",
+    "description": "<div style=\"text-align: center;\"><br>Remember to offer your customer a WeSelect referral to Health, Energy, Broadband, Home Loans and Life! </div>",
+    "dependencies": null,
+    "colSize": null,
+    "channel": "BDC",
+    "background_color": "#A9A9A9",
+    "attributes": null,
+    "attr": null
+  }],
+  "displayType": "Progressive",
+  "description": null
+}

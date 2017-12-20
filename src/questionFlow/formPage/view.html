@@ -1,0 +1,16 @@
+<div class="form-page"
+     ng-show="$ctrl.isVisible()"
+>
+
+  <question
+            ng-repeat="child in $ctrl.form.children"
+            device-type="$ctrl.deviceType"
+            question="child"
+            question-level="'main'"
+            answers="$ctrl.answers"
+            on-added="$ctrl.childAdded($event)"
+            on-completed="$ctrl.childAnswered()"
+            on-answers-updated="$ctrl.answersUpdated($event)"
+  ></question>
+
+</div>

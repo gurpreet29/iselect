@@ -1,0 +1,61 @@
+@import '~variables.less';
+
+process-coordinator {
+  &>#scrollport {
+    height: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: @color-solitude;
+  }
+
+  .navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    width: 100vw;
+    z-index: @zindex-action-bar;
+    height: @action-bar-height;
+
+    .navigation-bg {
+      background-color: @action-bar-bg;
+      height: 100%;
+    }
+
+    .breadcrumb {
+      margin-bottom: 0;
+    }
+  }
+
+  .step {
+    display: inline-block;
+
+    a {
+      cursor: hand;
+    }
+
+    .step-name {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+
+  .step-number {
+    color: @step-number-color;
+    border-color: @step-number-color;
+    border-width: @step-number-border-width;
+    border-style: solid;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 1em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.35em;
+    text-align: center;
+  }
+
+  .active .step-number {
+    color: @step-number-active-color;
+    background-color: @step-number-color;
+    font-weight: bold;
+  }
+}

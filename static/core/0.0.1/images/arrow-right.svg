@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-13789 823 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #797e85;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Group_4193" data-name="Group 4193" transform="translate(-13458 1442) rotate(180)">
+    <rect id="rectangle" class="cls-1" width="24" height="24" transform="translate(307 595)"/>
+    <path id="path" class="cls-2" d="M15.4,7.4,14,6,8,12l6,6,1.4-1.4L10.8,12Z" transform="translate(307 595)"/>
+  </g>
+</svg>

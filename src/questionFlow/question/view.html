@@ -1,0 +1,177 @@
+<script type="text/ng-template" id="questionInfo.html">
+  <div ng-bind-html="$ctrl.question.tooltip"></div>
+</script>
+
+
+
+<div ng-class="{'question-group': $ctrl.mainQuestion()}"
+     ng-show="$ctrl.isVisible()"
+>
+  <div class="question row"
+       ng-class="{
+          subquestion: $ctrl.subQuestion(),
+          answered: $ctrl.isAnswered()
+       }"
+  >
+    <div class="
+      col-xs-12 col-xs-offset-0
+      col-sm-10 col-sm-offset-1
+    ">
+
+      <ng-form class="row"
+               name="$ctrl.form"
+               ng-switch="$ctrl.question.type"
+      >
+        <div class="form-group">
+          <label class="question-title control-label"
+                 for="question${{$ctrl.question.id}}"
+          >
+            {{$ctrl.question.label}}
+            <span ng-if="$ctrl.question.tooltip">
+              <i ng-if="!$ctrl.deviceType.isMobile()"
+                 uib-tooltip-template="'questionInfo.html'"
+                 tooltip-placement="auto top"
+                 class="glyphicon glyphicon-info-sign">
+              </i>
+              <i ng-if="$ctrl.deviceType.isMobile()"
+                 ng-click="$ctrl.showTipBox=!$ctrl.showTipBox"
+                 class="glyphicon glyphicon-info-sign">
+              </i>
+            </span>
+          </label>
+          <p ng-show="$ctrl.showTipBox"
+             ng-include="'questionInfo.html'"
+             class="panel panel-default supporting-text"
+          ></p>
+          <p ng-if="$ctrl.question.description"
+             class="supporting-text"
+          >
+            {{$ctrl.question.description}}
+          </p>
+          <p ng-if="$ctrl.question.attr.externalLinkLabel"
+             class="supporting-text"
+          >
+            <a target="_blank" href="{{$ctrl.question.attr.externalLinkURL}}">{{$ctrl.question.attr.externalLinkLabel}}</a>
+          </p>
+        </div>
+
+        <text-question
+                ng-switch-when="text"
+                device-type="$ctrl.deviceType"
+                question="$ctrl.question"
+                rule-validator-context="$ctrl.ruleValidatorContext"
+                on-answered="$ctrl.answered($event)"
+                answers="$ctrl.answers"
+        ></text-question>
+
+        <date-question
+                ng-switch-when="date"
+                device-type="$ctrl.deviceType"
+                question="$ctrl.question"
+                rule-validator-context="$ctrl.ruleValidatorContext"
+                on-answered="$ctrl.answered($event)"
+                answers="$ctrl.answers"
+        ></date-question>
+
+        <address-question
+                ng-switch-when="address-lookup"
+                device-type="$ctrl.deviceType"
+                question="$ctrl.question"
+                rule-validator-context="$ctrl.ruleValidatorContext"
+                on-answered="$ctrl.answered($event)"
+                answers="$ctrl.answers"
+        ></address-question>
+
+        <single-select-question
+                ng-switch-when="radio"
+                device-type="$ctrl.deviceType"
+                question="$ctrl.question"
+                rule-validator-context="$ctrl.ruleValidatorContext"
+                on-answered="$ctrl.answered($event)"
+                answers="$ctrl.answers"
+        ></single-select-question>
+
+        <pick-list-question
+                ng-switch-when="picklist"
+                device-type="$ctrl.deviceType"
+                question="$ctrl.question"
+                rule-validator-context="$ctrl.ruleValidatorContext"
+                on-answered="$ctrl.answered($event)"
+                answers="$ctrl.answers"
+        ></pick-list-question>
+
+        <check-box-question
+                ng-switch-when="checkbox-group"
+                device-type="$ctrl.deviceType"
+                question="$ctrl.question"
+                rule-validator-context="$ctrl.ruleValidatorContext"
+                on-answered="$ctrl.answered($event)"
+                answers="$ctrl.answers"
+        ></check-box-question>
+
+        <currency-question
+                ng-switch-when="currency"
+                device-type="$ctrl.deviceType"
+                question="$ctrl.question"
+                rule-validator-context="$ctrl.ruleValidatorContext"
+                on-answered="$ctrl.answered($event)"
+                answers="$ctrl.answers"
+        ></currency-question>
+
+        <rank-select-question
+                ng-switch-when="rating"
+                device-type="$ctrl.deviceType"
+                question="$ctrl.question"
+                rule-validator-context="$ctrl.ruleValidatorContext"
+                on-answered="$ctrl.answered($event)"
+                answers="$ctrl.answers"
+        ></rank-select-question>
+
+        <label-question
+                ng-switch-when="label"
+                device-type="$ctrl.deviceType"
+                question="$ctrl.question"
+                on-answered="$ctrl.answered($event)"
+        ></label-question>
+
+        <lookup-question
+                ng-switch-when="lookup"
+                device-type="$ctrl.deviceType"
+                question="$ctrl.question"
+                rule-validator-context="$ctrl.ruleValidatorContext"
+                on-answered="$ctrl.answered($event)"
+                answers="$ctrl.answers"
+        ></lookup-question>
+
+        <div ng-switch-default>
+          Not configured correctly
+        </div>
+
+      </ng-form>
+    </div>
+  </div>
+
+
+  <div class="sub-question-set">
+    <question
+            ng-repeat="child in $ctrl.question.children"
+            device-type="$ctrl.deviceType"
+            question="child"
+            question-level="'sub'"
+            answers="$ctrl.answers"
+            on-added="$ctrl.childAdded($event)"
+            on-completed="$ctrl.childAnswered()"
+            on-answers-updated="$ctrl.answersUpdated($event)"
+    ></question>
+  </div>
+
+  <div class="overlay-mask"
+       ng-if="$ctrl.mainQuestion()"
+       ng-class="{ active: $ctrl.displayMask }"
+       ng-click="$ctrl.editingAnswer()"
+  >
+    <img height="50" width="50" style="position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%);"
+         ng-src="{{$ctrl.loadEditImage()}}">
+  </div>
+
+</div>

@@ -1,0 +1,36 @@
+<ul class="element-names">
+  <li class="policy-element"
+       ng-repeat="feature in $ctrl.features"
+  >
+    <div class="policy-label hidden-sm hidden-md hidden-lg">{{feature.label}}</div>
+
+    <!-- tick  for true value-->
+    <div class="text-center" ng-show="$ctrl.getFeatureValue(feature) === 'true'">
+      <span class="glyphicon glyphicon-ok"></span>
+    </div>
+
+    <!-- cross  for false value-->
+    <div class="text-center" ng-show="$ctrl.getFeatureValue(feature) === 'false'">
+      <span class="glyphicon glyphicon-remove"></span>
+    </div>
+
+    <!-- show value as description if null shows cross image-->
+    <div class="text-center"
+         ng-class="{
+           'policy-description': $ctrl.getFeatureValue(feature) !== 'false' && $ctrl.getFeatureValue(feature) !== 'true' && $ctrl.getFeatureValue(feature) != null,
+           'addellipce': ($ctrl.getFeatureValue(feature) | charCount)
+         }"
+         ng-show="$ctrl.getFeatureValue(feature) !== 'false' && $ctrl.getFeatureValue(feature) !== 'true'"
+         ng-bind-html="$ctrl.getFeatureValue(feature)">
+    </div>
+    <div class="text-center"
+         ng-class="{
+           'policy-description': $ctrl.getFeatureValue(feature) !== 'false' && $ctrl.getFeatureValue(feature) !=='true' && $ctrl.getFeatureValue(feature) != null,
+           'long-description' : ($ctrl.getFeatureValue(feature) | charCount),
+           'short-description' : !( $ctrl.getFeatureValue(feature) | charCount)
+         }"
+         ng-show="$ctrl.getFeatureValue(feature) != 'false' && $ctrl.getFeatureValue(feature) !='true'"
+         ng-bind-html="$ctrl.getFeatureValue(feature)">
+    </div>
+  </li>
+</ul>

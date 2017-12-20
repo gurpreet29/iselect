@@ -1,0 +1,16 @@
+<div class="form-group">
+    <p><small>{{$ctrl.description}}</small></p>
+    <div style="width: 50%">
+        <div class="row">
+            <div class="btn-group col-xs-11" style="padding-left: 5px; padding-right: 5px;">
+                <label class="control-label btn btn-default" ng-model="option.answer" uib-btn-radio="'1'" style="width: 20%">1</label>
+                <label class="control-label btn btn-default" ng-model="option.answer" uib-btn-radio="'2'" style="width: 20%">2</label>
+                <label class="control-label btn btn-default" ng-model="option.answer" uib-btn-radio="'3'" style="width: 20%">3</label>
+                <label class="control-label btn btn-default" ng-model="option.answer" uib-btn-radio="'4'" style="width: 20%">4</label>
+            </div>
+        </div>
+    </div>
+    <br>
+    <input type="button" value="Ok" class="button btn-default" ng-click="$ctrl.onAnswered()"></input>
+</div>
+

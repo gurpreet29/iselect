@@ -1,0 +1,20 @@
+<div class="modal-header">
+  <h3 class="modal-title" id="modal-title"> Step {{$ctrl.stepNumber}}: {{$ctrl.step.name}}</h3>
+</div>
+<div ng-if="$ctrl.isActionable">
+  <div class="modal-body" id="modal-body">
+    {{$ctrl.step.resetMessage}}
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-default" type="button" ng-click="$ctrl.dismiss()">No</button>
+    <button class="btn btn-primary" type="button" ng-click="$ctrl.close()">Yes</button>
+  </div>
+</div>
+<div ng-if="!$ctrl.isActionable">
+  <div class="modal-body" id="modal-body">
+    You need to complete the current step before moving on to this one.
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-default" type="button" ng-click="$ctrl.dismiss()">Ok</button>
+  </div>
+</div>

@@ -1,0 +1,1 @@
+Clone it and npm install. You should be able to run 'npm run dev' and 'npm test' to check things are OK.

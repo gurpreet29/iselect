@@ -1,0 +1,148 @@
+<div class="control-group"
+     ng-hide="$ctrl.hasTransitioned"
+>
+  <button type="button" class="close pull-right" ng-click="$ctrl.dismiss()"  aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+  </button> </br>
+  <div class="modal-header">
+    <p>
+      Great! We have all your details and we're ready to personally take you through your application.
+    </p>
+    <p>
+      Please make sure your name and number are correct and we'll call you back shortly. Or, if you prefer, call us now.
+    </p>
+  </div>
+  <ng-form name="$ctrl.form">
+    <div class="modal-body" id="modal-body">
+
+      <div class="form-group"
+           ng-class="{ 'has-error':$ctrl.hasErrors($ctrl.form.givenName) }"
+      >
+        <label for="givenName"
+               class="required"
+        >
+          Your given name
+        </label>
+        <input type="text"
+               class="form-control"
+               id="givenName"
+               name="givenName"
+               ng-model="$ctrl.userDetails.contact_first_name"
+               placeholder="Given Name"
+               uib-tooltip="Please enter your name"
+               tooltip-trigger="'none'"
+               tooltip-is-open="$ctrl.hasErrors($ctrl.form.givenName)"
+               tooltip-placement="bottom-left"
+               required
+        >
+      </div>
+
+      <div class="form-group"
+           ng-class="{ 'has-error': $ctrl.hasErrors($ctrl.form.familyName) }"
+      >
+        <label for="familyName"
+               class="required"
+        >
+          Your family name
+        </label>
+        <input type="text"
+               class="form-control"
+               id="familyName"
+               name="familyName"
+               ng-model="$ctrl.userDetails.contact_surname"
+               placeholder="Family Name"
+               uib-tooltip="Please enter your family name"
+               tooltip-trigger="'none'"
+               tooltip-is-open="$ctrl.hasErrors($ctrl.form.familyName)"
+               tooltip-placement="bottom-left"
+               required
+        >
+      </div>
+
+      <div class="form-group"
+           ng-class="{ 'has-error': $ctrl.hasErrors($ctrl.form.phoneNumber) }"
+      >
+        <label for="phoneNumber"
+               class="required"
+        >
+          Your preferred call-back number
+        </label>
+        <input type="text"
+               class="form-control"
+               id="phoneNumber"
+               name="phoneNumber"
+               ng-model="$ctrl.phoneNumber"
+               placeholder="Phone number"
+               ui-mask="9999 999 999"
+               ui-mask-placeholder
+               ui-mask-placeholder-char=" "
+               uib-tooltip="Please enter your phone number"
+               tooltip-trigger="'none'"
+               tooltip-is-open="$ctrl.hasErrors($ctrl.form.phoneNumber)"
+               tooltip-placement="bottom-left"
+               required
+        >
+      </div>
+
+      <div class="form-group"
+           ng-class="{ 'has-error': $ctrl.hasErrors($ctrl.form.emailAddress) }"
+      >
+        <label for="emailAddress"
+               class=""
+        >
+          Your email address
+        </label>
+        <input type="email"
+               class="form-control"
+               id="emailAddress"
+               name="emailAddress"
+               ng-model="$ctrl.userDetails.contact_email"
+               uib-tooltip="Please enter a valid email address"
+               placeholder="Email address"
+               tooltip-trigger="'none'"
+               tooltip-is-open="$ctrl.hasErrors($ctrl.form.emailAddress)"
+               tooltip-placement="bottom-left"
+        >
+      </div>
+
+    </div>
+
+
+    <div class="modal-footer row">
+      <button type="submit"
+              class="btn btn-primary pull-left"
+              ng-disabled="$ctrl.hasErrors()"
+              ng-click="$ctrl.onCallBack()"
+      >
+        Call me back
+      </button>
+      <a class="btn btn-default pull-right"
+         href="tel:131920"
+      >
+        Call 13 19 20
+      </a>
+    </div>
+
+  </ng-form>
+</div>
+<div class="control-group"
+     ng-show="$ctrl.hasTransitioned"
+>
+  <div class="modal-header">
+    Thanks! We'll call you within 24 hours
+  </div>
+
+  <div class="modal-body">
+    One of our consultants will contact you shortly to guide you
+    through the application process.
+  </div>
+
+  <div class="modal-footer">
+    <button type="submit"
+            class="btn btn-primary"
+            ng-click="$ctrl.done()"
+    >
+      Ok
+    </button>
+  </div>
+</div>

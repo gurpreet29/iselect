@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-9414 124 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #60a5aa;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #60a5aa;
+        font-size: 16px;
+        font-family: GothamBold, Gotham Bold;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_4178" data-name="Group 4178" transform="translate(-9613 21)">
+    <g id="Ellipse_342" data-name="Ellipse 342" class="cls-1" transform="translate(199 103)">
+      <circle class="cls-3" cx="12" cy="12" r="12"/>
+      <circle class="cls-4" cx="12" cy="12" r="11"/>
+    </g>
+    <text id="_1" data-name="1" class="cls-2" transform="translate(207 109)"><tspan x="0" y="12">1</tspan></text>
+  </g>
+</svg>

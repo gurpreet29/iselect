@@ -1,0 +1,14 @@
+<div ng-switch="$ctrl.vertical" style="height: 100%;">
+    <home-contents
+      ng-switch-when="homeContents"
+      rec-questions="$ctrl.recQuestions"
+      needs-answers="$ctrl.needsAnswers"
+      payment-Frequency="$ctrl.paymentFrequency"
+      on-updated="$ctrl.updatedExcess($event)"
+      on-update-payment-frequency="$ctrl.updatedPaymentFrequency($event)"
+    ></home-contents>
+
+    <div ng-switch-default>
+      Not configured correctly
+    </div>
+</div>

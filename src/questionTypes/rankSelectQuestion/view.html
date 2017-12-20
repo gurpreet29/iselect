@@ -1,0 +1,90 @@
+<script type="text/ng-template" id="rankSelectErrors.html">
+  <ul class="error-message-set">
+    <li ng-show="$ctrl.form.$error.required">
+      Please select a rating
+    </li>
+  </ul>
+</script>
+
+
+<div class="col-xs-11 col-sm-8">
+  <ng-form name="$ctrl.form">
+    <div class="form-group">
+
+      <div class="input-group"
+           ng-class="{ 'has-error': $ctrl.hasErrors() }"
+      >
+        <div class="btn-group btn-group-justified">
+
+          <div class="btn-group">
+            <button class="control-label btn"
+                    ng-model="$ctrl.answer"
+                    ng-change="$ctrl.change()"
+                    uib-btn-radio="'1'"
+                    uib-tooltip-template="'rankSelectErrors.html'"
+                    tooltip-trigger="'none'"
+                    tooltip-is-open="$ctrl.hasErrors()"
+                    tooltip-placement="bottom-left"
+                    rule-validator
+            >
+              1
+            </button>
+          </div>
+
+          <div class="btn-group">
+            <button class="control-label btn"
+                    ng-model="$ctrl.answer"
+                    ng-change="$ctrl.change()"
+                    uib-btn-radio="'2'"
+            >
+              2
+            </button>
+          </div>
+
+          <div class="btn-group">
+            <button class="control-label btn"
+                    ng-model="$ctrl.answer"
+                    ng-change="$ctrl.change()"
+                    uib-btn-radio="'3'"
+            >
+              3
+            </button>
+          </div>
+
+          <div class="btn-group">
+            <button class="control-label btn"
+                    ng-model="$ctrl.answer"
+                    ng-change="$ctrl.change()"
+                    uib-btn-radio="'4'"
+            >
+              4
+            </button>
+          </div>
+
+          <div class="btn-group">
+            <button class="control-label btn"
+                    ng-model="$ctrl.answer"
+                    ng-change="$ctrl.change()"
+                    uib-btn-radio="'5'"
+            >
+              5
+            </button>
+          </div>
+        </div>
+
+        <p style="text-align: left">
+          <small>{{$ctrl.question.attr.leftLabel}}</small>
+          <span style="float: right"><small
+                  style="text-align: right">{{$ctrl.question.attr.rightLabel}}</small></span>
+        </p>
+      </div>
+    </div>
+
+    <ul class="general-errors error-message-set"
+        ng-show="$ctrl.hasErrors()"
+    >
+      <rule-validator-messages control="$ctrl.form" context="$ctrl.ruleValidatorContext"></rule-validator-messages>
+    </ul>
+  </ng-form>
+</div>
+

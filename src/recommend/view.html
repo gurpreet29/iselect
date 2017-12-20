@@ -1,0 +1,160 @@
+<div class="recommend">
+  <div class="container result-row">
+    <div class="row no-gutter">
+
+      <div class="col-sm-3 hidden-xs left-panel">
+        <div class="value-container">
+
+          <quick-filter vertical="$ctrl.verticalCode"
+                        rec-questions="$ctrl.recQuestions"
+                        needs-answers="$ctrl.needsAnswers"
+                        on-updated="$ctrl.onUpdate($event)"
+                        payment-Frequency="$ctrl.paymentFrequency"
+                        on-update-payment-frequency="$ctrl.updatePaymentFrequency($event)">
+          </quick-filter>
+
+        </div>
+
+        <ul class="element-names">
+          <li class="policy-element"
+              ng-repeat="feature in $ctrl.featureSuperset">
+            {{ feature.label }}
+          </li>
+        </ul>
+
+        <ul class="element-names">
+          <li class="policy-element"
+              ng-repeat="feature in $ctrl.featureSet">
+            {{ feature.label }}
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-9 col-sm-offset-0">
+        <span class="spinner"
+              us-spinner="{radius:30, width:8, length: 16}"
+              spinner-key="spinner-1">
+        </span>
+
+        <div ng-if="$ctrl.hasProducts()">
+
+          <div class="tab-button">
+            <a href=""
+               class="btn"
+               ng-repeat="tab in $ctrl.productSets"
+               ng-class="{active: $ctrl.activeTab == $index}"
+               ng-click="$ctrl.tabClick($index)">
+              {{tab.setLabel}}
+            </a>
+          </div>
+
+          <div class="controls hidden-sm hidden-md hidden-lg"
+               ng-show="$ctrl.hasMoreThanOnePage()">
+
+            <div class="prev-btn"
+                 ng-hide="$ctrl.firstPage()"
+                 ng-click="$ctrl.prevPage()">
+              <span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+            </div>
+
+            <div class="next-btn"
+                 ng-hide="$ctrl.lastPage()"
+                 ng-click="$ctrl.nextPage()">
+              <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+            </div>
+
+          </div>
+
+          <div class="row no-gutter result-container">
+            <div class="result-heading">
+              <p class="intro-text pull-left">
+                {{$ctrl.productSets[ $ctrl.activeTab ].comments}}
+              </p>
+
+              <div class="text-right pagination-container hidden-xs"
+                   ng-show="$ctrl.hasMoreThanOnePage()">
+                <ul class="pagination">
+                  <li role="menuitem"
+                      ng-repeat="page in $ctrl.getPages()"
+                      ng-class="{active: $index === $ctrl.pageNumber}"
+                      ng-click="$ctrl.pageClick($index)">
+                    <a href="">{{$index + 1}}</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-4 col-xs-6 no-padding animate-repeat"
+                 ng-repeat="product in $ctrl.getVisibleProducts()">
+
+              <div class="bannerDiv" ng-class="{banner : $ctrl.displayBannerMessage(product)}">
+                {{$ctrl.displayBannerMessage(product)}}
+              </div>   
+
+              <result-column product="product"
+                             payment-frequency="$ctrl.paymentFrequency"
+                             headers="$ctrl.headers"
+                             feature-superset="$ctrl.featureSuperset"
+                             feature-set="$ctrl.featureSet"
+                             on-apply="$ctrl.apply($event)"
+                             on-customise-price="$ctrl.customisePrice($event)">
+              </result-column>
+            </div>
+            <!-- help box -->
+            <!-- <div class="col-md-offset-1 col-md-5 col-sm-4 hidden-xs no-padding">
+              <div class="help-box">
+                <p class="text-center"> <strong class="heading">Having trouble deciding?</strong> We'll give you a hand. Call <strong>13 19 20</strong> and we'll:
+                </p>
+                <ul>
+                  <li>Help you understand your options</li>
+                  <li>We make the whole process easier for you</li>
+                  <li>Help you choose a policy that suit your needs
+                  </li>
+                </ul>
+                <p class="text-center">
+                  <strong class="heading">  We've helped over a million <br>
+                Australians already.  </strong> "Thanks very much to your consultant, Dane, for his patience in explaining the features and benefits." - Brendan,VIC
+                </p>
+                <p class="text-center">
+                  <strong class="heading h1">13 19 20 </strong> Our call centres are open
+                </p>
+                <p class="text-center">Today:From 8am to 11pm (AET)
+                  <br>
+                  <span class="green"> All hours</span></p>
+              </div>
+            </div> -->
+            <!-- help box -->
+          </div>
+
+        </div>
+
+        <div class="noResults"
+             ng-if="!$ctrl.hasProducts()"
+        >
+          <span>Unfortunately, based on the information you have provided regarding your home insurance requirements, we do not have suitable 
+              policy that meets your needs. If you'd like to know more about other insurnace options, you can contact the Insurance Council 
+              of Australia at <a href="http://www.findaninsurer.com.au/" target="_blank">findaninsurer.com.au</a>
+            </span>
+        </div>
+      </div>
+    </div>
+    <div class="text-right pagination-container hidden-xs"
+         ng-show="$ctrl.hasMoreThanOnePage()">
+
+      <ul class="pagination">
+        <li role="menuitem"
+            ng-repeat="page in $ctrl.getPages()"
+            ng-class="{active: $index === $ctrl.pageNumber}"
+            ng-click="$ctrl.pageClick($index)">
+          <a href="">{{$index + 1}}</a></li>
+      </ul>
+
+    </div>
+
+    <div class="hidden-lg hidden-md hidden-sm customise" ng-click="$ctrl.loadCustomisePreferences()">
+      <img class="customise-radio-icon" ng-src="{{$ctrl.loadCustomiseImage('customise.svg')}}">
+      </br>
+      <label>Customise</label>
+    </div>
+
+  </div>
+</div>

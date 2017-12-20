@@ -1,0 +1,22 @@
+{ <<
+  << << < Updated upstream
+    "env": "dev",
+    "verticalCode": "homeContents",
+    "verticalTitle": "Home and Contents",
+    "coreBaseUrl": "/core/0.0.1",
+    "addressApi": "https://home-contentssit.iselect.com.au/core/0.0.1/services/AddressLookup/index.php",
+    "muleNeedsApi": "https://home-contentssit.iselect.com.au/core/0.0.1/services/Needs/needs.php",
+    "muleRecommendationsApi": "https://home-contentssit.iselect.com.au/core/0.0.1/services/Recommendations/recommendations.php",
+    "muleCaptureApi": "https://home-contentssit.iselect.com.au/core/0.0.1/services/IntelligentExperience/iexperience.php",
+    "muleLatestNeedsApi": "https://home-contentssit.iselect.com.au/core/0.0.1/services/Recommendations/latestNeeds.php" ===
+    === =
+    "env": "dev",
+    "verticalCode": "homeContents",
+    "verticalTitle": "Home and Contents",
+    "coreBaseUrl": "/core/0.0.1",
+    "addressApi": "/localdev/address.json",
+    "muleNeedsApi": "/localdev/homeAndContentsNeeds.json",
+    "muleRecommendationsApi": "/localdev/recommendAPIResponse.json",
+    "muleCaptureApi": "/localdev/captureResponse.json" >>>
+    >>> > Stashed changes
+}

@@ -1,0 +1,48 @@
+@import '~variables.less';
+
+question-set {
+  @controlsHeight: @action-bar-height;
+
+  .questions {
+    position: relative;
+    background: white;
+    height: auto;
+
+    .question-set {
+      position: relative;
+      padding-bottom: @question-set-bottom-padding;
+      margin-bottom: @controlsHeight;
+    }
+  }
+
+  .question-set-footer {
+    position: fixed;
+    z-index: @zindex-action-bar;
+    bottom: @controlsHeight;
+    width: 100%;
+
+    .question-set-footer-bg {
+      background-color: @action-bar-bg;
+    }
+
+    .question-set-progress {
+      padding: 0 @action-bar-horizontal-padding;
+
+      .progress {
+        margin: @progress-bar-margin;
+        height: @progress-bar-height;
+
+        .progress-bar {
+          min-width: 0;
+        }
+      }
+    }
+  }
+
+  .question-set-controls {
+    position: fixed;
+    z-index: @zindex-action-bar;
+    bottom: 10px;
+    right: 30px;
+  }
+}

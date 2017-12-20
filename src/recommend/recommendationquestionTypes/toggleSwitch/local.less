@@ -1,0 +1,29 @@
+@import '~variables.less';
+
+toggle-switch {
+
+  border-radius: 5px;
+  padding-bottom: 5px;
+
+  .btn,
+  .btn-default,
+  .btn-block {
+    color: @color-tuna;
+    width: 100%;
+    border-style: @choice-button-border-style;
+    border-width: @choice-button-border-width;
+    border-color: @color-tuna;
+    border-radius: @choice-button-border-radius;
+    margin-bottom: 10px;
+  }
+
+  .btn.active,
+  .btn-default:active:hover,
+  .btn-default.active:hover,
+  .btn-default:hover {
+    background-color: @choice-button-selected-bg;
+    border-color: @choice-button-selected-border-color;
+    color: @choice-button-selected-color;
+    box-shadow: none;
+  }
+}

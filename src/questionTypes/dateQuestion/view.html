@@ -1,0 +1,75 @@
+<script type="text/ng-template" id="dateErrors.html">
+  <ul class="error-message-set"
+      ng-show="$ctrl.deviceType.isMobile()"
+  >
+    <li ng-show="$ctrl.form.nativeDate.$invalid">Please enter a date</li>
+    <rule-validator-messages control="$ctrl.form.nativeDate" context="$ctrl.ruleValidatorContext"></rule-validator-messages>
+  </ul>
+  <ul class="error-message-set"
+      ng-show="!$ctrl.deviceType.isMobile()"
+  >
+    <li ng-show="$ctrl.form.pickedDate.$error.required">Please enter a date</li>
+    <li ng-show="$ctrl.form.pickedDate.$error.date">Please enter a date</li>
+    <rule-validator-messages control="$ctrl.form.pickedDate" context="$ctrl.ruleValidatorContext"></rule-validator-messages>
+  </ul>
+</script>
+
+
+<div class="col-xs-11 col-sm-8">
+  <ng-form name="$ctrl.form">
+    <div class="form-group">
+
+      <div class="input-group date"
+           ng-class="{ 'has-error': $ctrl.hasErrors() }"
+      >
+        <span class="input-group-btn"
+              ng-if="!$ctrl.deviceType.isMobile()"
+              uib-tooltip-template="'dateErrors.html'"
+              tooltip-trigger="'none'"
+              tooltip-is-open="$ctrl.hasErrors($ctrl.form.pickedDate)"
+              tooltip-placement="bottom-left"
+        >
+          <button type="button" class="btn btn-default" ng-click="$ctrl.openPicker()">
+            <i class="glyphicon glyphicon-calendar"></i>
+          </button>
+        </span>
+        <input id="question${{$ctrl.question.id}}"
+               ng-if="$ctrl.deviceType.isMobile()"
+               name="nativeDate"
+               type="date"
+               class="form-control"
+               ng-model="$ctrl.answer"
+               uib-tooltip-template="'dateErrors.html'"
+               tooltip-trigger="'none'"
+               tooltip-is-open="$ctrl.hasErrors($ctrl.form.nativeDate)"
+               tooltip-placement="bottom-left"
+               ng-required="$ctrl.ruleValidatorContext.required"
+               rule-validator
+        />
+        <input id="question${{$ctrl.question.id}}"
+               ng-if="!$ctrl.deviceType.isMobile()"
+               name="pickedDate"
+               type="text"
+               class="form-control"
+               ng-model="$ctrl.answer"
+               uib-datepicker-popup="{{$ctrl.inputFormat}}"
+               is-open="$ctrl.pickerOpen"
+               show-button-bar="false"
+               datepicker-options="$ctrl.datePickerOptions"
+               alt-input-formats="$ctrl.altInputFormats"
+               ng-required="$ctrl.ruleValidatorContext.required"
+               rule-validator
+        />
+      </div>
+
+    </div>
+    <div class="form-group">
+
+      <button type="submit" class="btn btn-success" ng-click="$ctrl.select()">
+        Ok
+      </button>
+
+    </div>
+  </ng-form>
+</div>
+

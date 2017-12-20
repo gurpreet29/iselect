@@ -1,0 +1,31 @@
+<div>
+    <ng-form name="$ctrl.form" ng-switch ="$ctrl.question.type" novalidate>
+        <div style="padding-right:10px;">
+          <div class="form-group" ng-show="$ctrl.isVisible($ctrl.question)" style="padding-left: 5px; margin-bottom: 5px; margin-top: 5px;">
+            <label class="question-title control-label">{{$ctrl.question.label}}</label>
+          </div>
+          <currency-label-question 
+            ng-switch-when="currency" 
+            question="$ctrl.question" 
+            answers="$ctrl.answers" answer="$ctrl.getValue($ctrl.question.id)" 
+            ng-show="$ctrl.isVisible($ctrl.question)">
+          </currency-label-question>
+          <pick-list-label-question 
+            ng-switch-when="picklist" 
+            question="$ctrl.question" 
+            answer="$ctrl.getExcessValue($ctrl.question.id)" 
+            ng-show="$ctrl.isVisible($ctrl.question)" 
+            answers="$ctrl.answers">
+          </pick-list-label-question>
+          <single-select-question 
+            ng-switch-when="radio" 
+            question="$ctrl.question"
+            answers="$ctrl.answers" 
+            rule-validator-context="$ctrl.ruleValidatorContext">
+          </single-select-question>
+          <div ng-switch-default>
+            Not configured correctly
+          </div>
+        </div>
+    </ng-form>
+</div>

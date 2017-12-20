@@ -1,0 +1,11 @@
+logs/*
+!.gitkeep
+node_modules/
+vendor/
+tmp
+.DS_Store
+.idea
+coverage/
+stats.json
+
+##dist/

@@ -1,0 +1,59 @@
+<ng-form name="needs">
+  <div class="modal-content">
+      <button type="button" class="close pull-right" ng-click="$ctrl.dismiss()"  aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+      </button> </br>
+  <div class="control-group" >      
+    <div class="modal-header">
+        <p><small>We're almost there, we just need a few details about you,
+          then we can display your home and contents recommendations.</small></p>
+    </div>
+    <div >
+      <div class="modal-body" id="modal-body">
+        <div class="form-group">
+          <label id="userNameId" ng-class="{'control-label required': $ctrl.captureType == 2, 'control-label optional': $ctrl.captureType == 3}"
+          >Your name </label> <br>
+          <div class="row">
+            <div class="col-sm-6" style="padding-right: 5%">
+              <input type="text" name="userFirstName"
+                     ng-model="$ctrl.userDetails.contact_first_name"
+                     placeholder="First Name"
+                     class="form-control capture input-group" required/>
+            </div>
+            <div class="col-sm-6">
+              <input type="text" name="userLastName"
+                     ng-model="$ctrl.userDetails.contact_surname"
+                     placeholder="Last Name"
+                     class="form-control capture input-group" required/>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label id="userMobileId" ng-class="{'control-label required': $ctrl.captureType == 2, 'control-label optional': $ctrl.captureType == 3}"
+          >Your number </label><br>
+          <input type="text"
+                  id="userMobileInputId"
+                  name="userMobileInputId"
+                  ng-model="$ctrl.contactNumber"
+                  class="form-control capture"
+                  ui-mask="9999 999 999"
+                  ui-mask-placeholder
+                  ui-mask-placeholder-char=" " required>
+        </div>
+        <div class="form-group">
+          <label id="userEmailId">Your email address (optional)</label><br>
+          <input type="email" name="userEmail"
+                  ng-model="$ctrl.userDetails.contact_email"
+                  class="form-control capture">
+          <span style="color: red" ng-show="needs.userEmail.$invalid">Email is not valid.</span>
+        </div>
+      </div>
+    </div>
+  <div class="modal-footer">
+    <button class="btn btn-primary pull-left" type="submit"
+            ng-disabled="$ctrl.captureType == 2 && (needs.userFirstName.$invalid || needs.userLastName.$invalid || needs.userMobileInputId.$invalid || needs.userEmail.$invalid)"
+            ng-click="$ctrl.onClick()">SUBMIT</button>
+  </div>
+</div>
+</div>
+</ng-form>

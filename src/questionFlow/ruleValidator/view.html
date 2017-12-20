@@ -1,0 +1,5 @@
+<li ng-repeat="val in context.validations"
+    ng-show="control.$error[ val.id ]"
+    ng-bind-html="val.errorMsg"
+>
+</li>

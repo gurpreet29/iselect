@@ -1,0 +1,10 @@
+<a class="step" ng-click="$ctrl.gotoStep()">
+  <span class="step-number">
+    {{$ctrl.stepNumber}}
+  </span>
+  <span class="step-name visible-lg-inline-block visible-md-inline-block visible-sm-inline-block"
+     ng-class="{'visible-xs-inline-block': $ctrl.stepActive() }"
+     ng-transclude
+  >
+  </span>
+</a>

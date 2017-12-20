@@ -1,0 +1,11 @@
+{
+  "env":                      "sit",
+  "verticalCode":             "homeContents",
+  "verticalTitle":            "Home and Contents",
+  "coreBaseUrl":              "/core/0.0.1",
+  "addressApi":               "/core/0.0.1/services/AddressLookup/index.php",
+  "muleNeedsApi":             "/core/0.0.1/services/Needs/needs.php",
+  "muleRecommendationsApi":   "/core/0.0.1/services/Recommendations/recommendations.php",
+  "muleCaptureApi":           "/core/0.0.1/services/IntelligentExperience/iexperience.php",
+  "muleLatestNeedsApi":       "/core/0.0.1/services/Recommendations/latestNeeds.php"
+}

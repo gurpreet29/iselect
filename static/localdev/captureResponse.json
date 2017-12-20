@@ -1,0 +1,19 @@
+{
+  "execTime": "Tuesday, 11 July 2017 6:25:07 PM",
+  "strategy": {
+    "strategyId": "iSelect.iConnect.Verticals.Homecontents.IntelligentExperience.Strategy.CombinedStrategy 0.01.0001.00001 01 Jan 1900 00:00 #0000000",
+    "strategyLabel": "Home & Contents Intelligent Experience Decision"
+  },
+  "experience": [
+    {
+      "id": "1317870",
+      "value": "NoCapture",
+      "delay": 0,
+      "text": "",
+      "model": {
+        "modelId": "iSelect.iConnect.Verticals.homecontents.IntelligentExperience.Strategy.Models.HomecontentsIE 0.01.0001.00001 01 Jan 1900 00:00 #0000000",
+        "modelLabel": "Sample Model"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<top-nav></top-nav>
+
+<div class="navigation">
+  <div class="navigation-bg">
+    <div class="container">
+
+      <nav class="breadcrumb">
+        <ul class="nav nav-pills">
+          <li step
+              ng-repeat="step in $ctrl.steps"
+              role="presentation"
+              ng-class="$ctrl.stepState($index + 1)"
+              current-step="$ctrl.currentStep()"
+              step-number="$index + 1"
+              change-step="$ctrl.changeStep($event)"
+          >
+           <span class="hidden-xs"> {{step.name}}</span>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+<div ng-view></div>

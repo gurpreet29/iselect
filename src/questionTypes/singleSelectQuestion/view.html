@@ -1,0 +1,46 @@
+<ng-form name="$ctrl.form">
+  <div class="form-group">
+    <div class="row radio-button-group">
+      <div class="col-xs-12 col-sm-6"
+           ng-repeat="option in $ctrl.question.options"
+      >
+        <button class="radio-button"
+                ng-class="{'selected': $ctrl.isChecked(option.key)}"
+                uib-btn-radio="'{{option.key}}'"
+                id="question${{$ctrl.question.id}}$option${{$ctrl.question.option.key}}"
+                ng-model="$ctrl.answer"
+                ng-click="$ctrl.chosen()"
+                rule-validator
+        >
+          <div class="radio-content">
+
+              <img class="radio-icon"
+                   ng-if="option.iconName != null"
+                   ng-src="{{$ctrl.loadImage(option.iconName)}}"
+              >
+
+              <span class="radio-text">
+                {{option.value}}
+              </span>
+
+              <span class="radio-check">
+                <span class="glyphicon"
+                      ng-class="{'glyphicon-ok': $ctrl.isChecked(option.key)}"
+                >
+                </span>
+              </span>
+
+          </div>
+
+        </button>
+      </div>
+    </div>
+
+    <ul class="general-errors error-message-set"
+        ng-show="$ctrl.hasErrors()"
+    >
+      <rule-validator-messages control="$ctrl.form" context="$ctrl.ruleValidatorContext"></rule-validator-messages>
+    </ul>
+
+  </div>
+</ng-form>

@@ -1,0 +1,39 @@
+<script type="text/ng-template" id="picklistErrors.html">
+  <ul class="error-message-set">
+    <li ng-show="$ctrl.form.picklist.$error.required">
+      Please select an option
+    </li>
+    <rule-validator-messages control="$ctrl.form.picklist" context="$ctrl.ruleValidatorContext"></rule-validator-messages>
+  </ul>
+</script>
+
+
+<div class="col-xs-11 col-sm-8">
+  <ng-form name="$ctrl.form" class="form-group">
+
+    <div class="input-group"
+         ng-class="{ 'has-error': $ctrl.hasErrors($ctrl.form.picklist) }"
+    >
+      <div class="form-group">
+
+        <div class="dropdown">
+          <select class="form-control"
+                  id="question${{$ctrl.question.id}}"
+                  name="picklist"
+                  ng-options="option.value for option in $ctrl.question.options"
+                  ng-model="$ctrl.answer"
+                  ng-change="$ctrl.changed()"
+                  uib-tooltip-template="'lookupErrors.html'"
+                  tooltip-trigger="'none'"
+                  tooltip-is-open="$ctrl.hasErrors($ctrl.form.picklist)"
+                  tooltip-placement="bottom-left"
+                  ng-required="$ctrl.ruleValidatorContext.required"
+                  rule-validator
+          >
+          </select>
+        </div>
+      </div>
+    </div>
+
+  </ng-form>
+</div>

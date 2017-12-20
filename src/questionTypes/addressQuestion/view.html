@@ -1,0 +1,235 @@
+<script type="text/ng-template" id="addressErrors.html">
+  <ul class="error-message-set">
+    <li ng-show="$ctrl.formLookup.addressLookup.$error.required">Please enter an address</li>
+    <li ng-show="$ctrl.formLookup.addressLookup.$error.address">
+      Please select a listed address or else enter manually
+    </li>
+    <rule-validator-messages control="$ctrl.formLookup.addressLookup" context="$ctrl.ruleValidatorContext"></rule-validator-messages>
+  </ul>
+</script>
+
+<script type="text/ng-template" id="addressDropdown.html">
+  <div class="custom-popup-wrapper"
+       ng-style="{top: position().top+'px', left: position().left+'px'}"
+       style="display: block;"
+       ng-show="isOpen() && !moveInProgress"
+       aria-hidden="{{!isOpen()}}"
+  >
+    <ul class="dropdown-menu results"
+        ng-show="isOpen()">
+      <li class="uib-typeahead-match"
+          ng-repeat="match in matches track by $index"
+          ng-if="!$last"
+          ng-class="{active: isActive($index) }" ng-mouseenter="selectActive($index)"
+          ng-click="selectMatch($index, $event)" role="option" id="{{::match.id}}"
+      >
+        <div uib-typeahead-match index="$index" match="match" query="query" template-url="templateUrl"></div>
+      </li>
+    </ul>
+    <ul class="dropdown-menu no-results">
+      <li ng-repeat="match in matches track by $index"
+          ng-if="$last"
+          ng-click="selectMatch($index, $event)" role="option" id="{{::match.id}}"
+      >
+        <span>Can't find your address? Enter manually.</span>
+      </li>
+    </ul>
+  </div>
+</script>
+
+
+<div class="col-xs-12">
+  <ng-form name="$ctrl.form">
+    <ng-form name="$ctrl.formLookup"
+             ng-hide="$ctrl.manualAddress"
+    >
+      <div class="form-group">
+        <div class="input-group"
+             ng-class="{ 'has-error': $ctrl.hasErrors($ctrl.formLookup.addressLookup) }"
+        >
+          <label class="input-group-addon"
+                 for="question${{$ctrl.question.id}}"
+                 uib-tooltip-template="'addressErrors.html'"
+                 tooltip-trigger="'none'"
+                 tooltip-is-open="$ctrl.hasErrors($ctrl.formLookup.addressLookup)"
+                 tooltip-placement="bottom-left"
+                 ng-switch="$ctrl.loadingAddresses"
+          >
+            <i ng-switch-when="true" class="glyphicon glyphicon-refresh"></i>
+            <i ng-switch-default class="glyphicon glyphicon-search"></i>
+          </label>
+
+          <input type="text"
+                 spellcheck="false"
+                 class="form-control"
+                 id="question${{$ctrl.question.id}}"
+                 name="addressLookup"
+                 ng-model="$ctrl.pickedAddress"
+                 ng-model-options="{ getterSetter: true, debounce: { default: 500, blur: 100 } }"
+                 placeholder="Start typing for suggestions"
+                 uib-typeahead="address as $ctrl.getFullAddress(address) for address in $ctrl.getLocation($viewValue)"
+                 typeahead-min-length="4"
+                 typeahead-popup-template-url="addressDropdown.html"
+                 typeahead-loading="$ctrl.loadingAddresses"
+                 typeahead-on-select="$ctrl.addressSelected()"
+                 ng-required="!$ctrl.manualAddress && $ctrl.ruleValidatorContext.required"
+                 rule-validator>
+
+        </div>
+
+      </div>
+      <div class="form-group">
+
+        <button type="submit"
+                class="btn btn-success"
+                ng-click="$ctrl.lookupPicked()">
+          Ok
+        </button>
+
+      </div>
+    </ng-form>
+
+
+    <ng-form name="$ctrl.formManual"
+             ng-show="$ctrl.manualAddress"
+             class="manual form-horizontal"
+    >
+      <div class="form-group"
+           ng-class="{ 'has-error': $ctrl.hasErrors($ctrl.formManual.unit) }"
+      >
+        <label class="col-xs-4 control-label" for="question${{$ctrl.question.id}}_unit">
+          Unit / flat number
+        </label>
+        <div class="col-xs-5">
+          <input type="text"
+                 id="question${{$ctrl.question.id}}_unit"
+                 name="unit"
+                 ng-model="$ctrl.manualAddressDetails.unitNumberEntered"
+                 placeholder="Unit Number"
+                 class="form-control">
+        </div>
+
+      </div>
+      <div class="form-group"
+           ng-class="{ 'has-error': $ctrl.hasErrors($ctrl.formManual.streetnumber) }"
+      >
+        <label class="col-xs-4 control-label required" for="question${{$ctrl.question.id}}_streetnumber">
+          Street Number
+        </label>
+        <div class="col-xs-5">
+          <input type="text"
+                 spellcheck="false"
+                 id="question${{$ctrl.question.id}}_streetnumber"
+                 name="streetnumber"
+                 ng-model="$ctrl.manualAddressDetails.streetNoEntered"
+                 placeholder="Street Number"
+                 class="form-control"
+                 ng-required="$ctrl.manualAddress && $ctrl.ruleValidatorContext.required"
+                 uib-tooltip="Please enter a street number"
+                 tooltip-trigger="'none'"
+                 tooltip-is-open="$ctrl.hasErrors($ctrl.formManual.streetnumber)"
+                 tooltip-placement="bottom-left"
+          >
+        </div>
+
+      </div>
+      <div class="form-group"
+           ng-class="{ 'has-error': $ctrl.hasErrors($ctrl.formManual.street) }"
+      >
+        <label class="col-xs-4 control-label required" for="question${{$ctrl.question.id}}_street">
+          Street
+        </label>
+        <div class="col-xs-8">
+          <input type="text"
+                 spellcheck="false"
+                 id="question${{$ctrl.question.id}}_street"
+                 name="street"
+                 ng-model="$ctrl.manualAddressDetails.streetNameEntered"
+                 placeholder="Street Name"
+                 class="form-control"
+                 ng-required="$ctrl.manualAddress && $ctrl.ruleValidatorContext.required"
+                 uib-tooltip="Please enter a street name"
+                 tooltip-trigger="'none'"
+                 tooltip-is-open="$ctrl.hasErrors($ctrl.formManual.street)"
+                 tooltip-placement="bottom-left"
+          >
+        </div>
+
+      </div>
+      <div class="form-group"
+           ng-class="{ 'has-error': $ctrl.hasErrors($ctrl.formManual.street_type) }"
+      >
+        <label class="col-xs-4 control-label required" for="question${{$ctrl.question.id}}_street_type">
+          Street type
+        </label>
+        <div class="col-xs-8">
+          <input type="text"
+                 id="question${{$ctrl.question.id}}_street_type"
+                 name="street_type"
+                 ng-model="$ctrl.manualAddressDetails.selectedStreetType"
+                 ng-model-options="{ debounce: { default: 500, blur: 100 } }"
+                 placeholder="Street type"
+                 uib-typeahead="type for type in $ctrl.getStreetTypes($viewValue)"
+                 class="form-control"
+                 ng-required="$ctrl.manualAddress && $ctrl.ruleValidatorContext.required"
+                 uib-tooltip="Please enter a street type"
+                 tooltip-trigger="'none'"
+                 tooltip-is-open="$ctrl.hasErrors($ctrl.formManual.street_type)"
+                 tooltip-placement="bottom-left"
+          >
+        </div>
+
+      </div>
+      <div class="form-group"
+           ng-class="{ 'has-error': $ctrl.hasErrors($ctrl.formManual.postcode) }"
+      >
+        <label class="col-xs-4 control-label required" for="question${{$ctrl.question.id}}_postcode">
+          Postcode
+        </label>
+        <div class="col-xs-8">
+          <div class="input-group">
+            <label class="input-group-addon"
+                   for="question${{$ctrl.question.id}}_postcode"
+                   uib-tooltip="Please enter a postcode"
+                   tooltip-trigger="'none'"
+                   tooltip-is-open="$ctrl.hasErrors($ctrl.formManual.postcode)"
+                   tooltip-placement="bottom-left"
+              >
+              <i ng-hide="$ctrl.loadingPostcodes" class="glyphicon glyphicon-search"></i>
+              <i ng-show="$ctrl.loadingPostcodes" class="glyphicon glyphicon-refresh"></i>
+            </label>
+            <input type="text"
+                   spellcheck="false"
+                   id="question${{$ctrl.question.id}}_postcode"
+                   name="postcode"
+                   ng-model="$ctrl.manualAddressDetails.suburbSelected"
+                   ng-model-options="{ debounce: { default: 500, blur: 100 } }"
+                   placeholder="Type for suggestions"
+                   uib-typeahead="postcode as postcode.fullAddress for postcode in $ctrl.getPostCodes($viewValue)"
+                   typeahead-loading="$ctrl.loadingPostcodes"
+                   class="form-control"
+                   ng-required="$ctrl.manualAddress && $ctrl.ruleValidatorContext.required"
+            >
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+
+        <button class="btn btn-link" ng-click="$ctrl.switchToManualAddressMode(false)">
+          Back to automated search
+        </button>
+
+      </div>
+      <div class="form-group">
+
+        <button type="submit"
+                class="btn btn-success"
+                ng-click="$ctrl.manuallyAddressed()"
+        >
+          Ok
+        </button>
+
+      </div>
+    </ng-form>
+  </ng-form>
+</div>

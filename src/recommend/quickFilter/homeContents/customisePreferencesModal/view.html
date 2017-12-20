@@ -1,0 +1,37 @@
+<form>
+  <div class="control-group">
+    <div class="modal-header">
+      <h3 class="modal-title" id="modal-title"> Customise preferences</h3>
+    </div>
+    <div>
+      <div class="modal-body" id="modal-body">
+        <ng-form name="$ctrl.form" novalidate>
+          <div class="customisePreferences" ng-repeat="child in $ctrl.questions" ng-switch on="child.type" ng-show="$ctrl.isVisible(child)">
+            <div class="form-group" style="padding-left: 5px; margin-bottom: 5px; margin-top: 5px;">
+              <label class="question-title control-label">{{child.label}}</label>
+            </div>
+            <div ng-repeat="subchild in child.children" ng-show="$ctrl.isVisible(subchild)">
+              <div class="form-group" style="padding-left: 5px; margin-bottom: 5px; margin-top: 5px;">
+                <label class="question-title control-label">{{subchild.label}}</label>
+              </div>
+              <div class="row">
+                <rank-select-question 
+                  device-type="$ctrl.deviceType" 
+                  question="subchild" 
+                  rule-validator-context="$ctrl.ruleValidatorContext" 
+                  on-answered="$ctrl.onAnswered($event)" 
+                  answers="$ctrl.needsAnswers" 
+                  answer="$ctrl.getValue(subchild.id)">
+                </rank-select-question>
+              </div>
+            </div>
+          </div>
+        </ng-form>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-default" type="button" ng-click="$ctrl.dismiss()">Cancel</button>
+    <button class="btn btn-primary" type="submit" ng-click="submitted=true; $ctrl.onUpdate()">Update</button>
+  </div>
+</form>

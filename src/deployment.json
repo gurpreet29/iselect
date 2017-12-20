@@ -1,0 +1,12 @@
+{
+  "needsApi":                 "/localdev/homeAndContentsNeeds.json",
+  "verticalCode":                 "homeContents",
+  "verticalTitle":            "Home and Contents",
+  "coreBaseUrl":              "/core/0.0.1",
+  "addressApi":               "http://localhost:82/phpservice/index.php/api/",
+  "muleNeedsApi":             "https://needs-api-v1.au.cloudhub.io/api/needsSchema/homecontents",
+  "muleRecommendationsApi":   "/localdev/recommendAPIResponse.json",
+  "muleRecommendationsApis":  "http://iselect-recommendations-api-v2.au.cloudhub.io/api/recommendation/",
+  "muleCaptureApi":           "/localdev/captureResponse.json",
+  "muleLatestNeedsApi":       "/localdev/latestNeeds.json"
+}

@@ -1,0 +1,138 @@
+@import "~bootstrap/less/bootstrap.less";
+@import "fonts.less";
+@import "variables.less";
+
+
+
+
+// Move the feedback tab lower to prevent conflict with paging arrows.
+.usabilla_live_button_container {
+  top: 75% !important;
+}
+
+
+
+/* *************************************************
+ * Override bootstrap
+ * *************************************************/
+
+.row {
+  &.no-gutter {
+    margin-left: -8px;
+    margin-right: -7px;
+    >[class*='col-'] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+
+
+
+
+.dropdown-menu {
+  //used
+  z-index: 1090;
+}
+
+.form-group .has-error,
+.form-group.has-error {
+  .tooltip.bottom-left .tooltip-arrow {
+    border-bottom-color: @text-field-error-popover-bg;
+  }
+
+  .tooltip {
+    min-width: 250px;
+  }
+
+  .tooltip-inner {
+    background-color: @text-field-error-popover-bg;
+    border-color: @text-field-error-border-color;
+    border-style: solid;
+    border-width: 1px;
+    color: @text-field-error-popover-color;
+    font-family: @text-field-error-popover-font-family;
+    font-size: @text-field-error-popover-font-size;
+    padding: 0 @text-field-error-popover-horizontal-padding;
+    text-align: left;
+  }
+}
+
+.error-message-set {
+  list-style: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+}
+
+.general-errors.error-message-set {
+  border-color: @text-field-error-border-color;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: @text-field-border-radius;
+  padding: @text-field-error-popover-horizontal-padding;
+  background-color: @text-field-error-popover-bg;
+  color: @text-field-error-popover-color;
+  font-family: @text-field-error-popover-font-family;
+  font-size: @text-field-text-entered-font-size;
+}
+
+.form-group {
+  label.required:after {
+    content: ' *';
+    color: @color-red;
+  }
+}
+
+label {
+  font-weight: normal;
+}
+
+.input-group {
+  // Preserve border radius on form control with dropdowns or tooltips
+  .form-control[uib-typeahead]:not(:last-child),
+  .form-control[uib-tooltip]:not(:last-child) {
+    border-top-right-radius: @input-border-radius;
+    border-bottom-right-radius: @input-border-radius;
+  }
+
+  .input-group-addon:not(:first-child):not(:last-child),
+  .input-group-btn:not(:first-child):not(:last-child),
+  .input-group .form-control:not(:first-child):not(:last-child) {}
+
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.03);
+      box-shadow: 0 0 2px 2px #60a5aa;
+    }
+    50% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(1.01);
+      box-shadow: 0 0 2px 2px #60a5aa;
+    }
+    80% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-footer {
+  border-top: 0;
+}

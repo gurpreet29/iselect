@@ -1,0 +1,8 @@
+<div class="toggle-switch"  ng-repeat="option in $ctrl.question.options">
+  <button class='btn btn-default btn-block'
+          ng-model="$ctrl.answer"
+          ng-class="{active: $ctrl.isChecked(option.key)}"
+          ng-change="$ctrl.chosen(option.key)"
+          uib-btn-radio="'{{option.key}}'">{{option.value}}
+  </button>
+</div>

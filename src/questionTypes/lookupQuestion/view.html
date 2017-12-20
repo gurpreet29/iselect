@@ -1,0 +1,55 @@
+<script type="text/ng-template" id="lookupErrors.html">
+  <ul class="error-message-set">
+    <li ng-show="$ctrl.form.lookup.$error.required">
+      Please enter your answer or select an option
+    </li>
+    <li ng-show="$ctrl.form.lookup.$error.parse">
+      {{$ctrl.question.attr.nomatch || 'Please select from the list'}}
+    </li>
+    <rule-validator-messages control="$ctrl.form.lookup" context="$ctrl.ruleValidatorContext"></rule-validator-messages>
+  </ul>
+</script>
+
+
+<div class="col-xs-11 col-sm-8">
+  <ng-form name="$ctrl.form">
+    <div class="form-group">
+
+      <div class="input-group"
+           ng-class="{ 'has-error': $ctrl.hasNonParseErrors() }"
+      >
+        <label class="input-group-addon"
+               for="question${{$ctrl.question.id}}"
+               uib-tooltip-template="'lookupErrors.html'"
+               tooltip-trigger="'none'"
+               tooltip-is-open="$ctrl.hasNonParseErrors()"
+               tooltip-placement="bottom-left"
+        >
+          <i class="glyphicon glyphicon-search"></i>
+        </label>
+        <input type="text"
+               spellcheck="false"
+               class="form-control"
+               id="question${{$ctrl.question.id}}"
+               name="lookup"
+               ng-model="$ctrl.answer"
+               ng-model-options="{ debounce: { default: 500, blur: 100, updateOn: 'blur' } }"
+               placeholder="Start typing for suggestions"
+               uib-typeahead="optionval as optionval.value for optionval in $ctrl.question.options | filter:{value:$viewValue}"
+               typeahead-no-results="$ctrl.noResults"
+               typeahead-on-select="$ctrl.selected()"
+               ng-required="$ctrl.ruleValidatorContext.required"
+               rule-validator>
+      </div>
+    </div>
+
+    <div class="form-group">
+
+      <button type="submit" class="btn btn-success" ng-click="$ctrl.submitted()">
+        Ok
+      </button>
+
+    </div>
+
+  </ng-form>
+</div>

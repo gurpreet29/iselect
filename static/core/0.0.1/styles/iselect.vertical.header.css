@@ -1,0 +1,157 @@
+.global-header {
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+    height: 70px;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    box-shadow: 0 6px 5px 0 rgba(0, 0, 0, .1);
+    background: #2e3034;
+    justify-content: space-between;
+    align-items: center
+}
+
+@media (min-width: 745px) {
+
+    .global-header {
+        padding: 1em 2em;
+    }
+}
+
+.global-header .brand-logo {
+    max-width: 112px;
+    position: absolute;
+    top: 10px
+}
+
+.global-header .brand-logo a {
+    display: block
+}
+
+.global-header .brand-logo a .logo-header {
+    display: block;
+    width: auto;
+    height: 50px
+}
+
+.global-header .brand-logo .logo-header{
+    min-width:100px
+}
+
+.global-header .brand-logo .logo-header::before {
+    content: url('../images/logo-header.svg');
+}
+
+.global-header .operational {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center
+}
+
+@media (min-width: 745px) {
+    header .operational span {
+        display: inline-block !important;
+        margin-left: 12px !important;
+        font-size: 20px
+    }
+}
+
+
+
+.global-header .phone-icon-inline {
+    display: block;
+    width: 30px;
+    height: 30px;
+    fill: #60a5aa;
+}
+
+
+.global-header .contact {
+    position: relative;
+    display: inline-block;
+    margin-left:15px;
+}
+
+.global-header .contact a {
+    color: white;
+    font-size: 24px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+@media (min-width: 745px) {
+
+    .global-header .contact a {
+        height: 50px;
+    }
+}
+
+.global-header .contact a:hover {
+    color: #97989a;
+    text-decoration: none
+}
+
+.global-header .contact svg {
+    width: 30px;
+    height: 30px;
+    fill: #60a5aa;
+    margin-right: 0
+}
+
+.global-header .contact span {
+    display: none
+}
+
+@media (min-width: 767px) {
+
+    .global-header .contact span {
+        display: block
+    }
+}
+
+.global-header .contact:hover .tooltip {
+    display: none;
+    -webkit-animation: tooltip-entry .25s;
+    animation: tooltip-entry .25s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+@media (min-width: 480px) {
+
+    .global-header .contact:hover .tooltip {
+        display: block
+    }
+}
+
+
+.global-header .contact-hours-left, .contact-hours-right{
+    float:left;
+    box-sizing: border-box;
+    width:50%;
+    padding:10px;
+    margin:0;
+}
+
+
+
+@media (min-width: 900px) {
+    .global-header .contact a {
+        height: 50px;
+    }
+}

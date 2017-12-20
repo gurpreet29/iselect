@@ -1,0 +1,10 @@
+{
+  "env": "dev",
+  "verticalCode": "homeContents",
+  "verticalTitle": "Home and Contents",
+  "coreBaseUrl": "/core/0.0.1",
+  "addressApi": "/localdev/address.json",
+  "muleNeedsApi": "/localdev/homeAndContentsNeeds.json",
+  "muleRecommendationsApi": "/localdev/recommendAPIResponse.json",
+  "muleCaptureApi": "/localdev/captureResponse.json"
+}

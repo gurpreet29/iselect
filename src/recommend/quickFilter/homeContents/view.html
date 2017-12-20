@@ -1,0 +1,31 @@
+<div id="wrapper">
+  <div ng-repeat="child in $ctrl.recQuestions[0].children" ng-switch on="child.type">
+    <div ng-switch-when="radio">
+      <toggle-switch
+        question="child"
+        answer="$ctrl.getToggleValue(child.id)"
+        answers="$ctrl.toggleAnswers"
+        on-toggled="$ctrl.onToggled($event)"
+      ></toggle-switch>
+    </div>
+    <div ng-switch-default ng-show="$ctrl.isVisible(child)">
+      <div>
+        <label>{{child.label}}</label>
+        <span class="glyphicon glyphicon-pencil pull-right"
+                             style="vertical-align:middle;cursor: pointer"
+                             ng-click="$ctrl.openExcessDialog()"></span>
+      </div>
+      <label class="policy-excess">${{$ctrl.getValue(child.id) | number}}</label>
+    </div>
+  </div>
+  <div class="row bottom" style="vertical-align: middle; cursor: pointer" ng-click="$ctrl.openFeaturesDialog()" >
+    <p>
+      <img class="radio-icon" ng-src="{{$ctrl.loadCustomiseImage('customise.svg')}}">
+      <label class="hidden-sm hidden-md">Customise preferences</label>
+      <label class="hidden-lg">Customise</label>
+    </p>
+  </div>
+</div>
+
+
+

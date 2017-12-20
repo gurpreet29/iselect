@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="row heading">
+    <div class="
+        col-xs-12 col-xs-offset-0
+        col-sm-11 col-sm-offset-1
+      ">
+      <h1><span class="step-number">1</span> Your Needs</h1>
+      <p>To provide you with a quote we need to collect some details about you and your circumstances</p>
+    </div>
+
+  </div>
+</div>
+
+<question-set
+  promised-questions="$ctrl.promisedQuestions"
+  answers="$ctrl.answers"
+  done-message="'Thank-you! Now we understand your needs, we can recommend some products...'"
+  btn-message="'VIEW RECOMMENDATIONS'"
+  postconditions-met="$ctrl.isCheckedTnC && $ctrl.isCheckedUnderstand"
+  on-answers-updated="$ctrl.answersUpdated($event)"
+  on-all-answered="$ctrl.allAnswered()"
+  on-questions-finalised="$ctrl.questionsFinalised()"
+>
+
+  <div style="padding-bottom: 10px">
+    <span>
+          Any advice provided on this website is of a general nature and does not take into account your objectives, 
+          financial situation or needs. Please consider whether the product is suitable for you before making any 
+          purchasing decision.
+    </span>
+  </div>
+
+  <div style="padding-bottom: 10px">
+    <input type="checkbox" id="checkUnderstand" ng-model="checkedUnderstand"
+            ng-change="$ctrl.isCheckedUnderstand = !$ctrl.isCheckedUnderstand" required>
+            I am aware that only products from <a target="_blank" href="https://www.iselect.com.au/popup-home-content-insurance-provider"
+            >iSelect General's participating home insurers</a> (only products 
+            for which I may be eligible) will be displayed on the results page. It is important that I read and 
+            understand the insurer's Product Disclosure Statement before purchasing a policy as the products 
+            compared do not compare all features that may be relevant to me.
+    </input>
+  </div>
+
+  <div style="padding-bottom: 10px">
+    <input type="checkbox" id="checkTermsAndConditions" ng-model="checkedTermsAndConditions"
+            ng-change="$ctrl.isCheckedTnC = !$ctrl.isCheckedTnC" required>
+            I have read, understood and accept the <a target="_blank" href="http://www.iselect.com.au/popup-disclaimer/">Terms & Conditions</a>, 
+            <a target="_blank" href="http://www.iselect.com.au/popup-privacy-policy/"Privacy Policy></a> 
+            and <a target="_blank" href="https://www.iselect.com.au/car/FSG-iselect-general.pdf">iSelect General's Financial Services Guide</a>.
+    </input>
+  </div>
+
+</question-set>
+

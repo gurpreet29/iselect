@@ -1,0 +1,2275 @@
+{
+  "products":
+  {
+    "QBESILVER_CONTENTS":
+    {
+      "status": null,
+      "finalQuote": false,
+      "tnc": null,
+      "paymentGateway": false,
+      "quoteId": null,
+      "provider": null,
+      "productMessage": null,
+      "referredReason": null,
+      "productName": "QBE Silver Contents",
+      "productCode": "QBESILVER_CONTENTS",
+      "pricingModel": [
+      {
+        "value": null,
+        "suffix": "/year",
+        "name": "annualPremium",
+        "message": null,
+        "label": "Your annual premium cover is...",
+        "calculation": "1*{{value}}"
+      },
+      {
+        "value": null,
+        "suffix": "/month",
+        "name": "monthlyPremium",
+        "message": null,
+        "label": "Your monthly premium cover is...",
+        "calculation": "12*{{value}}"
+      }],
+      "portalUrl": "https://uat.ebiz.qbe.com",
+      "logoUrl": "https://cdn1.expertinsurancereviews.com/wp-content/uploads/2013/12/abe300.jpg",
+      "elements": [
+      {
+        "value": "false",
+        "name": "extracost_rebuilding",
+        "key": "extracost_rebuilding",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "fire_explosion",
+        "key": "fire_explosion",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "flood_cover",
+        "key": "flood_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "theft_or_attempted_theft",
+        "key": "theft_or_attempted_theft",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $30,000,000 for any one occurrence.",
+        "name": "legal_liability",
+        "key": "legal_liability",
+        "feature_score": null
+      },
+      {
+        "value": "$20,000, or 20% of the sum insured for your home, or 20% of the sum insured for your content, whichever is the highest",
+        "name": "temporary_accomodation",
+        "key": "temporary_accomodation",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "key": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "new_for_old_replacement",
+        "key": "new_for_old_replacement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "storm_rainwater_cove_x",
+        "key": "storm_rainwater_cove_x",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "removal_of_debris",
+        "key": "removal_of_debris",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "flood",
+        "key": "flood",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "earthquake_x",
+        "key": "earthquake_x",
+        "feature_score": null
+      },
+      {
+        "value": "$1,250 <br> ",
+        "name": "replacement_keys",
+        "key": "replacement_keys",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "lightning_x",
+        "key": "lightning_x",
+        "feature_score": null
+      },
+      {
+        "value": "Included",
+        "name": "accidental_damage",
+        "key": "accidental_damage",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "impact",
+        "key": "impact",
+        "feature_score": null
+      },
+      {
+        "value": "No limit - based on unit age. Up to 15 years <br> ",
+        "name": "motor_burnout",
+        "key": "motor_burnout",
+        "feature_score": null
+      },
+      {
+        "value": "Annual or Monthly Payment Options Available at no extra cost<br> ",
+        "name": "flexible_payment",
+        "key": "flexible_payment",
+        "feature_score": null
+      },
+      {
+        "value": " Not applicable <br> ",
+        "name": "extracost_rebuilding_x",
+        "key": "extracost_rebuilding_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "reduced_premium",
+        "key": "reduced_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "credit_card_cover_x",
+        "key": "credit_card_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "excess_premium",
+        "key": "excess_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "funeral_expenses_x",
+        "key": "funeral_expenses_x",
+        "feature_score": null
+      },
+      {
+        "value": " up to $1,250 for the reasonable costs actually incurred by you for the security firm that monitors your burglar alarm to attend your home during or immediately after an actual or attempted theft from your home. <br> ",
+        "name": "security_firm_cost_following_a_theft",
+        "key": "security_firm_cost_following_a_theft",
+        "feature_score": null
+      },
+      {
+        "value": "yes - 30% more<br> ",
+        "name": "sum_insured_safeguard",
+        "key": "sum_insured_safeguard",
+        "feature_score": null
+      },
+      {
+        "value": " Anywhere in the world whilst they are temporarily away from the site up to 10K per item our 25% Contents Sum Insured  <br> ",
+        "name": "cover_for_items_away_from_home",
+        "key": "cover_for_items_away_from_home",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "tenant_default",
+        "key": "tenant_default",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "guest_visitor_belongings_cover_x",
+        "key": "guest_visitor_belongings_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "Yes<br> ",
+        "name": "malicious_damage",
+        "key": "malicious_damage",
+        "feature_score": null
+      },
+      {
+        "value": "No limit specified<br> ",
+        "name": "transit_cover",
+        "key": "transit_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Included <br> ",
+        "name": "accidental_breakage_of_glass",
+        "key": "accidental_breakage_of_glass",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "earthquake",
+        "key": "earthquake",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "lightning",
+        "key": "lightning",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $5000 for accountants fees which you reasonably incur as a result of your personal taxation affairs being audited by the Australian Taxation Office<br> ",
+        "name": "govt_audit_costs",
+        "key": "govt_audit_costs",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $15,000",
+        "name": "funeral_expenses",
+        "key": "funeral_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not included<br> ",
+        "name": "landlords_contents_cover",
+        "key": "landlords_contents_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $5,000 towards any legal liability you incur from its unauthorised use",
+        "name": "credit_card_cover",
+        "key": "credit_card_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "what_landlord_contents_are_included",
+        "key": "what_landlord_contents_are_included",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "worldwide_cover",
+        "key": "worldwide_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "loss_of_rent_tenant_default_cover",
+        "key": "loss_of_rent_tenant_default_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "storm_rainwater_cover",
+        "key": "storm_rainwater_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not included   <br> ",
+        "name": "theft_and_malicious_damage_by_tenants",
+        "key": "theft_and_malicious_damage_by_tenants",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $5,000 in total belonging to any visitors temporarily living with you or domestic employee staying with you at the site",
+        "name": "guest_visitor_belongings_cover",
+        "key": "guest_visitor_belongings_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "legal_expenses",
+        "key": "legal_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "loss_of_rent_following_damage",
+        "key": "loss_of_rent_following_damage",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "strata_title_owner_improvements",
+        "key": "strata_title_owner_improvements",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "accidental_damage_by_tentants",
+        "key": "accidental_damage_by_tentants",
+        "feature_score": null
+      },
+      {
+        "value": "Included<br> ",
+        "name": "automatic_sum_insured_adjustment_at_renewal",
+        "key": "automatic_sum_insured_adjustment_at_renewal",
+        "feature_score": null
+      },
+      {
+        "value": "Yes",
+        "name": "24_hour_claim_service",
+        "key": "24_hour_claim_service",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "product_disclosure_statement",
+        "key": "product_disclosure_statement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "fact_sheet",
+        "key": "fact_sheet",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "underWriter",
+        "key": "underWriter",
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "excess",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "specialOffers",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "underWriter",
+        "key": null,
+        "feature_score": null
+      }]
+    },
+    "QBEESSENTIALS_CONTENTS":
+    {
+      "status": null,
+      "finalQuote": false,
+      "tnc": null,
+      "paymentGateway": false,
+      "quoteId": null,
+      "provider": null,
+      "productMessage": null,
+      "referredReason": null,
+      "productName": "QBE Essentials Contents",
+      "productCode": "QBEESSENTIALS_CONTENTS",
+      "pricingModel": [
+      {
+        "value": null,
+        "suffix": "/year",
+        "name": "annualPremium",
+        "message": null,
+        "label": "Your annual premium cover is...",
+        "calculation": "1*{{value}}"
+      },
+      {
+        "value": null,
+        "suffix": "/month",
+        "name": "monthlyPremium",
+        "message": null,
+        "label": "Your monthly premium cover is...",
+        "calculation": "12*{{value}}"
+      }],
+      "portalUrl": "https://uat.ebiz.qbe.com",
+      "logoUrl": "https://cdn1.expertinsurancereviews.com/wp-content/uploads/2013/12/abe300.jpg",
+      "elements": [
+      {
+        "value": "false",
+        "name": "extracost_rebuilding",
+        "key": "extracost_rebuilding",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "fire_explosion",
+        "key": "fire_explosion",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "flood_cover",
+        "key": "flood_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "theft_or_attempted_theft",
+        "key": "theft_or_attempted_theft",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $30,000,000 for any one occurrence.",
+        "name": "legal_liability",
+        "key": "legal_liability",
+        "feature_score": null
+      },
+      {
+        "value": "Up to 10% of the sum insured",
+        "name": "temporary_accomodation",
+        "key": "temporary_accomodation",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "key": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "new_for_old_replacement",
+        "key": "new_for_old_replacement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "storm_rainwater_cove_x",
+        "key": "storm_rainwater_cove_x",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "removal_of_debris",
+        "key": "removal_of_debris",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "flood",
+        "key": "flood",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "earthquake_x",
+        "key": "earthquake_x",
+        "feature_score": null
+      },
+      {
+        "value": "$750",
+        "name": "replacement_keys",
+        "key": "replacement_keys",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "lightning_x",
+        "key": "lightning_x",
+        "feature_score": null
+      },
+      {
+        "value": "Included",
+        "name": "accidental_damage",
+        "key": "accidental_damage",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "impact",
+        "key": "impact",
+        "feature_score": null
+      },
+      {
+        "value": "No limit - based on unit age. Up to 10 years <br> ",
+        "name": "motor_burnout",
+        "key": "motor_burnout",
+        "feature_score": null
+      },
+      {
+        "value": "Annual or Monthly Payment Options Available at no extra cost<br> ",
+        "name": "flexible_payment",
+        "key": "flexible_payment",
+        "feature_score": null
+      },
+      {
+        "value": " Not applicable <br> ",
+        "name": "extracost_rebuilding_x",
+        "key": "extracost_rebuilding_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "reduced_premium",
+        "key": "reduced_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "credit_card_cover_x",
+        "key": "credit_card_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "excess_premium",
+        "key": "excess_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "funeral_expenses_x",
+        "key": "funeral_expenses_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not covered <br> ",
+        "name": "security_firm_cost_following_a_theft",
+        "key": "security_firm_cost_following_a_theft",
+        "feature_score": null
+      },
+      {
+        "value": "yes - 30% more<br> ",
+        "name": "sum_insured_safeguard",
+        "key": "sum_insured_safeguard",
+        "feature_score": null
+      },
+      {
+        "value": "Only if specified  <br> ",
+        "name": "cover_for_items_away_from_home",
+        "key": "cover_for_items_away_from_home",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "tenant_default",
+        "key": "tenant_default",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "guest_visitor_belongings_cover_x",
+        "key": "guest_visitor_belongings_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "malicious_damage",
+        "key": "malicious_damage",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $5000 in any on period of insurance<br> ",
+        "name": "transit_cover",
+        "key": "transit_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Included <br> ",
+        "name": "accidental_breakage_of_glass",
+        "key": "accidental_breakage_of_glass",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "earthquake",
+        "key": "earthquake",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "lightning",
+        "key": "lightning",
+        "feature_score": null
+      },
+      {
+        "value": "Not covered <br> ",
+        "name": "govt_audit_costs",
+        "key": "govt_audit_costs",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $10,000",
+        "name": "funeral_expenses",
+        "key": "funeral_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not included<br> ",
+        "name": "landlords_contents_cover",
+        "key": "landlords_contents_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $1,500 towards any legal liability you incur from its unauthorised use",
+        "name": "credit_card_cover",
+        "key": "credit_card_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "what_landlord_contents_are_included",
+        "key": "what_landlord_contents_are_included",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "worldwide_cover",
+        "key": "worldwide_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "loss_of_rent_tenant_default_cover",
+        "key": "loss_of_rent_tenant_default_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "storm_rainwater_cover",
+        "key": "storm_rainwater_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not included   <br> ",
+        "name": "theft_and_malicious_damage_by_tenants",
+        "key": "theft_and_malicious_damage_by_tenants",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $1,000 in total belonging to any visitors temporarily living with you at the site for up to 30 consecutive days.",
+        "name": "guest_visitor_belongings_cover",
+        "key": "guest_visitor_belongings_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "legal_expenses",
+        "key": "legal_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "loss_of_rent_following_damage",
+        "key": "loss_of_rent_following_damage",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "strata_title_owner_improvements",
+        "key": "strata_title_owner_improvements",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "accidental_damage_by_tentants",
+        "key": "accidental_damage_by_tentants",
+        "feature_score": null
+      },
+      {
+        "value": "Included<br> ",
+        "name": "automatic_sum_insured_adjustment_at_renewal",
+        "key": "automatic_sum_insured_adjustment_at_renewal",
+        "feature_score": null
+      },
+      {
+        "value": "Yes",
+        "name": "24_hour_claim_service",
+        "key": "24_hour_claim_service",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "product_disclosure_statement",
+        "key": "product_disclosure_statement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "fact_sheet",
+        "key": "fact_sheet",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "underWriter",
+        "key": "underWriter",
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "excess",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "specialOffers",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "underWriter",
+        "key": null,
+        "feature_score": null
+      }]
+    },
+    "CHUBASIC_CONTENTS":
+    {
+      "status": null,
+      "finalQuote": true,
+      "tnc": null,
+      "paymentGateway": false,
+      "quoteId": "Q0000009124",
+      "provider": "CHU",
+      "productMessage": null,
+      "referredReason": null,
+      "productName": "Contents Insurance for Strata - Basic Cover",
+      "productCode": "CHUBASIC_CONTENTS",
+      "pricingModel": [
+      {
+        "value": null,
+        "suffix": "/month",
+        "name": "monthlyPremium",
+        "message": null,
+        "label": "Your monthly premium price is...",
+        "calculation": "12*{{value}}"
+      },
+      {
+        "value": "258.27",
+        "suffix": "/year",
+        "name": "annualPremium",
+        "message": null,
+        "label": "Your annual premium cover is...",
+        "calculation": "1*{{value}}"
+      }],
+      "portalUrl": "http://www.chu.com.au/",
+      "logoUrl": "http://www.chu.com.au/wp-content/uploads/2015/07/chu_logo.png",
+      "elements": [
+      {
+        "value": "false",
+        "name": "extracost_rebuilding",
+        "key": "extracost_rebuilding",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "fire_explosion",
+        "key": "fire_explosion",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "flood_cover",
+        "key": "flood_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "theft_or_attempted_theft",
+        "key": "theft_or_attempted_theft",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $30,000,000 your or your family&#39;s legal liability anywhere in the world<br> ",
+        "name": "legal_liability",
+        "key": "legal_liability",
+        "feature_score": null
+      },
+      {
+        "value": "Accommodation costs: Up to 12 months from the time of damage,<br>or 10% of the contents sum insured whichever is less",
+        "name": "temporary_accomodation",
+        "key": "temporary_accomodation",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "key": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "new_for_old_replacement",
+        "key": "new_for_old_replacement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "storm_rainwater_cove_x",
+        "key": "storm_rainwater_cove_x",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "removal_of_debris",
+        "key": "removal_of_debris",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "flood",
+        "key": "flood",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "earthquake_x",
+        "key": "earthquake_x",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $500",
+        "name": "replacement_keys",
+        "key": "replacement_keys",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "lightning_x",
+        "key": "lightning_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not included",
+        "name": "accidental_damage",
+        "key": "accidental_damage",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "impact",
+        "key": "impact",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $2000<br> ",
+        "name": "motor_burnout",
+        "key": "motor_burnout",
+        "feature_score": null
+      },
+      {
+        "value": "Annual Only<br> ",
+        "name": "flexible_payment",
+        "key": "flexible_payment",
+        "feature_score": null
+      },
+      {
+        "value": " Not applicable <br> ",
+        "name": "extracost_rebuilding_x",
+        "key": "extracost_rebuilding_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "reduced_premium",
+        "key": "reduced_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "credit_card_cover_x",
+        "key": "credit_card_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "excess_premium",
+        "key": "excess_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "funeral_expenses_x",
+        "key": "funeral_expenses_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not covered <br> ",
+        "name": "security_firm_cost_following_a_theft",
+        "key": "security_firm_cost_following_a_theft",
+        "feature_score": null
+      },
+      {
+        "value": "Not covered<br> ",
+        "name": "sum_insured_safeguard",
+        "key": "sum_insured_safeguard",
+        "feature_score": null
+      },
+      {
+        "value": "Limited to:<br>• In a motel, hotel or club<br>• In a nursing home, hospice or hospital<br>• In another person’s home you’re living in (excluding high<br>risk items)<br>• In a bank safe in Australia<br>• Temporarily in transit <br> ",
+        "name": "cover_for_items_away_from_home",
+        "key": "cover_for_items_away_from_home",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "tenant_default",
+        "key": "tenant_default",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "guest_visitor_belongings_cover_x",
+        "key": "guest_visitor_belongings_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "malicious_damage",
+        "key": "malicious_damage",
+        "feature_score": null
+      },
+      {
+        "value": "Covered while temporarily in transit <br> ",
+        "name": "transit_cover",
+        "key": "transit_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Included <br> ",
+        "name": "accidental_breakage_of_glass",
+        "key": "accidental_breakage_of_glass",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "earthquake",
+        "key": "earthquake",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "lightning",
+        "key": "lightning",
+        "feature_score": null
+      },
+      {
+        "value": "Not covered <br> ",
+        "name": "govt_audit_costs",
+        "key": "govt_audit_costs",
+        "feature_score": null
+      },
+      {
+        "value": "Compensation for death: $5,000 ",
+        "name": "funeral_expenses",
+        "key": "funeral_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "landlords_contents_cover",
+        "key": "landlords_contents_cover",
+        "feature_score": null
+      },
+      {
+        "value": "$1,000",
+        "name": "credit_card_cover",
+        "key": "credit_card_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "what_landlord_contents_are_included",
+        "key": "what_landlord_contents_are_included",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "worldwide_cover",
+        "key": "worldwide_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "loss_of_rent_tenant_default_cover",
+        "key": "loss_of_rent_tenant_default_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "storm_rainwater_cover",
+        "key": "storm_rainwater_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "theft_and_malicious_damage_by_tenants",
+        "key": "theft_and_malicious_damage_by_tenants",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $1,000",
+        "name": "guest_visitor_belongings_cover",
+        "key": "guest_visitor_belongings_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "legal_expenses",
+        "key": "legal_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "loss_of_rent_following_damage",
+        "key": "loss_of_rent_following_damage",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "strata_title_owner_improvements",
+        "key": "strata_title_owner_improvements",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "accidental_damage_by_tentants",
+        "key": "accidental_damage_by_tentants",
+        "feature_score": null
+      },
+      {
+        "value": "Included<br> ",
+        "name": "automatic_sum_insured_adjustment_at_renewal",
+        "key": "automatic_sum_insured_adjustment_at_renewal",
+        "feature_score": null
+      },
+      {
+        "value": "Yes",
+        "name": "24_hour_claim_service",
+        "key": "24_hour_claim_service",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "product_disclosure_statement",
+        "key": "product_disclosure_statement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "fact_sheet",
+        "key": "fact_sheet",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "underWriter",
+        "key": "underWriter",
+        "feature_score": null
+      },
+      {
+        "value": "500",
+        "name": "excess",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "specialOffers",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": "CHU Underwriting Agencies Pty Ltd",
+        "name": "underWriter",
+        "key": null,
+        "feature_score": null
+      }]
+    },
+    "aua-content-cover-extra":
+    {
+      "status": null,
+      "finalQuote": true,
+      "tnc": null,
+      "paymentGateway": false,
+      "quoteId": null,
+      "provider": "Arcadia",
+      "productMessage": null,
+      "referredReason": null,
+      "productName": "Extras Contents",
+      "productCode": "aua-content-cover-extra",
+      "pricingModel": [
+      {
+        "value": "195.36",
+        "suffix": "/year",
+        "name": "annualPremium",
+        "message": null,
+        "label": "Your annual premium cover is...",
+        "calculation": null
+      },
+      {
+        "value": "17.259999999999998",
+        "suffix": "/month",
+        "name": "monthlyPremium",
+        "message": null,
+        "label": "Your monthly premium cover is...",
+        "calculation": "12*{{value}}"
+      }],
+      "portalUrl": "http://www.arcadiaunderwriting.com.au/",
+      "logoUrl": "http://www.quib.com.au/aua/logo.png",
+      "elements": [
+      {
+        "value": "false",
+        "name": "extracost_rebuilding",
+        "key": "extracost_rebuilding",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "fire_explosion",
+        "key": "fire_explosion",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "flood_cover",
+        "key": "flood_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "theft_or_attempted_theft",
+        "key": "theft_or_attempted_theft",
+        "feature_score": null
+      },
+      {
+        "value": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td colspan=\"1\" rowspan=\"1\">Up to $20 million for any one event</td></tr></tbody></table>",
+        "name": "legal_liability",
+        "key": "legal_liability",
+        "feature_score": null
+      },
+      {
+        "value": "&quot;The lesser of: <br>• 12 months’ rent; or <br>• 20% of your home sum insured",
+        "name": "temporary_accomodation",
+        "key": "temporary_accomodation",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "key": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "new_for_old_replacement",
+        "key": "new_for_old_replacement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "storm_rainwater_cove_x",
+        "key": "storm_rainwater_cove_x",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "removal_of_debris",
+        "key": "removal_of_debris",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "flood",
+        "key": "flood",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "earthquake_x",
+        "key": "earthquake_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable",
+        "name": "replacement_keys",
+        "key": "replacement_keys",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "lightning_x",
+        "key": "lightning_x",
+        "feature_score": null
+      },
+      {
+        "value": "Replacement Cost - Refer to Product Disclosure Statement for more info<br> ",
+        "name": "accidental_damage",
+        "key": "accidental_damage",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "impact",
+        "key": "impact",
+        "feature_score": null
+      },
+      {
+        "value": "$2,000 for Electrical Motor Burnout<br>$1,000 for loss or spoilage of food<br> ",
+        "name": "motor_burnout",
+        "key": "motor_burnout",
+        "feature_score": null
+      },
+      {
+        "value": "Annual or Monthly Payment Options Available<br> ",
+        "name": "flexible_payment",
+        "key": "flexible_payment",
+        "feature_score": null
+      },
+      {
+        "value": " Not applicable <br> ",
+        "name": "extracost_rebuilding_x",
+        "key": "extracost_rebuilding_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "reduced_premium",
+        "key": "reduced_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "credit_card_cover_x",
+        "key": "credit_card_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "excess_premium",
+        "key": "excess_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "funeral_expenses_x",
+        "key": "funeral_expenses_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not included <br> ",
+        "name": "security_firm_cost_following_a_theft",
+        "key": "security_firm_cost_following_a_theft",
+        "feature_score": null
+      },
+      {
+        "value": "Not covered<br> ",
+        "name": "sum_insured_safeguard",
+        "key": "sum_insured_safeguard",
+        "feature_score": null
+      },
+      {
+        "value": "Optional <br> ",
+        "name": "cover_for_items_away_from_home",
+        "key": "cover_for_items_away_from_home",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "tenant_default",
+        "key": "tenant_default",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "guest_visitor_belongings_cover_x",
+        "key": "guest_visitor_belongings_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "malicious_damage",
+        "key": "malicious_damage",
+        "feature_score": null
+      },
+      {
+        "value": "Up to your contents sum insured <br> ",
+        "name": "transit_cover",
+        "key": "transit_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Included <br> ",
+        "name": "accidental_breakage_of_glass",
+        "key": "accidental_breakage_of_glass",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "earthquake",
+        "key": "earthquake",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "lightning",
+        "key": "lightning",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $5000, for the reasonable fees for an accredited accountant when the Federal Commissioner of Taxation audits your personal financial affairs<br> ",
+        "name": "govt_audit_costs",
+        "key": "govt_audit_costs",
+        "feature_score": null
+      },
+      {
+        "value": "Not covered",
+        "name": "funeral_expenses",
+        "key": "funeral_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "landlords_contents_cover",
+        "key": "landlords_contents_cover",
+        "feature_score": null
+      },
+      {
+        "value": "$5,000",
+        "name": "credit_card_cover",
+        "key": "credit_card_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "what_landlord_contents_are_included",
+        "key": "what_landlord_contents_are_included",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "worldwide_cover",
+        "key": "worldwide_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "loss_of_rent_tenant_default_cover",
+        "key": "loss_of_rent_tenant_default_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "storm_rainwater_cover",
+        "key": "storm_rainwater_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "theft_and_malicious_damage_by_tenants",
+        "key": "theft_and_malicious_damage_by_tenants",
+        "feature_score": null
+      },
+      {
+        "value": "Contents: $2,500",
+        "name": "guest_visitor_belongings_cover",
+        "key": "guest_visitor_belongings_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "legal_expenses",
+        "key": "legal_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "loss_of_rent_following_damage",
+        "key": "loss_of_rent_following_damage",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "strata_title_owner_improvements",
+        "key": "strata_title_owner_improvements",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "accidental_damage_by_tentants",
+        "key": "accidental_damage_by_tentants",
+        "feature_score": null
+      },
+      {
+        "value": "Included<br> ",
+        "name": "automatic_sum_insured_adjustment_at_renewal",
+        "key": "automatic_sum_insured_adjustment_at_renewal",
+        "feature_score": null
+      },
+      {
+        "value": "Yes",
+        "name": "24_hour_claim_service",
+        "key": "24_hour_claim_service",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "product_disclosure_statement",
+        "key": "product_disclosure_statement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "fact_sheet",
+        "key": "fact_sheet",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "underWriter",
+        "key": "underWriter",
+        "feature_score": null
+      },
+      {
+        "value": "500",
+        "name": "excess",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "specialOffers",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": "The Hollard Insurance Company Pty Ltd",
+        "name": "underWriter",
+        "key": null,
+        "feature_score": null
+      }]
+    },
+    "QBEGOLD_CONTENTS":
+    {
+      "status": null,
+      "finalQuote": false,
+      "tnc": null,
+      "paymentGateway": false,
+      "quoteId": null,
+      "provider": null,
+      "productMessage": null,
+      "referredReason": null,
+      "productName": "QBE Gold Contents",
+      "productCode": "QBEGOLD_CONTENTS",
+      "pricingModel": [
+      {
+        "value": null,
+        "suffix": "/month",
+        "name": "monthlyPremium",
+        "message": null,
+        "label": "Your monthly premium cover is...",
+        "calculation": "12*{{value}}"
+      },
+      {
+        "value": null,
+        "suffix": "/year",
+        "name": "annualPremium",
+        "message": null,
+        "label": "Your annual premium cover is...",
+        "calculation": "1*{{value}}"
+      }],
+      "portalUrl": "https://uat.ebiz.qbe.com",
+      "logoUrl": "https://cdn1.expertinsurancereviews.com/wp-content/uploads/2013/12/abe300.jpg",
+      "elements": [
+      {
+        "value": "false",
+        "name": "extracost_rebuilding",
+        "key": "extracost_rebuilding",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "fire_explosion",
+        "key": "fire_explosion",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "flood_cover",
+        "key": "flood_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "theft_or_attempted_theft",
+        "key": "theft_or_attempted_theft",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $30,000,000 for any one occurrence.",
+        "name": "legal_liability",
+        "key": "legal_liability",
+        "feature_score": null
+      },
+      {
+        "value": "$20,000, or 20% of the sum insured for your home, or 20% of the sum insured for your content, whichever is the highest",
+        "name": "temporary_accomodation",
+        "key": "temporary_accomodation",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "key": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "new_for_old_replacement",
+        "key": "new_for_old_replacement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "storm_rainwater_cove_x",
+        "key": "storm_rainwater_cove_x",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "removal_of_debris",
+        "key": "removal_of_debris",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "flood",
+        "key": "flood",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "earthquake_x",
+        "key": "earthquake_x",
+        "feature_score": null
+      },
+      {
+        "value": "Unlimited",
+        "name": "replacement_keys",
+        "key": "replacement_keys",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "lightning_x",
+        "key": "lightning_x",
+        "feature_score": null
+      },
+      {
+        "value": "Included",
+        "name": "accidental_damage",
+        "key": "accidental_damage",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "impact",
+        "key": "impact",
+        "feature_score": null
+      },
+      {
+        "value": "No limit - based on unit age. Up to 15 years <br> ",
+        "name": "motor_burnout",
+        "key": "motor_burnout",
+        "feature_score": null
+      },
+      {
+        "value": "Annual or Monthly Payment Options Available at no extra cost<br> ",
+        "name": "flexible_payment",
+        "key": "flexible_payment",
+        "feature_score": null
+      },
+      {
+        "value": " Not applicable <br> ",
+        "name": "extracost_rebuilding_x",
+        "key": "extracost_rebuilding_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "reduced_premium",
+        "key": "reduced_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "credit_card_cover_x",
+        "key": "credit_card_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "excess_premium",
+        "key": "excess_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "funeral_expenses_x",
+        "key": "funeral_expenses_x",
+        "feature_score": null
+      },
+      {
+        "value": " up to $2,500 for the reasonable costs actually incurred by you for the security firm that monitors your burglar alarm to attend your home during or immediately after an actual or attempted theft from your home. <br> ",
+        "name": "security_firm_cost_following_a_theft",
+        "key": "security_firm_cost_following_a_theft",
+        "feature_score": null
+      },
+      {
+        "value": "yes - 30% more<br> ",
+        "name": "sum_insured_safeguard",
+        "key": "sum_insured_safeguard",
+        "feature_score": null
+      },
+      {
+        "value": " Anywhere in the world whilst they are temporarily away from the site up to 10K per item our 25% Contents Sum Insured  <br> ",
+        "name": "cover_for_items_away_from_home",
+        "key": "cover_for_items_away_from_home",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "tenant_default",
+        "key": "tenant_default",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "guest_visitor_belongings_cover_x",
+        "key": "guest_visitor_belongings_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "Yes<br> ",
+        "name": "malicious_damage",
+        "key": "malicious_damage",
+        "feature_score": null
+      },
+      {
+        "value": "No limit specified<br> ",
+        "name": "transit_cover",
+        "key": "transit_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Included <br> ",
+        "name": "accidental_breakage_of_glass",
+        "key": "accidental_breakage_of_glass",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "earthquake",
+        "key": "earthquake",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "lightning",
+        "key": "lightning",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $5000 for accountants fees which you reasonably incur as a result of your personal taxation affairs being audited by the Australian Taxation Office<br> ",
+        "name": "govt_audit_costs",
+        "key": "govt_audit_costs",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $15,000",
+        "name": "funeral_expenses",
+        "key": "funeral_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not included<br> ",
+        "name": "landlords_contents_cover",
+        "key": "landlords_contents_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $5,000 towards any legal liability you incur from its unauthorised use",
+        "name": "credit_card_cover",
+        "key": "credit_card_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "what_landlord_contents_are_included",
+        "key": "what_landlord_contents_are_included",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "worldwide_cover",
+        "key": "worldwide_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "loss_of_rent_tenant_default_cover",
+        "key": "loss_of_rent_tenant_default_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "storm_rainwater_cover",
+        "key": "storm_rainwater_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not included   <br> ",
+        "name": "theft_and_malicious_damage_by_tenants",
+        "key": "theft_and_malicious_damage_by_tenants",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $5,000 in total belonging to any visitors temporarily living with you or domestic employee staying with you at the site",
+        "name": "guest_visitor_belongings_cover",
+        "key": "guest_visitor_belongings_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "legal_expenses",
+        "key": "legal_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not included  <br> ",
+        "name": "loss_of_rent_following_damage",
+        "key": "loss_of_rent_following_damage",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "strata_title_owner_improvements",
+        "key": "strata_title_owner_improvements",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "accidental_damage_by_tentants",
+        "key": "accidental_damage_by_tentants",
+        "feature_score": null
+      },
+      {
+        "value": "Included<br> ",
+        "name": "automatic_sum_insured_adjustment_at_renewal",
+        "key": "automatic_sum_insured_adjustment_at_renewal",
+        "feature_score": null
+      },
+      {
+        "value": "Yes",
+        "name": "24_hour_claim_service",
+        "key": "24_hour_claim_service",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "product_disclosure_statement",
+        "key": "product_disclosure_statement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "fact_sheet",
+        "key": "fact_sheet",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "underWriter",
+        "key": "underWriter",
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "excess",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "specialOffers",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "underWriter",
+        "key": null,
+        "feature_score": null
+      }]
+    },
+    "aua-content-cover-core":
+    {
+      "status": null,
+      "finalQuote": true,
+      "tnc": null,
+      "paymentGateway": false,
+      "quoteId": null,
+      "provider": "Arcadia",
+      "productMessage": null,
+      "referredReason": null,
+      "productName": "Core Contents",
+      "productCode": "aua-content-cover-core",
+      "pricingModel": [
+      {
+        "value": "176.0",
+        "suffix": "/year",
+        "name": "annualPremium",
+        "message": "Save up to 10%",
+        "label": "Your annual premium cover is...",
+        "calculation": null
+      },
+      {
+        "value": "15.55",
+        "suffix": "/month",
+        "name": "monthlyPremium",
+        "message": null,
+        "label": "Your monthly premium cover is...",
+        "calculation": "12*{{value}}"
+      }],
+      "portalUrl": "http://www.arcadiaunderwriting.com.au/",
+      "logoUrl": "http://www.quib.com.au/aua/logo.png",
+      "elements": [
+      {
+        "value": "false",
+        "name": "extracost_rebuilding",
+        "key": "extracost_rebuilding",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "fire_explosion",
+        "key": "fire_explosion",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "flood_cover",
+        "key": "flood_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "theft_or_attempted_theft",
+        "key": "theft_or_attempted_theft",
+        "feature_score": null
+      },
+      {
+        "value": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td colspan=\"1\" rowspan=\"1\">Up to $20 million for any one event</td></tr></tbody></table>",
+        "name": "legal_liability",
+        "key": "legal_liability",
+        "feature_score": null
+      },
+      {
+        "value": "&quot;The lesser of: <br>• 12 months’ rent; or <br>• 20% of your home sum insured",
+        "name": "temporary_accomodation",
+        "key": "temporary_accomodation",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "key": "malicious_damage_vandalism_riot_or_civil_commotion",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "new_for_old_replacement",
+        "key": "new_for_old_replacement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "storm_rainwater_cove_x",
+        "key": "storm_rainwater_cove_x",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "removal_of_debris",
+        "key": "removal_of_debris",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "flood",
+        "key": "flood",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "earthquake_x",
+        "key": "earthquake_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable",
+        "name": "replacement_keys",
+        "key": "replacement_keys",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "lightning_x",
+        "key": "lightning_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not Covered<br> ",
+        "name": "accidental_damage",
+        "key": "accidental_damage",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "impact",
+        "key": "impact",
+        "feature_score": null
+      },
+      {
+        "value": "$1,000 for Electrical Motor Burnout<br>$500 for loss or spoilage of food<br> ",
+        "name": "motor_burnout",
+        "key": "motor_burnout",
+        "feature_score": null
+      },
+      {
+        "value": "Annual or Monthly Payment Options Available<br> ",
+        "name": "flexible_payment",
+        "key": "flexible_payment",
+        "feature_score": null
+      },
+      {
+        "value": " Not applicable <br> ",
+        "name": "extracost_rebuilding_x",
+        "key": "extracost_rebuilding_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "reduced_premium",
+        "key": "reduced_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "credit_card_cover_x",
+        "key": "credit_card_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "excess_premium",
+        "key": "excess_premium",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "funeral_expenses_x",
+        "key": "funeral_expenses_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not included <br> ",
+        "name": "security_firm_cost_following_a_theft",
+        "key": "security_firm_cost_following_a_theft",
+        "feature_score": null
+      },
+      {
+        "value": "Not covered<br> ",
+        "name": "sum_insured_safeguard",
+        "key": "sum_insured_safeguard",
+        "feature_score": null
+      },
+      {
+        "value": "Optional <br> ",
+        "name": "cover_for_items_away_from_home",
+        "key": "cover_for_items_away_from_home",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "tenant_default",
+        "key": "tenant_default",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "guest_visitor_belongings_cover_x",
+        "key": "guest_visitor_belongings_cover_x",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "malicious_damage",
+        "key": "malicious_damage",
+        "feature_score": null
+      },
+      {
+        "value": " 20% of your contents sum insured <br> ",
+        "name": "transit_cover",
+        "key": "transit_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Included <br> ",
+        "name": "accidental_breakage_of_glass",
+        "key": "accidental_breakage_of_glass",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "earthquake",
+        "key": "earthquake",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "lightning",
+        "key": "lightning",
+        "feature_score": null
+      },
+      {
+        "value": "Up to $2500, for the reasonable fees for an accredited accountant when the Federal Commissioner of Taxation audits your personal financial affairs<br> ",
+        "name": "govt_audit_costs",
+        "key": "govt_audit_costs",
+        "feature_score": null
+      },
+      {
+        "value": "Not covered",
+        "name": "funeral_expenses",
+        "key": "funeral_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "landlords_contents_cover",
+        "key": "landlords_contents_cover",
+        "feature_score": null
+      },
+      {
+        "value": "$2,500",
+        "name": "credit_card_cover",
+        "key": "credit_card_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "what_landlord_contents_are_included",
+        "key": "what_landlord_contents_are_included",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "worldwide_cover",
+        "key": "worldwide_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "loss_of_rent_tenant_default_cover",
+        "key": "loss_of_rent_tenant_default_cover",
+        "feature_score": null
+      },
+      {
+        "value": "true",
+        "name": "storm_rainwater_cover",
+        "key": "storm_rainwater_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "theft_and_malicious_damage_by_tenants",
+        "key": "theft_and_malicious_damage_by_tenants",
+        "feature_score": null
+      },
+      {
+        "value": "Contents: $2,500",
+        "name": "guest_visitor_belongings_cover",
+        "key": "guest_visitor_belongings_cover",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "legal_expenses",
+        "key": "legal_expenses",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "loss_of_rent_following_damage",
+        "key": "loss_of_rent_following_damage",
+        "feature_score": null
+      },
+      {
+        "value": "Not applicable<br> ",
+        "name": "strata_title_owner_improvements",
+        "key": "strata_title_owner_improvements",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "accidental_damage_by_tentants",
+        "key": "accidental_damage_by_tentants",
+        "feature_score": null
+      },
+      {
+        "value": "Included<br> ",
+        "name": "automatic_sum_insured_adjustment_at_renewal",
+        "key": "automatic_sum_insured_adjustment_at_renewal",
+        "feature_score": null
+      },
+      {
+        "value": "Yes",
+        "name": "24_hour_claim_service",
+        "key": "24_hour_claim_service",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "product_disclosure_statement",
+        "key": "product_disclosure_statement",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "fact_sheet",
+        "key": "fact_sheet",
+        "feature_score": null
+      },
+      {
+        "value": "false",
+        "name": "underWriter",
+        "key": "underWriter",
+        "feature_score": null
+      },
+      {
+        "value": "500",
+        "name": "excess",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": null,
+        "name": "specialOffers",
+        "key": null,
+        "feature_score": null
+      },
+      {
+        "value": "The Hollard Insurance Company Pty Ltd",
+        "name": "underWriter",
+        "key": null,
+        "feature_score": null
+      }]
+    }
+  },
+  "recommendations":
+  {
+    "comments": null,
+    "strategy":
+    {
+      "strategyId": "iSelect.iConnect.Verticals.Homecontent.Recommendations.Strategy.CombinedStrategy 1.00.0320.40985 01 Dec 2017 22:46 #681a4b5",
+      "strategyLabel": "Homecontent Recommendations Strategy"
+    },
+    "sets": [
+    {
+      "comments": null,
+      "setType": "LP",
+      "setLabel": "Lowest Price",
+      "products": [
+      {
+        "productId": "aua-content-cover-core",
+        "productMessage": null,
+        "score": 176
+      },
+      {
+        "productId": "aua-content-cover-extra",
+        "productMessage": null,
+        "score": 195.36
+      },
+      {
+        "productId": "CHUBASIC_CONTENTS",
+        "productMessage": null,
+        "score": 258.27
+      },
+      {
+        "productId": "QBEGOLD_CONTENTS",
+        "productMessage": null,
+        "score": null
+      },
+      {
+        "productId": "QBEESSENTIALS_CONTENTS",
+        "productMessage": null,
+        "score": null
+      },
+      {
+        "productId": "QBESILVER_CONTENTS",
+        "productMessage": null,
+        "score": null
+      }],
+      "model":
+      {
+        "modelId": "iSelect.iConnect.Verticals.Homecontent.Recommendations.Strategy.Models.HomecontentRE 1.00.0320.40985 01 Dec 2017 22:46 #681a4b5",
+        "modelLabel": "HomecontentRE Model"
+      }
+    },
+    {
+      "comments": null,
+      "setType": "BP",
+      "setLabel": "Top Cover",
+      "products": [
+      {
+        "productId": "aua-content-cover-core",
+        "productMessage": null,
+        "score": 0
+      },
+      {
+        "productId": "QBEGOLD_CONTENTS",
+        "productMessage": null,
+        "score": 0
+      },
+      {
+        "productId": "aua-content-cover-extra",
+        "productMessage": null,
+        "score": 0
+      },
+      {
+        "productId": "CHUBASIC_CONTENTS",
+        "productMessage": null,
+        "score": 0
+      },
+      {
+        "productId": "QBEESSENTIALS_CONTENTS",
+        "productMessage": null,
+        "score": 0
+      },
+      {
+        "productId": "QBESILVER_CONTENTS",
+        "productMessage": null,
+        "score": 0
+      }],
+      "model":
+      {
+        "modelId": "iSelect.iConnect.Verticals.Homecontent.Recommendations.Strategy.Models.HomecontentRE 1.00.0320.40985 01 Dec 2017 22:46 #681a4b5",
+        "modelLabel": "HomecontentRE Model"
+      }
+    }]
+  }
+}

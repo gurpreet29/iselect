@@ -1,0 +1,66 @@
+@import '~variables.less';
+
+address-question {
+  .form-control {
+
+    .tooltip.bottom-left .tooltip-arrow {
+      border-bottom-color: @text-field-error-popover-bg;
+    }
+
+    .tooltip-inner {
+      background-color: @text-field-error-popover-bg;
+      border-color: @text-field-error-border-color;
+      border-style: solid;
+      border-width: 1px;
+      color: @text-field-error-popover-color;
+      font-family: @text-field-error-popover-font-family;
+      font-size: @text-field-error-popover-font-size;
+      padding: 0 @text-field-error-popover-horizontal-padding;
+      text-align: left;
+    }
+  }
+
+  [uib-typeahead-popup].custom-popup-wrapper {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1090;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    padding: 5px 0;
+    margin-top: 2px;
+    width: 91%;
+
+    .dropdown-menu {
+      position: static;
+      display: block;
+      width: 100%;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+
+      &.results {
+        max-height: 10em;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+
+      & > li > a {
+        white-space: normal;
+      }
+
+      &.no-results {
+        overflow: hidden;
+        color: @link-color;
+        padding: 0 20px;
+      }
+
+      &.no-results:hover {
+        color: @link-hover-color;
+        text-decoration: @link-hover-decoration;
+      }
+    }
+  }
+}

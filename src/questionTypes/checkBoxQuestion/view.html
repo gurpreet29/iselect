@@ -1,0 +1,64 @@
+<script type="text/ng-template" id="checkboxErrors.html">
+  <ul class="error-message-set">
+    <li ng-show="$ctrl.form.$error.required">Please choose at least one option</li>
+  </ul>
+</script>
+
+<ng-form name="$ctrl.form">
+  <div class="form-group">
+    <div class="row radio-button-group">
+      <div class="col-xs-12 col-sm-6"
+           ng-repeat="option in $ctrl.question.options"
+      >
+        <button class="checkbox"
+                ng-class="{'selected': $ctrl.isChecked(option)}"
+                uib-btn-checkbox
+                id="question${{$ctrl.question.id}}$option${{$ctrl.question.option}}"
+                name="option${{$ctrl.question.option}}"
+                ng-model="$ctrl.answer[ $ctrl.getModel(option) ]"
+                rule-validator
+        >
+          <div class="checkbox-content">
+
+            <img class="checkbox-icon"
+                 ng-if="option.iconName != null"
+                 ng-src="{{$ctrl.loadImage(option.iconName)}}"
+            >
+            <span class="checkbox-text">
+                {{option.value}}
+              </span>
+
+            <span class="checkbox-check">
+              <span class="glyphicon"
+                    ng-class="{'glyphicon-ok': $ctrl.isChecked(option)}"
+              >
+              </span>
+            </span>
+
+          </div>
+
+        </button>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <button type="submit"
+              class="btn btn-success"
+              ng-click="$ctrl.submitted()"
+              uib-tooltip-template="'checkboxErrors.html'"
+              tooltip-trigger="'none'"
+              tooltip-is-open="$ctrl.hasErrors()"
+              tooltip-placement="bottom-left"
+      >
+        Ok
+      </button>
+    </div>
+
+    <ul class="general-errors error-message-set"
+        ng-show="$ctrl.hasErrors()"
+    >
+      <rule-validator-messages control="$ctrl.form" context="$ctrl.ruleValidatorContext"></rule-validator-messages>
+    </ul>
+
+  </div>
+</ng-form>

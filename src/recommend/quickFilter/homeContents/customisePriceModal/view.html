@@ -1,0 +1,21 @@
+<form>
+  <div class="control-group">
+    <div class="modal-header">
+      <h3 class="modal-title" id="modal-title"> Customise price</h3>
+    </div>
+    <div>
+      <div class="modal-body" id="modal-body">
+          <div ng-repeat="child in $ctrl.questions">
+            <customise-price-question-type 
+              question="child"
+              answers="$ctrl.answers"            
+            ></customise-price-question-type>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-default" type="button" ng-click="$ctrl.dismiss()">Cancel</button>
+    <button class="btn btn-primary" type="submit" ng-click="submitted=true; $ctrl.onUpdate()">Update</button>
+  </div>
+</form>

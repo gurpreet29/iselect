@@ -1,0 +1,686 @@
+
+/* *************************************************
+ * Top nav (inherted from exising css)
+ * *************************************************/
+
+@color-ebony: #2E3034; //used
+
+@top-nav-bg: @color-ebony;  //used
+@top-nav-vertical-padding: 10px;  //used
+@top-nav-bottom-margin: 10px; //used
+@top-nav-font-family: @font-gotham-book;  //used
+@top-nav-font-size: 14px; //used
+@top-nav-logo-width: 100px; //used
+
+/* *************************************************
+ * Style guide page 1 of 3
+ * *************************************************/
+
+// Colours
+@color-mango-tango: #e3710a;  //used
+@color-fountain-blue: #60a5aa;  //used
+@color-tuna: #484b51; //used
+@color-storm-grey: #797e85; //used
+
+@color-white: #ffffff;  //used
+@color-alice-blue: #f3f4f5; //used
+@color-white-smoke: #f8f8f8;  //used
+@color-solitude: #eef0f2; //used
+@color-gainsborough: #dddddd; //used
+@color-zircon: #eaf0f0; //used
+@color-red: #ff0000;  //used
+@color-very-light-grey: #c7c7c7;  //used
+
+// Typography
+@font-gotham-book: "Gotham Book", Helvetica, Arial, sans-serif; //used
+@font-gotham-medium: "Gotham Medium", "Gotham Book", Helvetica, Arial, sans-serif;  //used
+
+@paragraph-font-family: @font-gotham-book;
+@paragraph-font-size: 14px;
+@paragraph-color: @color-tuna;
+
+@vertical-header-font-family: @font-gotham-book;
+@vertical-header-font-size: 24px;
+@vertical-header-color: @color-tuna;
+
+@question-title-font-family: @font-gotham-medium; //used
+@question-title-font-size: 16px;  //used
+@question-title-line-height: 21px;  //used
+@question-title-color: @color-tuna; //used
+
+@question-subtitle-font-family: @font-gotham-medium;
+@question-subtitle-font-size: 14px;
+@question-subtitle-color: @color-fountain-blue;
+
+@supporting-text-font-family: @font-gotham-book;
+@supporting-text-font-size: 12px;
+@supporting-text-color: @color-storm-grey;
+
+@button-text-font-family: @font-gotham-medium;
+@button-text-font-size: 14px;
+@button-text-color: @color-tuna;
+
+@text-field-hint-font-family: @font-gotham-medium;
+@text-field-hint-font-size: 14px;
+@text-field-hint-color: @color-storm-grey; //used
+
+@text-field-text-entered-font-family: @font-gotham-medium;
+@text-field-text-entered-font-size: 14px;
+@text-field-text-entered-color: @color-tuna; //used
+
+// Grid
+@iselect-grid-gutter-width: 30px;
+@iselect-container-large-desktop-width: 1170px; //used
+@iselect-container-desktop-width: 940px; //verify
+@iselect-container-tablet-width: 720px; //verify
+
+@action-bar-horizontal-padding: 20px;
+@action-bar-height: 65px; //used
+@action-bar-bg: @color-alice-blue; //used
+@progress-bar-height: 8px; //used //introduced
+@progress-bar-margin: 5px; //used //introduced
+
+@step-number-color: @link-color; //used
+@step-number-active-color: @color-white; //used
+@step-number-border-width: 2px; //used
+
+/* *************************************************
+ * Style guide page 2 of 3
+ * *************************************************/
+
+@iselect-border-radius-base: 3px; //introduced //compromise
+
+@primary-button-font-family: @font-gotham-medium;
+@primary-button-font-size: 18px;
+@primary-button-line-height: 21px;
+@primary-button-border-radius: @iselect-border-radius-base;
+@primary-button-vertical-padding: 15px;
+@primary-button-horizontal-padding: 30px;
+@primary-button-bg: @color-mango-tango; //used
+@primary-button-color: @color-white; //used
+
+@question-blurb-bottom-padding: 10px;
+
+@choice-button-font-family: @button-text-font-family;
+@choice-button-font-size: @button-text-font-size;
+@choice-button-vertical-padding: 10px;
+@text-choice-button-left-padding: 20px;
+@icon-choice-button-icon-left-padding: 10px;
+@icon-choice-button-icon-right-padding: 10px;
+@choice-button-selected-check-width: 30px;
+@choice-button-selected-check-left-padding: 5px;
+@choice-button-selected-check-right-padding: 10px;
+@choice-button-text-align: left;
+@choice-button-color: @color-tuna;
+@choice-button-bg: @color-white;
+@choice-button-selected-color: @color-fountain-blue;
+@choice-button-selected-bg: @color-zircon;
+@choice-button-border-radius: @iselect-border-radius-base;
+@choice-button-border-width: 2px;
+@choice-button-border-style: solid;
+@choice-button-border-color: @color-gainsborough;
+@choice-button-selected-border-color: @color-fountain-blue;
+@choice-button-height: 5rem;
+
+@scale-button-rank-text-font-family: @button-text-font-family;
+@scale-button-rank-text-font-size: 12px;
+@scale-button-rank-text-color: @color-storm-grey;
+
+@text-field-bg: @color-white-smoke; //used
+@text-field-disabled-bg: @color-white; //used
+@text-field-border-width: 2px; //incompatible
+@text-field-border-style: solid; //incompatible
+@text-field-border-color: @color-gainsborough;
+@text-field-border-radius: 5px;
+@text-field-active-border-color: @color-fountain-blue;
+@text-field-error-border-color: @color-red;
+@text-field-line-height: 21px; //incompatible
+//(Also partly specified in page 2)
+
+@text-field-error-popover-bg: @color-red;
+@text-field-error-popover-horizontal-padding: 10px;
+@text-field-error-popover-color: @color-white;
+@text-field-error-popover-font-family: @font-gotham-medium;
+@text-field-error-popover-font-size: 12px;
+
+@question-tooltip-max-width: 300px; //used
+@question-tooltip-bg: @color-tuna; //used
+@question-tooltip-color: @color-white; //used
+@question-tooltip-horizontal-padding: 15px;
+@question-tooltip-vertical-padding: 15px;
+@question-tooltip-border-radius: 5px;
+@question-tooltip-font-family: @font-gotham-medium;
+@question-tooltip-font-size: 13px;
+@question-tooltip-line-height: 18px;
+//(Styles all bootstrap tooltips)
+
+/* *************************************************
+ * Style guide page 3 of 3
+ * *************************************************/
+
+@sort-tab-active-font-family: @font-gotham-medium;
+@sort-tab-inactive-font-family: @font-gotham-book;
+@sort-tab-active-font-size: 12px;
+@sort-tab-inactive-font-size: 12px;
+@sort-tab-active-color: @color-tuna;
+@sort-tab-inactive-color: @color-fountain-blue;
+@sort-tab-active-bg: @color-white;
+@sort-tab-inactive-bg: @color-white-smoke;
+
+@summary-title-font-family: @font-gotham-medium;
+@summary-title-font-size: 13px;
+@summary-title-color: @color-tuna;
+@summary-value-font-family: @font-gotham-book;
+@summary-value-font-size: 13px;
+@summary-value-color: @color-fountain-blue;
+
+@product-name-font-family: @font-gotham-book;
+@product-name-font-size: 11px;
+@product-name-color: @color-tuna;
+
+@product-price-font-family: @font-gotham-medium;
+@product-dollar-price-font-size: 36px;
+@product-cents-price-font-size: 16px;
+@product-payment-frequency-font-size: 12px;
+@product-excess-font-size: 14px;
+@product-excess-color: @color-fountain-blue;
+
+@feature-title-font-family: @font-gotham-medium;
+@feature-title-font-size: 13px;
+@feature-title-color: @color-tuna;
+@feature-value-font-family: @font-gotham-book;
+@feature-value-font-size: 13px;
+@feature-value-color: @color-tuna;
+@feature-separator-width: 1px;
+@feature-separator-style: solid;
+@feature-separator-color: @color-gainsborough;
+
+@product-pagination-font-family: @font-gotham-medium;
+@product-pagination-font-size: 14px;
+@product-pagination-active-bg: @color-white;
+@product-pagination-active-color: @color-tuna;
+@product-pagination-hover-bg: @color-white;
+@product-pagination-hover-color: @color-tuna;
+@product-pagination-inactive-bg: @color-white;
+@product-pagination-inactive-color: @color-fountain-blue;
+@product-pagination-border-radius: 5px;
+@product-pagination-border-width: 1px;
+@product-pagination-border-style: solid;
+@product-pagination-border-color: @color-gainsborough;
+@product-pagination-width: 25px;
+@product-pagination-height: 25px;
+//(styles all pagination)
+
+@address-lookup-dropdown-bg: @color-white;
+@address-lookup-dropdown-link-color: @color-tuna;
+@address-lookup-dropdown-link-hover-color: darken(@color-tuna, 5%);
+@address-lookup-dropdown-link-hover-bg: @color-white-smoke;
+@address-lookup-dropdown-link-active-color: @color-tuna;
+@address-lookup-dropdown-link-active-bg: @color-white-smoke;
+
+/* *************************************************
+ * Style guide page 6
+ * *************************************************/
+
+@question-set-bottom-padding: 50vh; //introduced //used
+@form-page-top-margin: 20px; //introduced //used
+@form-page-bottom-margin: 50px;  //introduced //used
+
+@question-top-margin: 90px; //used
+@question-answered-opacity: 0.75;
+
+
+/* *************************************************
+ * Style guide page 16
+ * *************************************************/
+
+@capture-input-top-margin: 40px;
+@capture-button-top-margin: 30px;
+
+
+/* *************************************************
+ * Introduced
+ * *************************************************/
+
+@answer-animation-duration: 500ms;
+@zindex-action-bar: 900;
+@zindex-editmask: 800;
+
+/* *************************************************
+ * Bootstrap variables
+ *
+ * iSelect style guide variables are used to
+ * theme Bootstrap
+ * *************************************************/
+
+@gray-base: #000; //default
+@gray-darker: lighten(@gray-base, 13.5%); //default
+@gray-dark: @color-tuna;  //overridden
+@gray: lighten(@gray-base, 33.5%); //default
+@gray-light: lighten(@gray-base, 46.7%); //default
+@gray-lighter: lighten(@gray-base, 93.5%); //default
+@brand-primary: @color-mango-tango;  //overridden
+@brand-success: @brand-primary; //overridden
+@brand-info: @color-fountain-blue; //verify //overridden
+@brand-warning: #f0ad4e; //default
+@brand-danger: #d9534f; //default
+
+@body-bg: #fff; //default //good
+@text-color: @color-tuna; //overridden
+@link-color: @color-fountain-blue; //overridden
+@link-hover-color: @color-fountain-blue; //overridden
+@link-hover-decoration: underline; //good
+
+@font-family-sans-serif: @paragraph-font-family;  //overridden
+@font-family-serif: Georgia, "Times New Roman", Times, serif; //default
+@font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace; //default
+@font-family-base: @font-family-sans-serif; //default
+@font-size-base: @paragraph-font-size;  //overridden
+@font-size-large: ceil((@font-size-base * 1.25)); //default
+@font-size-small: ceil((@font-size-base * 0.85)); //default
+@font-size-h1: floor((@font-size-base * 1.75)); //overridden
+@font-size-h2: floor((@font-size-base * 1.5)); //overridden
+@font-size-h3: ceil((@font-size-base * 1.25)); //overridden
+@font-size-h4: ceil((@font-size-base * 1)); //overridden
+@font-size-h5: @font-size-base; //default
+@font-size-h6: ceil((@font-size-base * 0.85)); //default
+
+@line-height-base: 1.5;  //overridden
+@line-height-computed: floor((@font-size-base * @line-height-base)); //good //derived
+
+@headings-font-family: inherit; //default
+@headings-font-weight: inherit; //overridden
+@headings-line-height: 1.1; //default
+@headings-color: @vertical-header-color; //overridden
+@icon-font-path: "../fonts/"; //good
+@icon-font-name: "glyphicons-halflings-regular"; //good
+@icon-font-svg-id: "glyphicons_halflingsregular"; //good
+
+//@padding-base-vertical: 6px; //overridden //note: achieves 50px input height
+//@padding-base-horizontal: 12px; //good //overriden
+//@padding-large-vertical: 10px; //overridden
+//@padding-large-horizontal: 16px; //overridden
+//@padding-small-vertical: 5px; //overridden
+//@padding-small-horizontal: 10px; //overridden
+//@padding-xs-vertical: 1px; //overridden
+//@padding-xs-horizontal: 5px; //overridden
+@padding-base-vertical: 14px; //overridden //note: achieves 50px input height
+@padding-base-horizontal: 18px; //good //overriden
+@padding-large-vertical: 18px; //overridden
+@padding-large-horizontal: 22px; //overridden
+@padding-small-vertical: 9px; //overridden
+@padding-small-horizontal: 13px; //overridden
+@padding-xs-vertical: 5px; //overridden
+@padding-xs-horizontal: 9px; //overridden
+@line-height-large: 1.3333333; //default
+@line-height-small: 1.5; //default
+
+@border-radius-base: @iselect-border-radius-base; //overridden
+@border-radius-large: (@border-radius-base + 2px); //overridden
+@border-radius-small: (@border-radius-base - 2px); //overridden
+@component-active-color: #fff; //default
+@component-active-bg: @brand-primary; //default
+@caret-width-base: 4px; //default
+@caret-width-large: 5px; //default
+
+@table-cell-padding: 8px; //default
+@table-condensed-cell-padding: 5px; //default
+@table-bg: transparent; //default
+@table-bg-accent: #f9f9f9; //default
+@table-bg-hover: #f5f5f5; //default
+@table-bg-active: @table-bg-hover; //default
+@table-border-color: #ddd; //default
+
+@btn-font-weight: normal; //default
+@btn-default-color: #333; //default
+@btn-default-bg: #fff; //default
+@btn-default-border: #ccc; //default
+@btn-primary-color: @primary-button-color; //overridden
+@btn-primary-bg: @primary-button-bg; //overridden
+@btn-primary-border: darken(@btn-primary-bg, 0%); //overridden
+@btn-success-color: #fff; //default
+@btn-success-bg: @brand-success; //default
+@btn-success-border: darken(@btn-success-bg, 0%); //overriden
+@btn-info-color: #fff; //default
+@btn-info-bg: @brand-info; //default
+@btn-info-border: darken(@btn-info-bg, 0%); //overridden
+@btn-warning-color: #fff; //default
+@btn-warning-bg: @brand-warning; //default
+@btn-warning-border: darken(@btn-warning-bg, 0%); //overridden
+@btn-danger-color: #fff; //default
+@btn-danger-bg: @brand-danger; //default
+@btn-danger-border: darken(@btn-danger-bg, 0%); //overridden
+@btn-link-disabled-color: @gray-light; //default
+@btn-border-radius-base: @border-radius-base; //default
+@btn-border-radius-large: @border-radius-large; //default
+@btn-border-radius-small: @border-radius-small; //default
+
+
+@input-bg: @text-field-bg; //overridden
+@input-bg-disabled: @text-field-disabled-bg; //overridden
+@input-color: @text-field-text-entered-color; //overridden
+@input-border: @text-field-border-color; //overridden
+@input-border-radius: @text-field-border-radius; //default
+@input-border-radius-large: (@input-border-radius + 2px); //overridden
+@input-border-radius-small: (@input-border-radius + 2px); //overridden
+@input-border-focus: @text-field-active-border-color; //overridden
+@input-color-placeholder: @text-field-hint-color; //overridden
+@input-height-base: (@line-height-computed + (@padding-base-vertical * 2) + 2); //good //default
+@input-height-large: (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2); //good //default
+@input-height-small: (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2); //good //default
+
+@form-group-margin-bottom: 15px; //default
+@legend-color: @gray-dark; //default
+@legend-border-color: #e5e5e5; //default
+@input-group-addon-bg: @text-field-bg; //overridden
+@input-group-addon-border-color: @input-border; //default
+@cursor-disabled: not-allowed; //default
+
+@dropdown-bg: #fff; //default
+@dropdown-border: rgba(0,0,0,.15); //default
+@dropdown-fallback-border: #ccc; //default
+@dropdown-divider-bg: #e5e5e5; //default
+@dropdown-link-color: @address-lookup-dropdown-link-color; //overridden
+@dropdown-link-hover-color: @address-lookup-dropdown-link-hover-color; //overridden
+@dropdown-link-hover-bg: @address-lookup-dropdown-link-hover-bg; //overridden
+@dropdown-link-active-color: @address-lookup-dropdown-link-active-color; //overridden
+@dropdown-link-active-bg: @address-lookup-dropdown-link-active-bg; //overridden
+@dropdown-link-disabled-color: @gray-light; //default
+@dropdown-header-color: @gray-light; //default
+@dropdown-caret-color: #000; //default
+
+@zindex-navbar: 1000; //default
+@zindex-dropdown: 1000; //default
+@zindex-popover: 1060; //default
+@zindex-tooltip: 1070; //default
+@zindex-navbar-fixed: 1030; //default
+@zindex-modal-background: 1040; //default
+@zindex-modal: 1050; //default
+
+@screen-xs: 480px; //default
+@screen-xs-min: @screen-xs; //default
+@screen-phone: @screen-xs-min; //default
+@screen-sm: 768px; //default
+@screen-sm-min: @screen-sm; //default
+@screen-tablet: @screen-sm-min; //default
+@screen-md: 992px; //default
+@screen-md-min: @screen-md; //default
+@screen-desktop: @screen-md-min; //default
+@screen-lg: 1200px; //default
+@screen-lg-min: @screen-lg; //default
+@screen-lg-desktop: @screen-lg-min; //default
+@screen-xs-max: (@screen-sm-min - 1); //default
+@screen-sm-max: (@screen-md-min - 1); //default
+@screen-md-max: (@screen-lg-min - 1); //default
+
+@grid-columns: 12; //default
+@grid-gutter-width: @iselect-grid-gutter-width; //overridden
+@grid-float-breakpoint: @screen-sm-min; //default
+@grid-float-breakpoint-max: (@grid-float-breakpoint - 1); //default
+
+@container-tablet: (@iselect-container-tablet-width + @grid-gutter-width); //overridden
+@container-sm: @container-tablet; //default
+@container-desktop: (@iselect-container-desktop-width + @grid-gutter-width); //overridden
+@container-md: @container-desktop; //default
+@container-large-desktop: (@iselect-container-large-desktop-width + @grid-gutter-width); //overridden
+@container-lg: @container-large-desktop; //default
+
+@navbar-height: 50px; //default
+@navbar-margin-bottom: @line-height-computed; //default
+@navbar-border-radius: @border-radius-base; //default
+@navbar-padding-horizontal: floor((@grid-gutter-width / 2)); //default
+@navbar-padding-vertical: ((@navbar-height - @line-height-computed) / 2); //default
+@navbar-collapse-max-height: 340px; //default
+@navbar-default-color: #777; //default
+@navbar-default-bg: #f8f8f8; //default
+@navbar-default-border: darken(@navbar-default-bg, 6.5%); //default
+@navbar-default-link-color: #777; //default
+@navbar-default-link-hover-color: #333; //default
+@navbar-default-link-hover-bg: transparent; //default
+@navbar-default-link-active-color: #555; //default
+@navbar-default-link-active-bg: darken(@navbar-default-bg, 6.5%); //default
+@navbar-default-link-disabled-color: #ccc; //default
+@navbar-default-link-disabled-bg: transparent; //default
+@navbar-default-brand-color: @navbar-default-link-color; //default
+@navbar-default-brand-hover-color: darken(@navbar-default-brand-color, 10%); //default
+@navbar-default-brand-hover-bg: transparent; //default
+@navbar-default-toggle-hover-bg: #ddd; //default
+@navbar-default-toggle-icon-bar-bg: #888; //default
+@navbar-default-toggle-border-color: #ddd; //default
+@navbar-inverse-color: lighten(@gray-light, 15%); //default
+@navbar-inverse-bg: #222; //default
+@navbar-inverse-border: darken(@navbar-inverse-bg, 10%); //default
+@navbar-inverse-link-color: lighten(@gray-light, 15%); //default
+@navbar-inverse-link-hover-color: #fff; //default
+@navbar-inverse-link-hover-bg: transparent; //default
+@navbar-inverse-link-active-color: @navbar-inverse-link-hover-color; //default
+@navbar-inverse-link-active-bg: darken(@navbar-inverse-bg, 10%); //default
+@navbar-inverse-link-disabled-color: #444; //default
+@navbar-inverse-link-disabled-bg: transparent; //default
+@navbar-inverse-brand-color: @navbar-inverse-link-color; //default
+@navbar-inverse-brand-hover-color: #fff; //default
+@navbar-inverse-brand-hover-bg: transparent; //default
+@navbar-inverse-toggle-hover-bg: #333; //default
+@navbar-inverse-toggle-icon-bar-bg: #fff; //default
+@navbar-inverse-toggle-border-color: #333; //default
+
+@nav-link-padding: 10px 15px; //default
+@nav-link-hover-bg: @gray-lighter; //default
+@nav-disabled-link-color: @gray-light; //default
+@nav-disabled-link-hover-color: @gray-light; //default
+@nav-tabs-border-color: #ddd; //default
+@nav-tabs-link-hover-border-color: @gray-lighter; //default
+@nav-tabs-active-link-hover-bg: @body-bg; //default
+@nav-tabs-active-link-hover-color: @gray; //default
+@nav-tabs-active-link-hover-border-color: #ddd; //default
+@nav-tabs-justified-link-border-color: #ddd; //default
+@nav-tabs-justified-active-link-border-color: @body-bg; //default
+@nav-pills-border-radius: @border-radius-base; //default
+@nav-pills-active-link-hover-bg: inherit; //overridden
+@nav-pills-active-link-hover-color: inherit; //overridden
+
+@pagination-color: @product-pagination-inactive-color; //overridden
+@pagination-bg: @product-pagination-inactive-bg; //overridden
+@pagination-border: @product-pagination-border-color; //overridden
+@pagination-hover-color: @product-pagination-hover-color; //overridden
+@pagination-hover-bg: @product-pagination-hover-bg; //overridden
+@pagination-hover-border: @product-pagination-border-color; //overridden
+@pagination-active-color: @product-pagination-active-color; //overridden
+@pagination-active-bg: @product-pagination-active-bg; //overridden
+@pagination-active-border: @product-pagination-border-color; //overridden
+@pagination-disabled-color: @gray-light; //default
+@pagination-disabled-bg: #fff; //default
+@pagination-disabled-border: #ddd; //default
+@pager-bg: @pagination-bg; //default
+@pager-border: @pagination-border; //default
+@pager-border-radius: 15px; //default
+@pager-hover-bg: @pagination-hover-bg; //default
+@pager-active-bg: @pagination-active-bg; //default
+@pager-active-color: @pagination-active-color; //default
+@pager-disabled-color: @pagination-disabled-color; //default
+
+@jumbotron-padding: 30px; //default
+@jumbotron-color: inherit; //default
+@jumbotron-bg: @gray-lighter; //default
+@jumbotron-heading-color: inherit; //default
+@jumbotron-font-size: ceil((@font-size-base * 1.5)); //default
+@jumbotron-heading-font-size: ceil((@font-size-base * 4.5)); //default
+
+@state-success-text: #3c763d; //default
+@state-success-bg: #dff0d8; //default
+@state-success-border: darken(spin(@state-success-bg, -10), 5%); //default
+@state-info-text: #31708f; //default
+@state-info-bg: #d9edf7; //default
+@state-info-border: darken(spin(@state-info-bg, -10), 7%); //default
+@state-warning-text: #8a6d3b; //default
+@state-warning-bg: #fcf8e3; //default
+@state-warning-border: darken(spin(@state-warning-bg, -10), 5%); //default
+@state-danger-text: #a94442; //default
+@state-danger-bg: #f2dede; //default
+@state-danger-border: darken(spin(@state-danger-bg, -10), 5%); //default
+
+@tooltip-max-width: @question-tooltip-max-width; //overridden
+@tooltip-color: @question-tooltip-color; //overridden
+@tooltip-bg: @question-tooltip-bg; //overridden
+@tooltip-opacity: .9; //default
+@tooltip-arrow-width: 5px; //default
+@tooltip-arrow-color: @tooltip-bg; //default
+
+@popover-bg: #fff; //default
+@popover-max-width: 276px; //default
+@popover-border-color: rgba(0,0,0,.2); //default
+@popover-fallback-border-color: #ccc; //default
+@popover-title-bg: darken(@popover-bg, 3%); //default
+@popover-arrow-width: 10px; //default
+@popover-arrow-color: @popover-bg; //default
+@popover-arrow-outer-width: (@popover-arrow-width + 1); //default
+@popover-arrow-outer-color: fadein(@popover-border-color, 5%); //default
+@popover-arrow-outer-fallback-color: darken(@popover-fallback-border-color, 20%); //default
+
+@label-default-bg: @gray-light; //default
+@label-primary-bg: @brand-primary; //default
+@label-success-bg: @brand-success; //default
+@label-info-bg: @brand-info; //default
+@label-warning-bg: @brand-warning; //default
+@label-danger-bg: @brand-danger; //default
+@label-color: #fff; //default
+@label-link-hover-color: #fff; //default
+
+@modal-inner-padding: 15px; //default
+@modal-title-padding: 15px; //default
+@modal-title-line-height: @line-height-base; //default
+@modal-content-bg: #fff; //default
+@modal-content-border-color: rgba(0,0,0,.2); //default
+@modal-content-fallback-border-color: #999; //default
+@modal-backdrop-bg: #000; //default
+@modal-backdrop-opacity: .5; //default
+@modal-header-border-color: #e5e5e5; //default
+@modal-footer-border-color: @modal-header-border-color; //default
+@modal-lg: 900px; //default
+@modal-md: 600px; //default
+@modal-sm: 300px; //default
+
+@alert-padding: 15px; //default
+@alert-border-radius: @border-radius-base; //default
+@alert-link-font-weight: bold; //default
+@alert-success-bg: @state-success-bg; //default
+@alert-success-text: @state-success-text; //default
+@alert-success-border: @state-success-border; //default
+@alert-info-bg: @state-info-bg; //default
+@alert-info-text: @state-info-text; //default
+@alert-info-border: @state-info-border; //default
+@alert-warning-bg: @state-warning-bg; //default
+@alert-warning-text: @state-warning-text; //default
+@alert-warning-border: @state-warning-border; //default
+@alert-danger-bg: @state-danger-bg; //default
+@alert-danger-text: @state-danger-text; //default
+@alert-danger-border: @state-danger-border; //default
+
+@progress-bg: @color-very-light-grey; //overridden
+@progress-bar-color: @color-very-light-grey; //overridden
+@progress-border-radius: @border-radius-base; //default
+@progress-bar-bg: @color-fountain-blue; //overridden
+@progress-bar-success-bg: @brand-success; //default
+@progress-bar-warning-bg: @brand-warning; //default
+@progress-bar-danger-bg: @brand-danger; //default
+@progress-bar-info-bg: @brand-info; //default
+
+@list-group-bg: #fff; //default
+@list-group-border: #ddd; //default
+@list-group-border-radius: @border-radius-base; //default
+@list-group-hover-bg: #f5f5f5; //default
+@list-group-active-color: @component-active-color; //default
+@list-group-active-bg: @component-active-bg; //default
+@list-group-active-border: @list-group-active-bg; //default
+@list-group-active-text-color: lighten(@list-group-active-bg, 40%); //default
+@list-group-disabled-color: @gray-light; //default
+@list-group-disabled-bg: @gray-lighter; //default
+@list-group-disabled-text-color: @list-group-disabled-color; //default
+@list-group-link-color: #555; //default
+@list-group-link-hover-color: @list-group-link-color; //default
+@list-group-link-heading-color: #333; //default
+
+@panel-bg: #fff; //default
+@panel-body-padding: 15px; //default
+@panel-heading-padding: 10px 15px; //default
+@panel-footer-padding: @panel-heading-padding; //default
+@panel-border-radius: @border-radius-base; //default
+@panel-inner-border: #ddd; //default
+@panel-footer-bg: #f5f5f5; //default
+@panel-default-text: @gray-dark; //default
+@panel-default-border: #ddd; //default
+@panel-default-heading-bg: #f5f5f5; //default
+@panel-primary-text: #fff; //default
+@panel-primary-border: @brand-primary; //default
+@panel-primary-heading-bg: @brand-primary; //default
+@panel-success-text: @state-success-text; //default
+@panel-success-border: @state-success-border; //default
+@panel-success-heading-bg: @state-success-bg; //default
+@panel-info-text: @state-info-text; //default
+@panel-info-border: @state-info-border; //default
+@panel-info-heading-bg: @state-info-bg; //default
+@panel-warning-text: @state-warning-text; //default
+@panel-warning-border: @state-warning-border; //default
+@panel-warning-heading-bg: @state-warning-bg; //default
+@panel-danger-text: @state-danger-text; //default
+@panel-danger-border: @state-danger-border; //default
+@panel-danger-heading-bg: @state-danger-bg; //default
+
+@thumbnail-padding: 4px; //default
+@thumbnail-bg: @body-bg; //default
+@thumbnail-border: #ddd; //default
+@thumbnail-border-radius: @border-radius-base; //default
+@thumbnail-caption-color: @text-color; //default
+@thumbnail-caption-padding: 9px; //default
+
+@well-bg: #f5f5f5; //default
+@well-border: darken(@well-bg, 7%); //default
+
+@badge-color: #fff; //default
+@badge-link-hover-color: #fff; //default
+@badge-bg: @gray-light; //default
+@badge-active-color: @link-color; //default
+@badge-active-bg: #fff; //default
+@badge-font-weight: bold; //default
+@badge-line-height: 1; //default
+@badge-border-radius: 10px; //default
+
+@breadcrumb-padding-vertical: 8px; //default
+@breadcrumb-padding-horizontal: 15px; //default
+@breadcrumb-bg: inherit; //overridden
+@breadcrumb-color: #ccc; //default
+@breadcrumb-active-color: @gray-light; //default
+@breadcrumb-separator: "/"; //default
+
+@carousel-text-shadow: 0 1px 2px rgba(0,0,0,.6); //default
+@carousel-control-color: #fff; //default
+@carousel-control-width: 15%; //default
+@carousel-control-opacity: .5; //default
+@carousel-control-font-size: 20px; //default
+@carousel-indicator-active-bg: #fff; //default
+@carousel-indicator-border-color: #fff; //default
+@carousel-caption-color: #fff; //default
+
+@close-font-weight: bold; //default
+@close-color: #000; //default
+@close-text-shadow: 0 1px 0 #fff; //default
+@code-color: #c7254e; //default
+@code-bg: #f9f2f4; //default
+@kbd-color: #fff; //default
+@kbd-bg: #333; //default
+@pre-bg: #f5f5f5; //default
+@pre-color: @gray-dark; //default
+@pre-border-color: #ccc; //default
+@pre-scrollable-max-height: 340px; //default
+@component-offset-horizontal: 180px; //default
+@text-muted: @gray-light; //default
+@abbr-border-color: @gray-light; //default
+@headings-small-color: @gray-light; //default
+@blockquote-small-color: @gray-light; //default
+@blockquote-font-size: (@font-size-base * 1.25); //default
+@blockquote-border-color: @gray-lighter; //default
+@page-header-border-color: @gray-lighter; //default
+@dl-horizontal-offset: @component-offset-horizontal; //default
+@dl-horizontal-breakpoint: @grid-float-breakpoint; //default
+@hr-border: @gray-lighter; //default
+

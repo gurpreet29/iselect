@@ -1,0 +1,47 @@
+<section class="result-col">
+  <div class="col-detail">
+    <div class="text-center center-block policy-highlight">
+
+      <div class="policy-logo">
+        <img ng-src="{{$ctrl.product.logoUrl}}">
+      </div>
+      <p class="policy-name">
+        {{$ctrl.product.productName}}
+      </p>
+
+      <div class="policy-price"
+           ng-click="$ctrl.openCustomisePriceModal()"
+           ng-show="$ctrl.getPrice() && $ctrl.getPrice().value"
+      >
+        <span>${{$ctrl.getPrice().value | removeDecimal}}</span>
+        <span>
+          <sup>.{{$ctrl.getPrice().value | decimalVal}}</sup>
+          <sub>{{$ctrl.getPrice().suffix }}</sub></span>
+        <span class="glyphicon glyphicon-pencil" style="vertical-align:middle; font-size: 15px;"></span>
+      </div>
+      <div class="policy-na"
+           ng-hide="$ctrl.getPrice() && $ctrl.getPrice().value"
+      >
+        Indicative price is not available
+      </div>
+
+      <div class="policy-excess"
+           ng-repeat="header in $ctrl.headers"
+      >
+        <div ng-if="$ctrl.getFeatureValue(header)">
+          {{header.label}} {{ $ctrl.getFeatureValue(header) }}
+        </div>
+      </div>
+
+      <div class="btn btn-primary btn-block"
+           ng-click="$ctrl.apply()">
+        APPLY NOW
+      </div>
+
+    </div>
+
+    <features product="$ctrl.product" features="$ctrl.featureSuperset"></features>
+    <features product="$ctrl.product" features="$ctrl.featureSet"></features>
+
+  </div>
+</section>

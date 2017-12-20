@@ -1,0 +1,10 @@
+<div class="form-group">
+  <div class="dropdown" style="width: 100%;">
+    <select class="form-control" style="width: 100%"
+            ng-options="option.key as option.value for option in $ctrl.question.options"
+            ng-model="$ctrl.answer"
+            ng-change="$ctrl.onClick()"></select>
+  </div>
+</div>
+
+

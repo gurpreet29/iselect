@@ -1,0 +1,59 @@
+<div class="questions container">
+
+  <div class="question-set">
+    <ng-form name="question-set">
+      <form-page
+          ng-repeat="child in $ctrl.questions"
+          device-type="$ctrl.deviceType"
+          form="child"
+          answers="$ctrl.answers"
+          on-added="$ctrl.childAdded($event)"
+          on-completed="$ctrl.childAnswered()"
+          on-answers-updated="$ctrl.answersUpdated($event)"
+      ></form-page>
+
+      <div id="questionsDone"
+           ng-cloak
+           ng-hide="$ctrl.stillAskingQuestions">
+        <div class="row" style="padding-bottom: 5%">
+          <p class="lead col-md-6 col-md-offset-2">
+            {{$ctrl.doneMessage}}
+          </p>
+        </div>
+        <div class="col-md-offset-2">
+          <ng-transclude></ng-transclude>
+        </div>
+        <div class="row" style="padding-top: 5%">
+          <p class="lead col-lg-2 col-md-offset-2" style="padding-bottom: 10vh">
+            <button type="submit" ng-disabled="!$ctrl.postconditionsMet" class="btn btn-lg btn-primary" ng-click="$ctrl.questionsFinalised()">{{$ctrl.btnMessage}}</button>
+          </p>
+        </div>
+      </div>
+    </ng-form>
+  </div>
+
+</div>
+
+
+<div class="question-set-footer">
+  <div class="question-set-footer-bg">
+    <div class="container">
+
+      <div class="question-set-progress">
+        <div class="row">
+          <div class="col-md-12">
+            <uib-progressbar max="$ctrl.totalRelevantQuestions" value="$ctrl.totalAnsweredQuestions">
+            </uib-progressbar>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--<div class="question-set-controls">-->
+  <!--<button class="btn btn-default">-->
+    <!--<i class="glyphicon glyphicon-arrow-up"></i>-->
+  <!--</button>-->
+<!--</div>-->

@@ -1,0 +1,70 @@
+@import '~variables.less';
+
+
+single-select-question {
+
+  .radio-button {
+    display: table;
+    position: relative;
+    width: 100%;
+    border-style: @choice-button-border-style;
+    border-width: @choice-button-border-width;
+    border-color: @choice-button-border-color;
+    border-radius: @choice-button-border-radius;
+    background-color: @choice-button-bg;
+    margin-bottom: 10px;
+  }
+
+  .radio-button.selected, .radio-button:hover {
+    background-color: @choice-button-selected-bg;
+    border-color: @choice-button-selected-border-color;
+    color: @choice-button-selected-color;
+    cursor: pointer;
+  }
+
+  .radio-button.selected {
+    animation-name: pulse;
+    animation-duration: @answer-animation-duration;
+    transform-origin: 50% 50%;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  }
+
+  .radio-content {
+    display: table-row;
+    width: 100%;
+    height: @choice-button-height;
+  }
+
+  .radio-content > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .radio-button .radio-icon {
+    height: @choice-button-height * 0.75;
+    width: @choice-button-height * 0.75;
+    margin-top: @choice-button-height * 0.125;
+    margin-left: @icon-choice-button-icon-left-padding;
+    margin-right: @icon-choice-button-icon-right-padding;
+  }
+
+
+  .radio-button .radio-icon + .radio-text {
+    padding-left: 0;
+  }
+
+  .radio-button .radio-text {
+    width: 100%;
+    margin-right: 30px;
+    padding-left: @text-choice-button-left-padding;
+    text-align: @choice-button-text-align;
+    word-break: break-word;
+  }
+
+  .radio-button .radio-check {
+    min-width: @choice-button-selected-check-width;
+    padding-left: @choice-button-selected-check-left-padding;
+    padding-right: @choice-button-selected-check-right-padding;
+  }
+}

@@ -1,0 +1,49 @@
+<script type="text/ng-template" id="currencyErrors.html">
+  <ul class="error-message-set">
+    <li ng-show="$ctrl.form.amount.$error.required">Please enter a dollar amount</li>
+    <li ng-show="$ctrl.form.amount.$error.number">Please enter a dollar amount</li>
+    <li ng-show="$ctrl.form.amount.$error.pattern">Please enter a dollar amount, optionally including cents</li>
+    <rule-validator-messages control="$ctrl.form.amount" context="$ctrl.ruleValidatorContext"></rule-validator-messages>
+  </ul>
+</script>
+
+
+<div class="col-xs-11 col-sm-8">
+  <ng-form name="$ctrl.form">
+    <div class="form-group">
+
+      <div class="input-group"
+           ng-class="{ 'has-error': $ctrl.hasErrors($ctrl.form.amount) }"
+      >
+        <label class="input-group-addon"
+               for="question${{$ctrl.question.id}}"
+               uib-tooltip-template="'currencyErrors.html'"
+               tooltip-trigger="'none'"
+               tooltip-is-open="$ctrl.hasErrors($ctrl.form.amount)"
+               tooltip-placement="bottom-left"
+        >
+          <i>
+            <i class="glyphicon glyphicon-usd"></i>
+          </i>
+        </label>
+        <input type="number"
+               id="question${{$ctrl.question.id}}"
+               name="amount"
+               class="form-control"
+               ng-model="$ctrl.answer"
+               typeahead-loading="$ctrl.loadingAddresses"
+               ng-required="$ctrl.ruleValidatorContext.required"
+               ng-pattern="/^\d+(\.\d{2})?$/"
+               rule-validator/>
+      </div>
+
+    </div>
+    <div class="form-group">
+
+      <button type="submit" class="btn btn-success" ng-click="$ctrl.submitted()">
+        Ok
+      </button>
+
+    </div>
+  </ng-form>
+</div>
